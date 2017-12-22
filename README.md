@@ -64,9 +64,9 @@ While ClearlyDefined is focused on data, the project will develop a modest amoun
 In the unlikely event that a committer or curator becomes disruptive or falls inactive for an extended period of time, they may be removed from the role though a unanimous vote of the remaining set of committers or curators.
 ## Voting
 Most decisions within the project can be done through informal consensus and recorded in the appropriate public record. When a formal decision is required, for example, when electing committers/curators, a vote is held using the following process:
-A topic for voting is tabled by the relevant party (e.g, one curator proposes a contributor to become a curator)
-Voting is open for no less than one working week on an agreed to, mutually convenient and open medium (e.g., email, GitHub issue, ...)
-A minimum of two positive (+1) votes and no negative (-1) votes carries the topic. Note that negative votes must be substantiated. Abstention (0) votes do not affect the outcome.
+* A topic for voting is tabled by the relevant party (e.g, one curator proposes a contributor to become a curator)
+* Voting is open for no less than one working week on an agreed to, mutually convenient and open medium (e.g., email, GitHub issue, ...)
+* A minimum of two positive (+1) votes and no negative (-1) votes carries the topic. Note that negative votes must be substantiated. * Abstention (0) votes do not affect the outcome.
 ## Recognition and promotion
 The project may, from time to time, run programs that recognize and reward the efforts of a project to become and remain ClearlyDefined. For example, a badging program would enable eligible projects to show they are ClearlyDefined, thus increasing consumer confidence. Such recognitions may be made relative to a specific domain such as licensing or security, or in relation to the overall ClearlyDefined effort.
 ## Code of Conduct
