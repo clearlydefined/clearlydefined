@@ -1,1 +1,0 @@
- Whenever you make a contribution to a Clearly Defined repository containing notice of a license, you license your contribution under the same terms, and you agree that you have the right to license your contribution under those terms.
