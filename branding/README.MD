@@ -1,24 +1,29 @@
 # ClearlyDefined branding assets
 
-## Logo and logotype lockup
+## ClearlyDefined
+![ClearlyDefined](ClearlyDefined/ClearlyDefined_FullLogo_color_v.png)
+![ClearlyDefined](ClearlyDefined/ClearlyDefined_FullLogo_color_v.png)
 
-![BrandingClearlyDefined_FullLogo_color_v.png](BrandingClearlyDefined_FullLogo_color_v.png)
+## ClearlyAccessible
 
-![BrandingClearlyDefined_FullLogo_color_h.png](BrandingClearlyDefined_FullLogo_color_h.png)
+![ClearlyAccessible](ClearlyAccessible/ClearlyAccessible_color_v.png)
+![ClearlyAccessible](ClearlyAccessible/ClearlyAccessible_color_h.png)
 
-![BrandingClearlyDefined_FullLogo_mono_v.png](BrandingClearlyDefined_FullLogo_mono_v.png)
+## ClearlyAccessible
 
-![BrandingClearlyDefined_FullLogo_mono_h.png](BrandingClearlyDefined_FullLogo_mono_h.png)
+![ClearlyLicensed](ClearlyLicensed/ClearlyLicensed_color_v.png)
+![ClearlyLicensed](ClearlyLicensed/ClearlyLicensed_color_h.png)
 
-![BrandingClearlyDefined_FullLogo_white_v.png](BrandingClearlyDefined_FullLogo_white_v.png)
+## ClearlySecure
 
-![BrandingClearlyDefined_FullLogo_white_h.png](BrandingClearlyDefined_FullLogo_white_h.png)
+![ClearlySecure](ClearlySecure/ClearlySecure_color_v.png)
+![ClearlySecure](ClearlySecure/ClearlySecure_color_h.png)
 
-### Logo pictogram
+## ClearlyDescribed
 
-![BrandingClearlyDefined_Logo_color_48x.png](BrandingClearlyDefined_Logo_color_48x.png)
-![BrandingClearlyDefined_Logo_mono_48x.png](BrandingClearlyDefined_Logo_mono_48x.png)
-![BrandingClearlyDefined_Logo_white_48x.png](BrandingClearlyDefined_Logo_white_48x.png)
+![ClearlyDescribed](ClearlyDescribed/ClearlyDescribed_color_v.png)
+![ClearlyDescribed](ClearlyDescribed/ClearlyDescribed_color_h.png)
+
 
 ### Which version should I use?
 
