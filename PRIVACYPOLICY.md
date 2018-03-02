@@ -6,7 +6,7 @@ By using the Website, you agree to be bound by the terms of this Privacy Policy.
 
 ## How We Use Your Data
 
-We may use non-personal data that is aggregated to improve the experience, usability, and content of the Website.  Except as otherwise set forth in this Privacy Policy, we do not collect or store personal data about you.
+We may use non-personal aggregated data to improve the experience, usability, and content of the Website.  Except as otherwise set forth in this Privacy Policy, we do not collect or store personal data about you.
 
 ## Types of Data We Collect
 
@@ -22,7 +22,7 @@ Most browser software can be set up to handle cookies. You may modify your brows
 
 ## Analytics
 
-We use analytics tools to collect information about use of this site. Those tools collect information such as how often users visit this site, what pages they visit when they do so, and what other sites they used prior to coming to this site. We use the information we get from these tools only to improve this site. We do not combine the information collected through the use of these tools with personally identifiable information. Although these tools may plant a permanent cookie on your web browser to identify you as a unique user the next time you visit this site, the cookie cannot be used by anyone but the tool provider and is governed by their respective policies.
+We use analytics tools to collect information about use of this site. Those tools collect information such as how often users visit this site, what pages they visit when they do so, and what other sites they used prior to coming to this site. We use the information we get from these tools only to improve this site. We do not combine the information collected by these tools with personally identifiable information. Although these tools may plant a permanent cookie on your web browser to identify you as a unique user the next time you visit this site, the cookie cannot be used by anyone but the tool provider and is governed by their respective policies.
 
 ## Contacting Us
 
