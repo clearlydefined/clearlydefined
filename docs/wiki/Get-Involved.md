@@ -21,14 +21,13 @@ internally, you may have people who are serving the role of curator
 already. We'd like to see if those people would be interested in
 curating data that has been harvested by ClearlyDefined and still
 needs some manual curation. We've defined the role of a [data
-curator](Data-curator-job-description). We'd
-love people like this to join our community.
+curator](Data-curator). We'd love people like this to join our community.
 
 ## Code
 
 If you would be interested in working on the ClearlyDefined software
 itself, we have outlined some information about [code
-contributors](Code-contributors). Please
+contributors](Code-contributor). Please
 also take a look at the
 [service](https://github.com/clearlydefined/service),
 [crawler](https://github.com/clearlydefined/crawler), and

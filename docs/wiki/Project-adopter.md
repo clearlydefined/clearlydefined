@@ -45,8 +45,7 @@ challenge and we're taking a community-wide approach.
 
 * Feed the curation work back to the original projects
 
-ClearlyDefined is a diverse and inclusive community technical experts
-who are passionate about quality open source. If you or a colleague or
-your organization is interested in learning more, check out
-[https://github.com/clearlydefined](https://github.com/clearlydefined)
-for information.
+ClearlyDefined is a diverse and inclusive community of technical experts
+who are passionate about quality FOSS. If you or a colleague are
+interested in this role, check out https://github.com/clearlydefined
+for more information.

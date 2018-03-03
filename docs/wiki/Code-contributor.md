@@ -6,10 +6,10 @@ Are you a Node, React, Python, or cloud dev who loves working on
 far-reaching, impactful projects? How about simplifying complex tasks
 at scale? Do you enjoy enabling people and teams be more successful
 with their passions? Have you spent a bunch of time working on
-opensource projects at work or for fun?
+Open Source projects at work or for fun?
 
 If so, you're a great fit for ClearlyDefined, a community of people
-gathering and curating data about opensource components. We’d love to
+coming together to generate better metadata for FOSS projects. We’d love to
 hear more about your knowledge and interest, and see how you can make
 an impact on the whole industry.
 
@@ -18,6 +18,8 @@ clearly defined. Lack of clarity around licenses and security
 vulnerabilities reduces engagement -- that means fewer users, fewer
 contributors and a smaller community. This is a community-wide
 challenge and we're taking a community-wide approach.
+
+We want to:
 
 * Raise awareness within FOSS project teams
 
@@ -32,7 +34,7 @@ challenge and we're taking a community-wide approach.
 Your role is to drive the technology and infrastructure that supports
 the project. As a Developer, you will:
 
-* Build domain knowledge in opensource licensing and security.
+* Build domain knowledge in Open Source licensing and security.
 
 * Show a real passion for detail.
 
@@ -43,11 +45,11 @@ the project. As a Developer, you will:
 
 * Work with a wide variety of people across many communities.
 
-* Gain the undying gratitude of opensource producers and consumers.
+* Gain the undying gratitude of Open Source producers and consumers.
 
 * Be fully transparent in all your work.
 
-ClearlyDefined is a diverse and inclusive community technical experts
-who are passionate about quality opensource. If you or a colleague are
+ClearlyDefined is a diverse and inclusive community of technical experts
+who are passionate about quality FOSS. If you or a colleague are
 interested in this role, check out https://github.com/clearlydefined
 for more information.

@@ -5,13 +5,15 @@ layout: default
 Are you a data scientist, librarian, or just love finding and
 organizing data? Do you enjoy helping people and teams be more
 successful with their passions? Have you spent a bunch of time working
-on open source projects at work or for fun? Do you know about open
-source licenses and what they require when using open source?
+on Open Source projects at work or for fun? Do you know about Open
+Source licenses and what are one's responsibilities when using Open
+Source?
 
-If so, you're a great fit for ClearlyDefined, a community of people
-gathering and curating data about opensource components. We’d love to
-hear more about your knowledge and interest, and see how you can make
-an impact on the whole industry.
+If so, you're a great fit for ClearlyDefined - a community of people
+coming together to generate better metadata for FOSS projects and
+curation is at the core of this effort! We’d love to hear more about
+your knowledge and interest, and see how you can make an impact on the
+whole industry.
 
 We're on a mission to help FOSS projects thrive by being, well, more
 clearly defined. Lack of clarity around licenses and security
@@ -19,44 +21,41 @@ vulnerabilities reduces engagement -- that means fewer users, fewer
 contributors and a smaller community. This is a community-wide
 challenge and we're taking a community-wide approach.
 
+We want to:
+
 * Raise awareness within FOSS project teams
 
 * Make it easy to identify and supply missing information
 
 * Automatically harvest data from projects
 
-* Crowd-source the curation that data
+* Crowd-source the curation of that data
 
-* Feed the curation work back to the original projects
+* Feed the curated work back to the FOSS projects
 
-* Your role is to drive this hands-on, collaborative process.
+Your role is to drive this hands-on, collaborative process.
 
 As a Curator, you will:
 
-* Build domain knowledge in opensource licensing and security
-  vulnerabilities.
+* Build domain knowledge in Open Source licensing and security vulnerabilities.
 
-* Show a real passion for detail.
+* Show a real passion for detail
 
-* Identify issues in the data and create resolutions.
+* Identify issues in the data and create resolutions
 
-* Develop expertise in running the tools used to detect and analyze
-  components.
+* Develop expertise in running analysis tools used to detect and analyze components
 
-* Work with upstream teams to incorporate the curated data into their
-  projects.
+* Work with upstream teams to incorporate the curated data into their projects
 
-* Work with a wide variety of people across many communities.
+* Work with a wide variety of people across many communities
 
-* Work on many things at once
+* Work on multiple curations in parallel
 
-* Gain the undying gratitude of opensource producers and consumers
+* Gain the undying gratitude of Open Source producers, consumers and the community
 
 * Be fully transparent in all your work
 
-* ClearlyDefined is a diverse and inclusive community technical
-  experts who are passionate about quality opensource.
-
-If you or a colleague are interested in this role, check out
-[https://github.com/clearlydefined](https://github.com/clearlydefined)
+ClearlyDefined is a diverse and inclusive community of technical experts
+who are passionate about quality FOSS. If you or a colleague are
+interested in this role, check out https://github.com/clearlydefined
 for more information.

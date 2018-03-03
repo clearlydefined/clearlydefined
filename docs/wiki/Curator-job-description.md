@@ -51,7 +51,7 @@ Curator, you will:
 
 * Be fully transparent in all your work
 
-ClearlyDefined is a diverse and inclusive community technical experts
-who are passionate about quality opensource.  If you or a colleague
-are interested in this role, check out
-https://github.com/clearlydefined for more information.
+ClearlyDefined is a diverse and inclusive community of technical experts
+who are passionate about quality FOSS. If you or a colleague are
+interested in this role, check out https://github.com/clearlydefined
+for more information.
