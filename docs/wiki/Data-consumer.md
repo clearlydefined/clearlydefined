@@ -21,13 +21,9 @@ challenge and we're taking a community-wide approach.
 We want to:
 
 * Raise awareness within FOSS project teams
-
 * Make it easy to identify and supply missing information
-
 * Automatically harvest data from projects
-
 * Crowd-source the curation of that data
-
 * Feed the curated work back to the original projects
 
 We are building a clearing house of FOSS metadata and we’d like you to
