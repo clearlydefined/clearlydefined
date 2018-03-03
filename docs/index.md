@@ -2,7 +2,7 @@
 layout: default
 ---
 
-We're on a mission to help FOSS projects thrive by being, well,
+We're on a mission to help FOSS projects thrive by being, well, 
 clearly defined. Lack of clarity around licenses and security
 vulnerabilities reduces engagement -- that means fewer users, fewer
 contributors and a smaller community. This is a community-wide
