@@ -2,50 +2,57 @@
 layout: default
 ---
 
-We're on a mission to help FOSS projects thrive by being, well, 
-clearly defined. Lack of clarity around licenses and security
-vulnerabilities reduces engagement -- that means fewer users, fewer
-contributors and a smaller community. This is a community-wide
-challenge and we're taking a community-wide approach. We want to:
+ClearlyDefined and our parent organization, the Open Source Initiative, are on a mission to help FOSS projects
+thrive by being, well, clearly defined. Lack of clarity around licenses and security vulnerabilities reduces engagement -- that means fewer users, fewer contributors and a smaller community.
 
-* Raise awareness within FOSS project teams
-* Make it easy to identify and supply missing information
+<div style={{ textAlign: 'center' }}>
+  <p><b>This is a community-wide challenge that needs a community-wide approach.</b></p>
+</div>
+
+As such, the goals of the project are to:
+
+* Raise awareness about this challenge within FOSS project teams
 * Automatically harvest data from projects
-* Crowd-source the curation that data
-* Feed the curation work back to the original projects
+* Make it easy for anyone to contribute missing information
+* Crowd-source the curation of these contributions
+* Feed curated contributions back to the original projects
 
-Large-scale FOSS consumers often struggle to fully gather basic things
-like the license for a component, the source location (e.g., Git
-commit) for a version, details to be included in attributions (e.g,
-copyright holders in a Notices file). The net result is that projects
-lacking clarity on these points regularly face significant friction in
-the FOSS consumers’ internal processes ultimately affecting project
+FOSS consumers often struggle to find basic things like the license for a component, the source location
+(e.g., Git commit) for a version, and details to be included in attributions (e.g., copyright holders in a
+Notices file). These ambiguities make projects hard to consume. Projects that are hard to consume get less
 engagement. Everyone loses.
-    
-To date, most people are paying vendors for tools incurring expenses
-to vet FOSS either through repetitive, duplicative efforts or through
-employing external services to do this task. ClearlyDefined seeks to
-help FOSS projects be more clear from the beginning. It provides a
-mechanism for harvesting available data using tools like ScanCode,
-Fossology, and others, at scale and facilitates crowd-sourcing the
-curation of that information when ambiguities or gaps arise in the
-metadata. The ultimate goal of harvesting and curation is to
-contribute any new-found clarity (e.g, new licenses found) to the
-upstream projects so they can include that info in their next release
--- thus becoming more clearly defined. Everyone wins.
 
-We are currently focused on license, source code location, and
-copyright holders, but going forward, we see security, accessibility,
-and internationalization all being important parts of the
-ClearlyDefined ecosystem. If you are excited about these things, we
-encourage you to reach out and get engaged to help us drive those
-conversations.
+To date, most people are: ignoring the problem, vetting FOSS through repetitive, duplicative efforts, or
+employing external tools and services to do this task. ClearlyDefined seeks to help projects be more clear
+from the beginning. It provides a mechanism for harvesting available data using tools such as
+[ScanCode](https://github.com/nexB/scancode-toolkit) and [FOSSology](https://www.fossology.org), and facilitates crowd-sourcing the curation of that information when ambiguities or gaps arise. The ultimate goal of harvesting and curation is to contribute any new-found clarity (e.g., new licenses found) to the upstream projects so they can include the updates in their next release -- thus becoming more clearly defined. Everyone wins.
 
-You can participate in the Clearly Defined effort in [several different ways](wiki/Get-Involved).
+Right now the focus is on clarifying an individual project’s license, source code location, and copyright
+holders -- all the essentials for engaging with a project. Going forward, we see security, accessibility,
+and internationalization being important parts of the ClearlyDefined ecosystem.
 
-You can find us at [clearlydefined.io](https://clearlydefined.io), and on
-[github.com/clearlydefined](https://github.com/clearlydefined). You can also
-email us at clearlydefined@googlegroups.com. We’d love to hear how you
-want to contribute to ClearlyDefined!
+##Get involved
 
-You can also read our [FAQ](wiki/FAQ).
+It’s still very early days and we don’t have all the answers. ClearlyDefined is still being defined. You
+can help. Come design the processes, make decisions, connect with projects, and build the community. Find
+out more about
+[how to get involved](https://docs.clearlydefined.io/get-involved).
+
+You can find us at:
+
+<ul style={{ listStyleType: 'none' }}>
+  <li>
+    GitHub -- <a href="https://github.com/clearlydefined">https://github.com/clearlydefined</a>
+  </li>
+  <li>
+    Discord -- <a href="https://discord.gg/wEzHJku">https://discord.gg/wEzHJku</a>
+  </li>
+  <li>
+    Twitter -- <a href="https://twitter.com/clearlydefd">https://twitter.com/clearlydefd</a>
+  </li>
+  <li>
+    Email -- <a href="mailto:clearlydefined@googlegroups.com">clearlydefined@googlegroups.com</a>
+  </li>
+</ul>
+
+We'd love to hear how you want to get involved in ClearlyDefined!
