@@ -2,12 +2,10 @@
 layout: default
 ---
 
-ClearlyDefined and our parent organization, the Open Source Initiative, are on a mission to help FOSS projects
+ClearlyDefined and our parent organization, the [Open Source Initiative](https://opensource.org/working_groups#clearly), are on a mission to help FOSS projects
 thrive by being, well, clearly defined. Lack of clarity around licenses and security vulnerabilities reduces engagement -- that means fewer users, fewer contributors and a smaller community.
 
-<div style={{ textAlign: 'center' }}>
-  <p><b>This is a community-wide challenge that needs a community-wide approach.</b></p>
-</div>
+**This is a community-wide challenge that needs a community-wide approach.**
 
 As such, the goals of the project are to:
 
@@ -31,28 +29,18 @@ Right now the focus is on clarifying an individual project’s license, source c
 holders -- all the essentials for engaging with a project. Going forward, we see security, accessibility,
 and internationalization being important parts of the ClearlyDefined ecosystem.
 
-##Get involved
+## Get involved
 
 It’s still very early days and we don’t have all the answers. ClearlyDefined is still being defined. You
 can help. Come design the processes, make decisions, connect with projects, and build the community. Find
 out more about
 [how to get involved](https://docs.clearlydefined.io/get-involved).
 
-You can find us at:
+You can find the community at:
 
-<ul style={{ listStyleType: 'none' }}>
-  <li>
-    GitHub -- <a href="https://github.com/clearlydefined">https://github.com/clearlydefined</a>
-  </li>
-  <li>
-    Discord -- <a href="https://discord.gg/wEzHJku">https://discord.gg/wEzHJku</a>
-  </li>
-  <li>
-    Twitter -- <a href="https://twitter.com/clearlydefd">https://twitter.com/clearlydefd</a>
-  </li>
-  <li>
-    Email -- <a href="mailto:clearlydefined@googlegroups.com">clearlydefined@googlegroups.com</a>
-  </li>
-</ul>
+* GitHub -- https://github.com/clearlydefined
+* Discord -- https://discord.gg/wEzHJku
+* Twitter -- https://twitter.com/clearlydefd
+* Email -- mailto:clearlydefined@googlegroups.com
 
-We'd love to hear how you want to get involved in ClearlyDefined!
+Everyone would love to hear how you want to get involved in ClearlyDefined!
