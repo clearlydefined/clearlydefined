@@ -24,13 +24,9 @@ challenge and we're taking a community-wide approach.
 We want to:
 
 * Raise awareness within FOSS project teams
-
 * Make it easy to identify and supply missing information
-
 * Automatically harvest data from projects
-
 * Crowd-source the curation of that data
-
 * Feed the curated work back to the FOSS projects
 
 Your role is to drive this hands-on, collaborative process.
@@ -38,21 +34,13 @@ Your role is to drive this hands-on, collaborative process.
 As a Curator, you will:
 
 * Build domain knowledge in Open Source licensing and security vulnerabilities.
-
 * Show a real passion for detail
-
 * Identify issues in the data and create resolutions
-
 * Develop expertise in running analysis tools used to detect and analyze components
-
 * Work with upstream teams to incorporate the curated data into their projects
-
 * Work with a wide variety of people across many communities
-
 * Work on multiple curations in parallel
-
 * Gain the undying gratitude of Open Source producers, consumers and the community
-
 * Be fully transparent in all your work
 
 ClearlyDefined is a diverse and inclusive community of technical experts

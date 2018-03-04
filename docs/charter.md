@@ -12,14 +12,9 @@ data.
 ## Principles
 
 * Neutral – The project carries no affiliation or company driven focus
-
 * Open – The data, infrastructure, and processes are open to all
-
-* Factual – All data is factual. No interpretation or assessment is
-  made
-
+* Factual – All data is factual. No interpretation or assessment is made
 * Upstream – Enable upstream projects as much as possible
-
 * Simple – Wherever possible the project will use the simple solution
 
 ## Scope
@@ -30,9 +25,7 @@ licensing data that form the core of understanding and meeting the
 legal obligations related to using FOSS. This includes:
 
 * License (declared and observed)
-
 * Copyright holders
-
 * Source location (including revision/commit)
 
 ### Why?
@@ -66,10 +59,8 @@ accessible. A virtuous cycle.
 
 * Security – facilitating the reporting and tracking of
   vulnerabilities in projects
-
 * Accessibility – Characteristics and analysis of a project’s support
   of accessibility related technology and concerns
-
 * Project data – Governance model, principals, issue tracking,
   discussion forums, ...
 
@@ -230,15 +221,12 @@ a vote is held using the following process:
 
 * A topic for voting is tabled by a curator by notifying all other
   curators.
-
 * Once tabled, curators may vote during an open voting period lasting
   no less than one working week. Voting will occur on an agreed to,
   mutually convenient, and open medium (e.g., email, GitHub issue,
   etc.)
-
 * A minimum of two positive (+1) votes and no negative (-1) votes
   carries the topic. Note that negative votes must be substantiated.
-
 * Abstention (0) votes do not affect the outcome.
 
 ## Recognition and promotion

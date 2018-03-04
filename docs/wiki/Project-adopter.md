@@ -22,10 +22,8 @@ ClearlyDefined.
 By adopting, you are agreeing to:
 
 * Have the ClearlyDefined tools run over your codebase
-
 * Have your project metadata in a format that is easily digestible by
   tools for discovering metadata (Scan Code, Fossology)
-
 * Accept curations of data that should be less ambiguous from the
   community of curators familiar with this subject area
 
@@ -36,13 +34,9 @@ contributors and a smaller community. This is a community-wide
 challenge and we're taking a community-wide approach.
 
 * Raise awareness within FOSS project teams
-
 * Make it easy to identify and supply missing information
-
 * Automatically harvest data from projects
-
 * Crowd-source the curation that data
-
 * Feed the curation work back to the original projects
 
 ClearlyDefined is a diverse and inclusive community of technical experts
