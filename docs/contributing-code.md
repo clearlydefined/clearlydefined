@@ -34,8 +34,6 @@ end up with the crawler and service running locally, serving up the sample harve
 1.  Point your browser at `http://localhost:3000`. You should see the ClearlyDefined website and be able to
     browse the data etc. If you login (top right corner), more functionality will light up.
 
-The
-
 # Contribution opportunities
 
 The system as a whole is very young. The code should be considered pre-alpha -- it's enough to demonstrate the
