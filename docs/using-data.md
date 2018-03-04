@@ -1,4 +1,10 @@
-# Using the website
+# Using the ClearlyDefined data
+
+All of the ClearlyDefined data is available for everyone to see and use. You can browse and
+inspect in a [convenient web ui](#website) or hook up a client to the [REST API](rest-api) and integrate it into
+your systems.
+
+# Website
 
 ## Browsing
 

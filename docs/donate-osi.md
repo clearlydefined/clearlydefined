@@ -1,3 +1,5 @@
+# Donating money
+
 ClearlyDefined is an incubator project and fiscal sponsoree of the Open Source
 Initiative (OSI). The OSI is a US charity (501(c)(3)) with tax ID/EIN is 91-2037395.
 Any money intended to support ClearyDefined’s work should be given to the OSI as

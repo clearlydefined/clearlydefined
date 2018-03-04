@@ -2,6 +2,8 @@
 layout: default
 ---
 
+# Glossary
+
 There are relatively few concepts and verbs in ClearlyDefined. Here is
 a summary of the terms and their meanings:
 

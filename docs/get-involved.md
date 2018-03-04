@@ -2,6 +2,8 @@
 layout: default
 ---
 
+# Get involved
+
 ClearlyDefined is very early in its life. There are lots of areas to explore and develop,
 decisions to be made, implementation to be done, and communities to be engaged. Just about
 anyone from Dev to Lawyer to Designer to Community manager has something to get from or
