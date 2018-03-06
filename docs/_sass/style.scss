@@ -1,10 +1,10 @@
-@import "fonts";
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import "rouge-github";
 
 body {
   background-color: #fff;
   padding:50px;
-  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px/1.5 "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
 }
@@ -196,10 +196,37 @@ footer {
 }
 
 .tools-element {
-    border-left: aqua;
-    border-left-style: solid;
-    padding-left: 10px;
+    border-right: #0064b5;
+    border-right-style: solid;
     padding-right: 10px; 
+}
+
+.search-text {
+    font-size: 16px;
+}
+
+.search-button {
+    background-color: #0064b5;
+    border: none;
+    color: white;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.sidebar-menu ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.sidebar-menu ul li {
+    list-style-type: none;
 }
 
 @media print, screen and (max-width: 960px) {
