@@ -20,7 +20,7 @@ Now that you've gone and found the info, you can contribute that data so the nex
 have to do what you did. And even better, there's a good chance that the need for that contribution
 will filter upstream and the source for future versions of your component will be easier to find.
 
-Contributing data is done on [**Curation** page of the website](https://clearlydefined.io/curations).
+Contributing data is done on [**Curation** page of the website](https://clearlydefined.io/curate).
 You can get there by clicking the **Curate this entry** button on an entry on the
 [**Browse**](https://clearlydefined.io/definitions) page. Or you can head over there and type in
 the name of your component.
@@ -31,8 +31,7 @@ package and several forms. Pick the one from the source that most closely matche
 
 Having selected the one that you want, update the definiiton in the bottom right editor to match
 you new info. For example, if you found the source location, create a `sourceLocation` property
-in the `described` section and fill in the data. See the [curation data format description]()
-for info on all possible properties.
+in the `described` section and fill in the data.
 
 Once you have finished you data entry, click **Contribute curation**. That askes you for
 some descriptive info on your suggestions and then opens a pull request in
