@@ -3,7 +3,7 @@ description: Helping FOSS projects be more successful through clearly defined pr
 show_downloads: false
 git_branch: master/docs
 logo_url: assets/images/logo.png
-google_analytics:
+google_analytics: UA-115020668-3
 theme: 
 wiki_folder: wiki
 use_github_wiki: false
