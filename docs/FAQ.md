@@ -15,7 +15,7 @@ their contract and status.
 
 The answer is to this is changing fast but in the big picture, the project is very young. We are still
 setting directions and understanding the user scenarios and approaches. There is code and data.
-The system runs but is best thought of as _pre-alpah_. We have just enough to paint the picture
+The system runs but is best thought of as _pre-alpha_. We have just enough to paint the picture
 and show how it might work. From here we are looking forward to collaborating with folks from all
 over to make it happen (and define what 'it' is).
 
