@@ -11,7 +11,7 @@ just like contributing a bug fix or feature to any other open source project. In
 is just a pull request on the [curation repo](https://github.com/clearlydefined/curated-data).
 
 Contributing data is something that anyone can do. Let's say you are working with some
-component and you need to find the source to fix a but in your version. You check ClearlyDefined
+component and you need to find the source to fix a bug in your version. You check ClearlyDefined
 and the component is listed but there is no source location. You poke around and finally find
 the project repository. Looking through there you find the right Git commit and voila,
 you have the source for your version.
