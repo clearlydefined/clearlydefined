@@ -102,3 +102,20 @@ The GitHub team whose members have permission to programmatically write to the c
 ### `AUTH_HARVEST_TEAM`
 
 The GitHub team whose members have permission to programmatically queue requests to harvest data. That is, they can POST to the /harvest endpoint. If left unset, **anyone** can do these operations.
+
+### `FILE_STORE_LOCATION`
+This is the location to store harvested data, scan results, ... If left unset, data will be stored in `c:\temp\cd` (for Windows) and `/tmp/cd` (for all other systems). This location is shared with other parts of the system.
+
+### `SCANCODE_HOME`
+The directory where ScanCode is installed.
+
+### `CRAWLER_GITHUB_TOKEN`
+The crawler tries to figure out details of the packages and source being traversed using various GitHub API calls. For this it needs an API token. This can be a Personal Access Token (PAT) or the token for an OAuth App. The token does not need any special permissions, only public data is accessed. Without this key GitHub will severely rate limit the crawler (as it should) and you won't get very far.
+
+### `CRAWLER_STORE_PROVIDER`
+Crawler's store providers. If left unset, it defaults to `file`. If multiple stores need to be set, they should be concatenated with "+", for example `cdDispatch+azblob+webhook`
+
+### `CRAWLER_DEADLETTER_PROVIDER`
+Crawler's deadletter provider. If unset, it defaults to `CRAWLER_STORE_PROVIDER`'s value of `file`.
+
+
