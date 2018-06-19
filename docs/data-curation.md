@@ -12,7 +12,7 @@ The primary challenge for the team right now is figuring out the curation proces
 guidelines and defining the processes and norms.
 
 If you have been curating data in private and want to start doing that in the open with the ClearlyDefined
-community, we want to talk to you. Get in touch on [Discord](discord.gg/wEzHJku) or
+community, we want to talk to you. Get in touch on [Discord](https://discord.gg/wEzHJku) or
 [the mailing list](mailto:clearlydefined@googlegroups.com).
 
 Help fill this page with lots of great guidance on how to curate free and open source component data.

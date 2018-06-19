@@ -46,4 +46,4 @@ Each repo has a set of GitHub issues and typically several with _Help wanted_ or
 Also look in the repos for a higher level view of the problem areas and a roadmap for where that repo's
 function is going. Che
 
-And of course, you can always ask on [Discord](discord.gg/wEzHJku) or [the mailing list](mailto:clearlydefined@googlegroups.com).
+And of course, you can always ask on [Discord](https://discord.gg/wEzHJku) or [the mailing list](mailto:clearlydefined@googlegroups.com).
