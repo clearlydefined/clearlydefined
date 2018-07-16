@@ -202,13 +202,13 @@ footer {
 }
 
 .tools-element {
-    border-right: #0064b5;
-    border-right-style: solid;
+/*    border-right: #0064b5; */
+/*    border-right-style: solid; */
     padding-right: 10px; 
 }
 
 .search-text {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .search-button {
@@ -216,13 +216,13 @@ footer {
     border: none;
     color: white;
     text-align: center;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .sidebar-menu ul {
