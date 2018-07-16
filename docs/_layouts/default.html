@@ -30,7 +30,7 @@
       <header>
         <a href="{{ '/' | relative_url }}"><img src="{{ site.logo_url | relative_url }}">
         </a>
-        <h2 style="text-align: center">{{ site.description | default: site.github.project_tagline }}</h2>
+        <h2 class="tagline">{{ site.description | default: site.github.project_tagline }}</h2>
 
         {% if site.github.is_user_page %}
           <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
@@ -50,45 +50,7 @@
         
       </header>
       <section>
-      <div id="tools-buttons" style="width: 100%; text-align: right">
-        {% if site.google_cse_token %}
-          <script>
-          (function() {
-            var cx = "{{site.google_cse_token}}";
-            var gcse = document.createElement('script');
-            gcse.type = 'text/javascript';
-            gcse.async = true;
-            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(gcse, s);
-          })();
-          </script>
-          <gcse:search></gcse:search>
-        {% else %}
-          <form method="GET" action="{{ site.github.repository_url }}/search">
-            {% if site.use_github_wiki %}
-              <input type="hidden" name="type" value="Wikis">
-            {% endif %}
-            <input class="search-text" type="text" name="q" placeholder="Text to find"><input class="search-button" type="submit" value="Search">
-          </form>
-        {% endif %}
 
-        {{page.relative_path}}
-        {% if site.use_github_wiki %}
-          <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/{{page.folder}}{{url | remove: '.html' | append: ''}}/_edit">Edit</a></span>
-          <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/{{page.folder}}{{url | remove: '.html' | append: ''}}/_history">History</a></span>
-          <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/{{page.folder}}{{url | remove: '.html' | append: '.md'}}/">Source</a></span>
-        {% else %}
-          <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/edit/{{site.git_branch}}{{page.folder}}{{url | remove: '.html' | append: '.md'}}">Edit Page</a></span><br/>
-          {% if site.use_prose_io %}
-          <span class="tools-element"><a target="_blank" href="http://prose.io/#{{site.github.repository_nwo}}/edit/{{site.git_branch}}{{page.folder}}{{url | remove: '.html' | append: '.md'}}">Edit Page with Prose.io</a></span><br/>
-          {% endif %}
-          <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/commits/{{site.git_branch}}{{page.folder}}{{url | remove: '.html' | append: '.md'}}">Page History</a></span><br/>
-          <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/blob/{{site.git_branch}}{{page.folder}}{{url | remove: '.html' | append: '.md'}}">Page Source</a></span><br/>
-        {% endif %}
-        
-      </div>
-        
       {% if site.use_toc %}
       <div id="toc"></div>
       {% endif %}

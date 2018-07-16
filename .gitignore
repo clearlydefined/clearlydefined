@@ -56,3 +56,9 @@ typings/
 
 # dotenv environment variables file
 .env
+
+# editor backup files
+*~
+
+# bundler output files
+docs/Gemfile.lock

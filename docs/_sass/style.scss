@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import "rouge-github";
 
 body {
   background-color: #fff;
   padding:50px;
-  font: 14px/1.5 "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px/1.5 "Open Sans", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
 }
@@ -12,6 +13,11 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color:#222;
   margin:0 0 20px;
+}
+
+.tagline {
+  text-align: center;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 
 p, ul, ol, table, pre, dl {
@@ -196,13 +202,13 @@ footer {
 }
 
 .tools-element {
-    border-right: #0064b5;
-    border-right-style: solid;
+/*    border-right: #0064b5; */
+/*    border-right-style: solid; */
     padding-right: 10px; 
 }
 
 .search-text {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .search-button {
@@ -210,13 +216,13 @@ footer {
     border: none;
     color: white;
     text-align: center;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .sidebar-menu ul {
