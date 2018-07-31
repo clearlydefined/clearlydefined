@@ -13,26 +13,70 @@ get setup with just that functionality. To get the entire system setup locally, 
 end up with the crawler and service running locally, serving up the sample harvested data via the local website.
 
 1.  Clone these four repos side by side:
-    * [https://github.com/clearlydefined/website.git](https://github.com/clearlydefined/website.git)
-    * [https://github.com/clearlydefined/service.git](https://github.com/clearlydefined/service.git)
-    * [https://github.com/clearlydefined/crawler.git](https://github.com/clearlydefined/crawler.git)
-    * [https://github.com/clearlydefined/harvested-data.git](https://github.com/clearlydefined/harvested-data.git)
+    - [https://github.com/clearlydefined/website.git](https://github.com/clearlydefined/website.git)
+    - [https://github.com/clearlydefined/service.git](https://github.com/clearlydefined/service.git)
+    - [https://github.com/clearlydefined/crawler.git](https://github.com/clearlydefined/crawler.git)
+    - [https://github.com/clearlydefined/harvested-data.git](https://github.com/clearlydefined/harvested-data.git)
       -- This is a **sample** set of data that changes over time and typically has data for the top 20 or so packages
       from supported different communities. The real data is stored in blob storage and accessed via REST APIs.
 1.  Install [ScanCode](https://github.com/nexB/scancode-toolkit) by following the instructions provided [on their
     site](https://github.com/nexB/scancode-toolkit#quick-start).
 1.  Copy the `full.env.json` from this (service) repo up one directory level and name it `env.json`
 1.  Edit this `env.json` file as follows:
-    * Add a GitHub token to `CURATION_GITHUB_TOKEN` and `CRAWLER_GITHUB_TOKEN`. This enables you to login to the
+    - Add a GitHub token to `CURATION_GITHUB_TOKEN` and `CRAWLER_GITHUB_TOKEN`. This enables you to login to the
       local website or call the service APIs. You can use the same token for both settings. The tokens need only
       minimal permissions and are used to call GitHub APIs to manage pull requests and get repo tags etc.
-    * Set `SCANCODE_HOME` to be the location of your ScanCode install from above.
+    - Set `SCANCODE_HOME` to be the location of your ScanCode install from above.
 1.  In each of the code repos (i.e., `website`, `service`, and `crawler`), run `npm install` and `npm start`.
     You probably want to run in three separate shells so you can see the logging coming from each. Note that if
     you are a VS Code user, you can use the handy launch configs that come with the `crawler` and `service`
     repos -- just hit F5.
 1.  Point your browser at `http://localhost:3000`. You should see the ClearlyDefined website and be able to
     browse the data etc. If you login (top right corner), more functionality will light up.
+
+# Coding style
+
+We try to use a consistent style across all elements of ClearlyDefined. Of course there are some variations
+because part of the system is in Node while another is React but for the most part the same principles apply.
+
+- Consistency -- A consistently formatted, named, structured, ... codebase is easier to work with. Look around at the other code and see how it is structured and formatted.
+- Minimal -- Simplicity and minimalism in the algorithms, data structures and the code itself makes for simpler systems.
+- Factored -- Small, single purpose functions and classes are easier to test and understand.
+- Automatic -- Automated formatting and testing are real enablers.
+
+## Naming
+
+Always a topic in code and ClearlyDefined is no different. Here we follow these conventions:
+
+- Semantic -- Name, especially variable and property names, should have semantic value. Type-based names are frown up. For example `set(newValue)` is better than `set(number)`. Functions should have clear semantic names that are
+  durable across data/implemntation refactorings. For example, `readDefinition` is better than `readBlob` in most
+  cases.
+- camelCase -- camelCasing is used for properties, variables, functions, ... Classes use PascalCase
+- Text -- Names should be full words with all the vowels and consonant. `request` over `req`. Similarly, single letter variable names should be avoided except in certain very well known cases like loop indexes (e.g., `i`).
+- _Private -- Functions that are private to a class should be prefixed with an `_` (underscore). Note that this convention is not well-practiced at the moment.
+
+* Negative names -- Avoid negative names like `disbleCache`. Err, `disbleCache = true` means the cache is enabled?
+  Now try `if (!disableCache) ...`.
+
+## Formatting
+
+As a general rule all code should be formatted using `prettier` and the settings in the `.prettierrc` file in
+the repo. Here is a brief summary of the main points:
+
+- Spaces not tabs. 'nuff said.
+- Minimal vertical white space. If you find you need to add blank lines to separte parts of a function,
+  your code is likely doing too much. Refactor into more, simpler, functions.
+- No `;` (semi-colons). Yeah, it's a thing.
+- Single quotes `'` over double `"` unless convention strongly indicates otherwise (e.g., JSON, JSX)
+- Omit unnecessary `{}`, `()` and `return`s . For example, `foo.map(entry => entry.name)` over `foo.map((entry) => { return entry.name })`
+
+## Coding
+
+- Exit early. Avoid deeply nested if/else structures. Test for the simple/error cases and exit the function
+  as early as possible. Much easier to understand.
+- Use the language but don't go nuts. JavaScript has a number of cool quirks that enable super dense code.
+  Unfortunately, that can make for code that is hard to understand. Fortunately, if your code is factored as described
+  above, you tend to have smaller, well-named functions and can use more of the language more clearly.
 
 # Contribution opportunities
 
