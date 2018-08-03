@@ -34,6 +34,12 @@ end up with the crawler and service running locally, serving up the sample harve
 1.  Point your browser at `http://localhost:3000`. You should see the ClearlyDefined website and be able to
     browse the data etc. If you login (top right corner), more functionality will light up.
 
+# Forking/Branching
+
+If you are looking to contribute code/docs, thanks! All contributions should come in as pull requests. We do not have a CLA (Contributor License Agreement) nor do we do DCOs (Developer Certificate of Origin) rather we rely on the [GitHub Terms of Service Contributions section](https://help.github.com/articles/github-terms-of-service/#6-contributions-under-repository-license) which boils down to outbound license === inbound license.
+
+From an operational point of view, most people do not have write permissions to the ClearlyDefined Git repos so should simply fork in their favored loctaion and do a PR when ready. For folks who do have write permissions, you can fork as well or you can create a branch and then do a PR. The branch naming convention we use is <some user distinguisher>/<branch name>. So, for example, the user `jeffmcaffer` might use `jm/fixSomeStuff` or `jeffmcaffer/someFix`.
+
 # Coding style
 
 We try to use a consistent style across all elements of ClearlyDefined. Of course there are some variations
