@@ -63,7 +63,7 @@ The ClearlyDefined service manages both raw, harvested data and curated data, as
 
 As a result of this separation, the same component may show up in the data in several forms -- the NPM and its source are both treated separately. These components may also have different _revision_ identifiers (e.g., NPM version and Git commit hash). There are links between the different types and as the ecosystem progresses, this web of components will get richer and enable transitive operations, for example, given a vulnerability in a GitHub repo you will be able to find all the packaged versions and forms that included the vulnerable code.
 
-XXX pointer to the swagger
+You can see the swagger API doc at https://api.clearlydefined.io/api-docs/
 
 ## Curation
 
