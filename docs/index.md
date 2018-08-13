@@ -1,11 +1,12 @@
 ---
 layout: default
+published: true
 ---
 
 # Overview
 
 ClearlyDefined and our parent organization, the [Open Source Initiative](https://opensource.org/working_groups#clearly),
-are on a mission to help FOSS projects thrive by being, well, clearly defined. Lack of clarity
+are on a mission to help FOSS projects thrive by being, well, clearly defined.d Lack  of clarity
 around licenses and security vulnerabilities reduces engagement -- that means fewer users, fewer
 contributors and a smaller community.
 
