@@ -2,7 +2,7 @@
 
 First, thanks for your interest in the code for ClearlyDefined. While much of the project's focus is on getting,
 curating and upstreaming the data, that all takes some non-trivial code and infrastructure. You can
-geta sense of the system from the [architecture guide](code/architecture). It has a high-level discussion
+get a sense of the system from the [architecture guide](code/architecture). It has a high-level discussion
 of the major pieces and how they fit together. The various repos may also have more specific information
 about the particulars of their code.
 
@@ -55,7 +55,7 @@ because part of the system is in Node while another is React but for the most pa
 Always a topic in code and ClearlyDefined is no different. Here we follow these conventions:
 
 - Semantic -- Name, especially variable and property names, should have semantic value. Type-based names are frown up. For example `set(newValue)` is better than `set(number)`. Functions should have clear semantic names that are
-  durable across data/implemntation refactorings. For example, `readDefinition` is better than `readBlob` in most
+  durable across data/implementation refactorings. For example, `readDefinition` is better than `readBlob` in most
   cases.
 - camelCase -- camelCasing is used for properties, variables, functions, ... Classes use PascalCase
 - Text -- Names should be full words with all the vowels and consonant. `request` over `req`. Similarly, single letter variable names should be avoided except in certain very well known cases like loop indexes (e.g., `i`).
@@ -70,7 +70,7 @@ As a general rule all code should be formatted using `prettier` and the settings
 the repo. Here is a brief summary of the main points:
 
 - Spaces not tabs. 'nuff said.
-- Minimal vertical white space. If you find you need to add blank lines to separte parts of a function,
+- Minimal vertical white space. If you find you need to add blank lines to separate parts of a function,
   your code is likely doing too much. Refactor into more, simpler, functions.
 - No `;` (semi-colons). Yeah, it's a thing.
 - Single quotes `'` over double `"` unless convention strongly indicates otherwise (e.g., JSON, JSX)
