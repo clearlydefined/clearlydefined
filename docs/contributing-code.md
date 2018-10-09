@@ -31,6 +31,11 @@ end up with the crawler and service running locally, serving up the sample harve
     You probably want to run in three separate shells so you can see the logging coming from each. Note that if
     you are a VS Code user, you can use the handy launch configs that come with the `crawler` and `service`
     repos -- just hit F5.
+1.  Since you are not forced to consume only the local APIs, but you can even consume directly the remote development or production APIs, for the `website` repo only you are able to point out different APIs endpoints, depending on your needs, using different kinds of npm scripts:
+    - `npm start` use the default environment, which is actually the DEV environment, and it refers to development APIs
+    - `npm run start:dev-api` points out specifically to the development APIs
+    - `npm run start:local-api` points out the local environment, which works only if the service repo is started
+    - `npm run start:prod-api` points out specifically to the production APIs
 1.  Point your browser at `http://localhost:3000`. You should see the ClearlyDefined website and be able to
     browse the data etc. If you login (top right corner), more functionality will light up.
 
