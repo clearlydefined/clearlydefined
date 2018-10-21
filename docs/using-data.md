@@ -4,19 +4,26 @@ All of the ClearlyDefined data is available for everyone to see and use. You can
 
 # Website
 
-## Browsing
+## Browse Definitions
 
-ClearlyDefined is all about making project data easily discoverable and available to people. On the **Browse** tab you will see a search box. Click in there and start typing the name of a project. This will auto-suggest definitions that exist in ClearlyDefined. Pick one of the presented options and the related definition is added to the **Definitions** list. Note that if you are after a definition for a component not shown in the list, ClearlyDefined does not know about it yet.
+ClearlyDefined is all about making project data easily discoverable and available to people. On the **Definitions** tab you will see a search box. Click in there and start typing the name of a project. This will auto-suggest definitions that exist in ClearlyDefined. Pick one of the presented options and the related definition is added to the **Definitions** list. Note that if you are after a definition for a component not shown in the list, ClearlyDefined does not know about it yet.
 
 In the **Definition** list you see a high level summary of the related component -- its license, possible relationship to source in GitHub, a ClearlyDefined score, and more. If you click on an entry in the list, the entry expands to show more detail. The exact content here will change over time as the community learns more about what's most relevant. Typically this additional detail includes release date of the selected revision, details of licenses discovered in the files of the component, as well as a list of attribution parties, and more. Check out the [ClearlyDefined Glossary]() for more info on the various terms you see in the panel.
 
 On the right side of any definition entry (expanded or collapsed) you will see a set of buttons that modify the list itself (adding related definitions or removing the current definition) or take you to alternative views of a definition. Typically hovering over a button will give you an idea of what it does. Go ahead and click around. You won't break anything.
 
-## Inspecting
+## Inspecting - Definitions Expanded View
 
-Key to understanding a definition is understanding how it was put together. That's what's happening on the [**Inspect** tab](https://clearlydefined.io/inspect) Like the [**Browse**](https://clearlydefined.io/definitions) tab, there is a definition search box. Just type part of a component name and the system will suggest a related definition. Note that if you get here by clicking the **Dig into this entry** button on the [**Browse**](https://clearlydefined.io/definitions) tab, the appropriate definition will already be selected.
+Key to understanding a definition is understanding how it was put together. That's what's happening when you click on the **Dig into this entry** button, after searching for a few definition on the [**Definitions**](https://clearlydefined.io/definitions) tab. 
 
-Having selected a definition details about where the defintion's content came from is shown. The top most pane on the tab shows the raw YAML form of the definition. This is the same information shown on the [**Browse**](https://clearlydefined.io/definitions) tab. There might be a bit more detail but it's basically the same thing. The **Curation** pane shows you the text of any human additions or modifications that went into the final form of the definition. The **Harvested** pane shows the raw text dump of all tool output related to the definition.
+The **Described** pane provides infomration abou**t the definition source (e.g. github URL), Release date, Tools and **Facets**.
+
+The second pane, **Licensed** provides information about the **Declared** licenses as well as the automatically **Discovered** ones. Additionally, **Attribution** and **Files** details are available (Total files, Unlicensed files, and Unattributed ones).
+
+The **Files** tab, allows to browse through the files that are part of definition, see which **Facet** each file belongs to, its **Licenses** and **Copyrights** Information. 
+
+Having selected a definition details about where the definition's content came from is shown. The bottom most pane, **Raw Data** on the tab shows the raw YAML form of the definition. The **Curation** pane shows you the text of any human additions or modifications that went into the final form of the definition. The **Harvested** pane shows the raw text dump of all tool output related to the definition.
+
 
 This is pretty overwhelming with lots and lots of detail. Over time, and with your help, we will discover effective ways presenting this data so you have enough of the right information at your finger tips to understand the definitions and be confident in their content.
 
@@ -51,9 +58,9 @@ Where the segments have following values:
 
 ### Examples
 
-* https://clearlydefined.io/definition/npm/npmjs/-/react/2.20.1
-* https://clearlydefined.io/definition/npm/npmjs/@someNamespace/coolpackage/1.13/pr/37
-* https://clearlydefined.io/definition/git/github/clearlydefined/service/0.1.0
+* https://clearlydefined.io/definitions/npm/npmjs/-/react/2.20.1
+* https://clearlydefined.io/definitions/npm/npmjs/@someNamespace/coolpackage/1.13/pr/37
+* https://clearlydefined.io/definitions/git/github/clearlydefined/service/0.1.0
 
 # Data API
 
