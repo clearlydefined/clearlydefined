@@ -5,7 +5,7 @@
 body {
   background-color: #fff;
   padding:50px;
-  font: 14px/1.5 "Open Sans", Helvetica, Arial, sans-serif;
+  font: 14px/1.5 "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
 }
@@ -111,10 +111,13 @@ img {
 }
 
 header {
-  width:270px;
-  float:left;
-  position:fixed;
-  -webkit-font-smoothing:subpixel-antialiased;
+  width: 272px;
+  float: left;
+  position: fixed;
+  -webkit-font-smoothing: subpixel-antialiased;
+  overflow-y: auto;
+  overflow-x: auto;
+  max-height: 100%;
 }
 
 header .downloads {
@@ -202,11 +205,10 @@ footer {
 }
 
 .tools-element {
-/*    border-right: #0064b5; */
-/*    border-right-style: solid; */
+    border-left-style: solid;
+    padding-left: 10px;
     padding-right: 10px; 
 }
-
 .search-text {
     font-size: 14px;
 }
