@@ -14,6 +14,7 @@ The following table details all of the currently supported providers and how Cle
 | NuGet         | https://www.nuget.org/           | N/A              | ID           | Lowercase only    | N/A                     | Preserved from provider |
 | PyPI          | https://pypi.org/                | N/A              | Name         | Case insensitive  | N/A                     | Preserved from provider |
 | RubyGems      | https://rubygems.org/            | N/A              | Name         | Case sensitive    | N/A                     | Preserved from provider |
+| CrateIO       | https://crates.io/               | N/A              | Name         | Case insensitive  | N/A                     | Preserved from provider |
 
 ## GitHub
 
@@ -45,3 +46,7 @@ The casing from the name that is returned from the registry is preserved in the 
 
 The guidance for naming Gems is to not use lowercase letters, however there are gems with uppercase letters on the registry today.
 The RubyGems APIs are case sensitive and will not return a query for a component with the wrong casing.
+
+## CratesIO
+
+The naming convention for Rust crates is snake_case (but prefer single word).
