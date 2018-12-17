@@ -1,12 +1,12 @@
 <!--
     This layout uses bootstrap with lux theme
 -->
-{% include gw_defines/defines.html %}
+{% include git-wiki/defines/defines.html %}
 
 <!doctype html>
 <html>
 
-{% include gw_head/head.html %}
+{% include git-wiki/sections/head/head.html %}
 
 <body>
   <div class="wrapper">
@@ -22,7 +22,15 @@
       {% endif %}
     
       {% if site.show_downloads %}
-      {% include gw_header/downloads.html %}
+      {% include git-wiki/sections/header/downloads.html %}
+      {% endif %}
+
+      {% if site.show_wiki_pages %}
+      {% include git-wiki/components/lists/page-list.html %}
+      {% endif %}
+    
+      {% if site.blog_feature and site.show_wiki_posts %}
+      {% include git-wiki/components/lists/post-list.html %}
       {% endif %}
     
       {% if site.inc_after_header %}
@@ -56,9 +64,9 @@
 
     </section>
 
-    {% include gw_footer/footer.html %}
+    {% include git-wiki/sections/footer/footer.html %}
   </div>
-  {% include gw_tail/tail.html %}
+  {% include git-wiki/sections/tail/tail.html %}
 </body>
 
 </html>

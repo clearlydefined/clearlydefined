@@ -107,11 +107,12 @@ img {
 header {
   width: 272px;
   float: left;
-  position: fixed;
+  /*position: fixed;*/
   -webkit-font-smoothing: subpixel-antialiased;
-  overflow-y: auto;
-  overflow-x: auto;
+  /*overflow-y: auto;
+  overflow-x: auto;*/
   max-height: 100%;
+  margin-bottom: 30px;
 }
 
 header .downloads {
@@ -279,4 +280,32 @@ footer {
     font-size:12pt;
     color:#444;
   }
+}
+
+/*
+  Pagination rules
+*/
+
+.pagination a, .pagination span {
+  padding: 7px 18px;
+  border: 1px solid #eee;
+  margin-left: -2px;
+  margin-right: -2px;
+  background-color: #ffffff;
+  display: inline-block;
+}
+
+.pagination a {    
+  &:hover {
+      background-color: #f1f1f1;
+      color: #333;
+  }
+}
+
+.pagination {
+  text-align: center;
+}
+
+.post-item {
+   margin-bottom: 50px;
 }

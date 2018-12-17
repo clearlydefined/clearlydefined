@@ -2,6 +2,20 @@
 title: 
 # (string) Description of your wiki
 description: 
+# (boolean) Enable/disable wiki page list in sidebar
+show_wiki_pages: true
+# (integer) Maximum number of wiki page to shown in sidebar
+show_wiki_pages_limit: 10
+# (boolean) Enable/disable blog feature
+blog_feature: true
+# (boolean) Enable/disable wiki posts list in sidebar (needs blog_feature enabled)
+show_wiki_posts: true
+# (integer) Maximum number of wiki posts to shown in sidebar
+show_wiki_posts_limit: 10
+# from jekyll (read jekyll doc)
+paginate: 5
+paginate_path: "/blog/page:num"
+permalink: /blog/posts/:year/:month/:day/:title:output_ext
 # (boolean) Enable/disable download buttons in sidebar
 show_downloads: true
 # (string) Specify branch rendered by gitpages allowing wiki tool buttons to work
@@ -18,9 +32,14 @@ use_github_wiki: false
 # (boolean) Enable "Edit with Prose.io" button in tools, it's a 3rd party
 # service to edit github markdown pages easily
 use_prose_io: true
-# Setting google custom search engine token will enable the 
-# cse search bar (https://cse.google.it/cse/) instead of default 
-# one based on github search that could not work on forks
+# Select search_engine component from:
+# - js: it uses a built in javascript component that uses generated sitemap_full.xml to search inside your wiki
+# - github : it uses internal github repository search
+# - google : it uses cse search bar, you need to configure google_cse_token
+#
+search_engine : "js"
+# Setting google custom search engine for google
+# cse search bar (https://cse.google.it/cse/)
 google_cse_token: 
 
 #
@@ -45,14 +64,27 @@ defaults:
       type: "pages"
     values:
       layout: "git-wiki-default"
+ -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "git-wiki-post"
+ -
+    scope:
+      path: blog
+    values:
+      layout: "git-wiki-blog"
 sass:
     style: compressed
 plugins:
-  - jekyll-sitemap
-  - jekyll-mentions
-  - jemoji
-  - jekyll-redirect-from
-  - jekyll-feed
+ - jekyll-feed
+ - jekyll-redirect-from
+ - jekyll-seo-tag
+ - jekyll-sitemap
+ - jekyll-avatar
+ - jemoji
+ - jekyll-mentions
 
 
 #
@@ -81,3 +113,8 @@ inc_before_tail :
 inc_after_tail : 
 inc_before_tools : 
 inc_after_tools : 
+
+inc_before_page_list :
+inc_after_page_list :
+inc_before_post_list :
+inc_after_post_list :
