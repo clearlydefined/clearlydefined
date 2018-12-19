@@ -44,7 +44,7 @@ The casing from the name that is returned from the registry is preserved in the 
 
 ## RubyGems
 
-The guidance for naming Gems is to not use lowercase letters, however there are gems with uppercase letters on the registry today.
+The guidance for naming Gems is to not use uppercase letters, however there are gems with uppercase letters on the registry today.
 The RubyGems APIs are case sensitive and will not return a query for a component with the wrong casing.
 
 ## CratesIO
