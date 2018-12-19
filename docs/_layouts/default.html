@@ -10,33 +10,7 @@
 
 <body>
   <div class="wrapper">
-    <header>
-      {% if site.inc_before_header %}
-      {% include {{ site.inc_before_header }} %}
-      {% endif %}
-
-      {% include clearlydefined/logo.html %}
-    
-      {% if site.github.is_user_page %}
-      <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-      {% endif %}
-    
-      {% if site.show_downloads %}
-      {% include git-wiki/sections/header/downloads.html %}
-      {% endif %}
-
-      {% if site.show_wiki_pages %}
-      {% include git-wiki/components/lists/page-list.html %}
-      {% endif %}
-    
-      {% if site.blog_feature and site.show_wiki_posts %}
-      {% include git-wiki/components/lists/post-list.html %}
-      {% endif %}
-    
-      {% if site.inc_after_header %}
-      {% include {{ site.inc_after_header }} %}
-      {% endif %}
-    </header>
+    {% include clearlydefined/header.html %}
 
     <section>
 
