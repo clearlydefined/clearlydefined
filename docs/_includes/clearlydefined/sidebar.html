@@ -47,16 +47,18 @@
 </div>
 
       <div id="tools-buttons" style="width: 100%; text-align: left">
-        <form method="GET" action="{{ site.github.repository_url }}/search">
+
           {% if site.use_github_wiki %}
             <input type="hidden" name="type" value="Wikis">
           {% endif %}
           {% if site.search_engine == "github" %}
-            <input class="search-text" type="text" name="q" placeholder="Text to find"><input class="search-button" type="submit" value="Search">
+            <form method="GET" action="{{ site.github.repository_url }}/search">
+              <input class="search-text" type="text" name="q" placeholder="Text to find"><input class="search-button" type="submit" value="Search">
+            </form>
           {% else %}
             {% include git-wiki/components/search/index.html %}
           {% endif %}
-        </form>
+
 
         <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/new/{{site.git_branch}}?filename={{ site.wiki_folder | default: 'wiki' }}/">Add new</a></span><br>
         <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/edit/{{site.git_branch}}/{{page.path}}">Edit</a></span><br>
