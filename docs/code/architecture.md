@@ -1,17 +1,18 @@
 # Architecture
 
-The system takes a mostly micro-service approach with stateless systems that can scale horizontally with ease.
-Where subsystems collaborate they do so via shared service-to-service tokens and/or shared access to storage
-(e.g., blob storage)
+ClearlyDefined is structured as a set of stateles, micro-services that can scale horizontally with ease.
+The services collaborate via REST APIs using shared service-to-service tokens and/or shared access to storage
+(e.g., blob storage). The website is React-based an talks almost solely to the service.
 
-The system as a whole is made up of seven major subsystems:
+The system as a whole is made up of the following major subsystems:
 
-- [Website](https://github.com/clearlydefined/website.git) -- A relatively simple but quite useful React app that uses the [Create React App framework](https://github.com/facebook/create-react-app), [Redux](https://redux.js.org), and [React-Bootstrap](https://react-bootstrap.github.io).
-- [Service](https://github.com/clearlydefined/service.git) -- A Node based service that supports numerous REST APIs for getting/harvesting data, managing curations, and computing final definitions.
-- [Crawler](https://github.com/clearlydefined/crawler.git) -- A horizontally scalable Node server construct that processes requests to harvest data from components using a variety of tools.
+- [Website](https://github.com/clearlydefined/website.git) -- A relatively simple but quite useful React app that uses the [Create React App framework](https://github.com/facebook/create-react-app), [Redux](https://redux.js.org), [React-Bootstrap](https://react-bootstrap.github.io) and a few other bits and pieces.
+- [Service](https://github.com/clearlydefined/service.git) -- A Node based service that supports numerous REST APIs for accessing and searching definitions, getting and harvesting data, creating and managing curations, and more.
+- [Crawler](https://github.com/clearlydefined/crawler.git) -- A horizontally scalable Node service that processes requests to harvest data from components using a variety of tools.
+- Definition store -- A store for component definitions
 - Harvest store -- A store for raw harvest tool outputs. Nothing fancy here. Plain blob storage is fine.
-- Harvest queue -- A queue of requests for the service to run.
-- Curation store -- A place to store and collaborate on curations to the harvested data. In practice this a structured GitHub repos (e.g., https://github.com/clearlydefined/curated-data).
+- Harvest queue -- A queue of requests for the crawlers to process.
+- Curation store -- A place to store and collaborate on curations to the harvested data. In practice this a structured GitHub repo (e.g., https://github.com/clearlydefined/curated-data).
 - Tools -- Any number of openly available code/package analysis tools such as [ScanCode](https://github.com/nexB/scancode-toolkit) and [FOSSology](https://www.fossology.org/)
   as well as a few home grown utilities.
 
