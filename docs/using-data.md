@@ -8,7 +8,7 @@ All of the ClearlyDefined data is available for everyone to see and use. You can
 
 ClearlyDefined is all about making project data easily discoverable and available to people. On the **Definitions** tab you will see a search box. Click in there and start typing the name of a project. This will auto-suggest definitions that exist in ClearlyDefined. Pick one of the presented options and the related definition is added to the **Definitions** list. Note that if you are after a definition for a component not shown in the list, ClearlyDefined does not know about it yet.
 
-In the **Definition** list you see a high level summary of the related component -- its license, possible relationship to source in GitHub, a ClearlyDefined score, and more. If you click on an entry in the list, the entry expands to show more detail. The exact content here will change over time as the community learns more about what's most relevant. Typically this additional detail includes release date of the selected revision, details of licenses discovered in the files of the component, as well as a list of attribution parties, and more. Check out the [ClearlyDefined Glossary]() for more info on the various terms you see in the panel.
+In the **Definition** list you see a high level summary of the related component -- its license, possible relationship to source in GitHub, a ClearlyDefined score, and more. If you click on an entry in the list, the entry expands to show more detail. The exact content here will change over time as the community learns more about what's most relevant. Typically this additional detail includes release date of the selected revision, details of licenses discovered in the files of the component, as well as a list of attribution parties, and more. Check out the [ClearlyDefined Glossary](glossary) for more info on the various terms you see in the panel.
 
 On the right side of any definition entry (expanded or collapsed) you will see a set of buttons that modify the list itself (adding related definitions or removing the current definition) or take you to alternative views of a definition. Typically hovering over a button will give you an idea of what it does. Go ahead and click around. You won't break anything.
 
@@ -16,7 +16,7 @@ On the right side of any definition entry (expanded or collapsed) you will see a
 
 Key to understanding a definition is understanding how it was put together. That's what's happening when you click on the **Dig into this entry** button, after searching for a few definition on the [**Definitions**](https://clearlydefined.io/definitions) tab. 
 
-The **Described** pane provides infomration abou**t the definition source (e.g. github URL), Release date, Tools and **Facets**.
+The **Described** pane provides information about the definition source (e.g. github URL), Release date, Tools and **Facets**.
 
 The second pane, **Licensed** provides information about the **Declared** licenses as well as the automatically **Discovered** ones. Additionally, **Attribution** and **Files** details are available (Total files, Unlicensed files, and Unattributed ones).
 
