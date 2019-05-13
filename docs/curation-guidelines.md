@@ -1,30 +1,92 @@
----
-layout: default
----
+# Purpose
+ClearlyDefined licensing data forms the core understanding required to meet FOSS licensing obligations. This data includes:
 
-# License discovery scenario guidelines
+1. declared and discovered license information
+2. attribution information
+3. source location information
+4. facet information
 
+This document sets out the minimum processes the ClearlyDefined community follows to curate each class of data.
+
+# License information
+There are four possible license property values on a definition element:
+
+1. A valid SPDX license expression.
+2. The string `NOSASSERTION`. This indicates that license-like data is found, but that ClearlyDefined cannot identify a SPDX-identified license.
+3. The string `NONE`. This indicates that a human confirmed that there is no license information in the file.
+4. No value. This indicates that automated tooling did not find license-like data in the file.
+[//]: # (4. The string `OTHER`. This indicates that a human confirmed that there is license information in the file but that the license is not an SPDX-identified license.)
+
+## The Difference between Declared and Discovered licenses
+The ClearlyDefined definition for a component has two types of license information: declared and discovered.
+
+* The *declared license* for a component is what the component explicitly calls out, formally or through convention, as the overall license. This might be a `LICENSE` file at the root of a repo or the value of a `LICENSE` property in a package’s metadata.
+
+* The *discovered licenses* in a component’s definition are the other licenses found in the files of the component. For example, a source file or sub-directory might have a header comment indicating an SPDX license id.
+
+In other words, the declared license is what normal developers would understand the component producers intended the license to be. The discovered licenses represent what licenses are found in the component’s source files.
+
+## Source components
+### Source component declared license
+To evaluate the declared license info for a source component, use the following steps:
+
+1. Determine the canonical names and locations for the declared licenses in the ecosystem at hand.
+2. Look to see whether there is license information in the relevant canonical locations for that ecosystem.
+3. If there is, evaluate that canonical license information against the current declared license definition in ClearlyDefined.
+
+### Source component discovered licenses
+To evaluate the discovered licenses for a source component, use the following steps:
+
+1. Identify all files in the repository labeled as `NOASSERTION`
+2. Review each `NOASSERTION` labeled file to determine whether there is an SPDX-identified license. There are three cases:
+    1. If there are SPDX-identified license(s) in the file, use the SPDX license expression to capture those licenses.
+    2. If there is no license in the file, code `NONE`.
+    3. If there is a license, but that license does not have an SPDX identifier leave the code as `NOASSERTION`.
+
+[//]: # (TODO: once tooling has caught up replace "leave the code as `NOASSERTION`" with "code as `OTHER`")
+
+## Package components
+Although a package component can have a different license than the underlying source used to create that package, most license obligations from the source flow through to the package. Thus, package definitions data must incorporate the definition data from the source.
+
+### Package components declared license
+To evaluate the declared license info for a package component, use the following steps:
+
+1. Determine the canonical names and locations for the declared licenses in the ecosystem at hand.
+2. Look to see whether there is license information in the relevant canonical locations for that ecosystem.
+3. If there is, evaluate that canonical license information against the current declared license definition in ClearlyDefined.
+
+### Package components discovered license
+To evaluate the discovered licenses for a source component, use the following steps:
+
+1. Identify all files in the repository labeled as `NOASSERTION`
+2. Review each `NOASSERTION` labeled file to determine whether there is an SPDX-identified license. There are three cases:
+    1. If there are SPDX-identified license(s) in the file, use the SPDX license expression to capture those licenses.
+    2. If there is no license in the file, code `NONE`.
+    3. If there is a license, but that license does not have an SPDX identifier leave the code as `NOASSERTION`.
+3. If the definition indicates a source location, curate the license information found on source component’s definition. Because of the flow through of license obligations from source to a binary package, the information from the source location’s core facet should be encoded as a “discovered license” in the package.
+
+[//]: # (TODO: once tooling has caught up replace "leave the code as `NOASSERTION`" with "code as `OTHER`" in item 2.3 above)
+
+## Troubleshooting: sources of truth for the declared license
 We always prefer a reference to a version control system, but if you’re unable to find that, other public references are okay.
-
-1. Target component has a LICENSE or similar file embedded in a canonical location in the component (e.g., root, meta-inf folder, …) 
-    * Use the license resulting from analyzing the content of the file. If the result cannot be interpreted as an SPDX-listed license identifier, treat it as `NOASSERTION`. 
-
-2. Target component metadata has an explicit license entry indicating an SPDX (or similar) identifier 
-    * Canonicalize the identifier with an SPDX-listed license identifier and use. If the value cannot be canonicalized, treat as `NOASSERTION`. 
-
-3. Target component metadata has license info indicating a license file URL in source repository, but the link is broken or points to a volatile location. 
-    * Ignore the link specifics but use source repository URL as a candidate for source location in subsequent steps. 
-
-4. Target component metadata has license info indicating a URL for a repository in source. 
-    * Look for version in source repository corresponding to target component version and use license information available there (e.g., LICENSE file, package metadata) if any. 
-    * Corresponding version can be found by looking at Git tags matching component version or by looking at commit history comments for “version bump” comments. 
-
-5. Target component has no project/source location and does not have any license information. There exists a related version (newer or older) that does have license information. 
-    * Use the related component’s license data, favoring for newer version if possible to discern 
-
-6. Target component has no project/source location and does not have any license information, but does declare a license in the copyright field (e.g., <Copyright MIT>) 
+1. Target component metadata has license info indicating a license file URL in source repository, but the link is broken or points to a volatile location.
+    * Ignore the link specifics but use source repository URL as a candidate for source location in subsequent steps.
+1. Target component metadata has license info indicating a URL for a repository in source.
+    * Look for version in source repository corresponding to target component version and use license information available there (e.g., LICENSE file, package metadata) if any.
+    * Corresponding version can be found by looking at Git tags matching component version or by looking at commit history comments for “version bump” comments.
+1. Target component has no project/source location and does not have any license information. There exists a related version (newer or older) that does have license information.
+    * Use the related component’s license data, favoring for newer version if possible to discern
+1. Target component has no project/source location and does not have any license information, but does declare a license in the copyright field (e.g., <Copyright MIT>)
     * Use the declared license in the copyright file
+1. Target component is using multiple licenses, use an SPDX expression to indicate multiple licenses
+1. Curate the declared license as `NONE` when the component verifiably and intentionally has no license.
 
-7. Target component is using multiple licenses, use an SPDX expression to indicate multiple licenses
+# Attribution Information
+* **Process**. The curator should look at each copyright statement. Copyright statements should be removed only when it is abundantly clear that the string is not a copyright statement and it was surfaced by the scanners in error.
+* **Rationale**. Because copyright statements take a wide variety of forms, sometimes including typos or other inconsistencies, it is not the ClearlyDefined curator's role to guess the intent of the author or contributor to the package and so the Copyright statement should remain unmodified.
 
-8. Curate the declared license as `NONE` when the component verifiably and intentionally has no license. 
+# Source Location Information
+[TODO]
+
+# Facets
+[TODO]
