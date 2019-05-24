@@ -56,16 +56,14 @@ To evaluate the declared license info for a package component, use the following
 3. If there is, evaluate that canonical license information against the current declared license definition in ClearlyDefined.
 
 ### Package components discovered license
-To evaluate the discovered licenses for a source component, use the following steps:
+To evaluate the discovered licenses for a package component, use the following steps:
 
 1. Identify all files in the repository labeled as `NOASSERTION`
 2. Review each `NOASSERTION` labeled file to determine whether there is an SPDX-identified license. There are three cases:
     1. If there are SPDX-identified license(s) in the file, use the SPDX license expression to capture those licenses.
     2. If there is no license in the file, code `NONE`.
-    3. If there is a license, but that license does not have an SPDX identifier leave the code as `NOASSERTION`.
+    3. If there is a license, but that license does not have an SPDX identifier, code `OTHER`.
 3. If the definition indicates a source location, curate the license information found on source component’s definition. Because of the flow through of license obligations from source to a binary package, the information from the source location’s core facet should be encoded as a “discovered license” in the package.
-
-[//]: # (TODO: once tooling has caught up replace "leave the code as `NOASSERTION`" with "code as `OTHER`" in item 2.3 above)
 
 ## Troubleshooting: sources of truth for the declared license
 We always prefer a reference to a version control system, but if you’re unable to find that, other public references are okay.
