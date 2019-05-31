@@ -9,13 +9,13 @@ ClearlyDefined licensing data forms the core understanding required to meet FOSS
 This document sets out the minimum processes the ClearlyDefined community follows to curate each class of data.
 
 # License information
-There are four possible license property values on a definition element:
+There are five possible license property values on a definition element:
 
 1. A valid SPDX license expression.
 2. The string `NOSASSERTION`. This indicates that license-like data is found, but that ClearlyDefined cannot identify a SPDX-identified license.
 3. The string `NONE`. This indicates that a human confirmed that there is no license information in the file.
-4. No value. This indicates that automated tooling did not find license-like data in the file.
-[//]: # (4. The string `OTHER`. This indicates that a human confirmed that there is license information in the file but that the license is not an SPDX-identified license.)
+4. The string `OTHER`. This indicates that a human confirmed that there is license information in the file but that the license is not an SPDX-identified license.)
+5. No value. This indicates that automated tooling did not find license-like data in the file.
 
 ## The Difference between Declared and Discovered licenses
 The ClearlyDefined definition for a component has two types of license information: declared and discovered.
@@ -37,13 +37,11 @@ To evaluate the declared license info for a source component, use the following 
 ### Source component discovered licenses
 To evaluate the discovered licenses for a source component, use the following steps:
 
-1. Identify all files in the repository labeled as `NOASSERTION`
-2. Review each `NOASSERTION` labeled file to determine whether there is an SPDX-identified license. There are three cases:
+1. Identify all files in the repository labeled as `NOASSERTION` or with an SPDX expression containing `AND` or `OR`.
+2. Review each such file to determine whether there is an SPDX-identified license. There are three cases:
     1. If there are SPDX-identified license(s) in the file, use the SPDX license expression to capture those licenses.
     2. If there is no license in the file, code `NONE`.
-    3. If there is a license, but that license does not have an SPDX identifier leave the code as `NOASSERTION`.
-
-[//]: # (TODO: once tooling has caught up replace "leave the code as `NOASSERTION`" with "code as `OTHER`")
+    3. If there is a license but that license does not have an SPDX identifier, code as `OTHER`.
 
 ## Package components
 Although a package component can have a different license than the underlying source used to create that package, most license obligations from the source flow through to the package. Thus, package definitions data must incorporate the definition data from the source.
@@ -58,9 +56,9 @@ To evaluate the declared license info for a package component, use the following
 ### Package components discovered license
 To evaluate the discovered licenses for a package component, use the following steps:
 
-1. Identify all files in the repository labeled as `NOASSERTION`
-2. Review each `NOASSERTION` labeled file to determine whether there is an SPDX-identified license. There are three cases:
-    1. If there are SPDX-identified license(s) in the file, use the SPDX license expression to capture those licenses.
+1. Identify all files in the repository labeled as `NOASSERTION` or with an SPDX expression containing `AND` or `OR`.
+2. Review each such file to determine whether there is an SPDX-identified license. There are three cases:
+    1. If there is/are SPDX-identified license(s) in the file, use the SPDX license expression to capture those licenses.
     2. If there is no license in the file, code `NONE`.
     3. If there is a license, but that license does not have an SPDX identifier, code `OTHER`.
 3. If the definition indicates a source location, curate the license information found on source component’s definition. Because of the flow through of license obligations from source to a binary package, the information from the source location’s core facet should be encoded as a “discovered license” in the package.
