@@ -5,7 +5,7 @@ the necessary data (e.g., license, source location, attribution parties) availab
 to find places. Awesome! As long as the harvesting tools can find the info and you are
 consistent about keeping it uptodate, all is good.
 
-For some however, there may be a few steps. One on of the core philosophies of ClearlyDefined
+For some however, there may be a few steps. One of the core philosophies of ClearlyDefined
 is "meet them where they are". That is, we are not looking to drive a particular behavior
 or format on your normal development process or repo structure. Rather we are aware of a
 host of conventions and we only need hints from you as to which approach you are taking.
