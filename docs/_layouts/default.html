@@ -64,11 +64,8 @@
       {% endif %}
 
     </section>
-    <footer>
-      {% if site.custom_footer %}
-      {% include footer.html %}
-      {% endif %}
 
+    <section>
       {% if site.github.is_project_page %}
       <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
       {% endif %}
@@ -78,8 +75,9 @@
       <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub
           <small>{{ github_name }}</small></a></p>
       {% endif %}
-    </footer>
+    </section>
   </div>
+
   <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/header.js' | relative_url }}"></script>
 
@@ -105,5 +103,11 @@
   </script>
   {% endif %}
 </body>
+
+<footer>
+  {% if site.custom_footer %}
+  {% include footer.html %}
+  {% endif %}
+</footer>
 
 </html>

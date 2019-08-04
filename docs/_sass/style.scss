@@ -200,7 +200,7 @@ hr {
 }
 
 footer {
-  padding-left: 320px;
+  //padding-left: 320px;
   float:left;
   bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
@@ -238,8 +238,6 @@ footer {
 .sidebar-menu ul li {
     list-style-type: none;
 }
-
-// navbar (head)
 
 .navbar {
   display: flex;
@@ -283,13 +281,50 @@ footer {
               font-weight: 700;
               color: #888;
               font-size: 1.1em;
-
               &--active {
                 padding-bottom: 6px;
                 border-bottom: 4px solid #2cbe4e;
                 color: #2cbe4e;
               }
             }
+          }
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  &__c {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    &__col--left {
+      &__socials {
+        display: flex;
+        &__icon {
+          height: 24px;
+          width: 24px;
+          margin-right: .5em;
+          background: #0064b5;
+          transition: ease 1s;
+          &:hover {
+            background: #2cbe4e;
+            transition: ease 1s;
+          }
+          @at-root &#{&}__github {
+            -webkit-mask: url(/assets/images/github-brands.svg) center / contain no-repeat;
+          }
+          @at-root &#{&}__mail {
+            -webkit-mask: url(/assets/images/envelope-solid.svg) center / contain no-repeat;
+          }
+          @at-root &#{&}__twitter {
+            -webkit-mask: url(/assets/images/twitter-brands.svg) center / contain no-repeat;
+          }
+          @at-root &#{&}__discord {
+            -webkit-mask: url(/assets/images/discord-brands.svg) center / contain no-repeat;
           }
         }
       }
@@ -340,8 +375,8 @@ footer {
     padding-right:320px;
   }
 
-  section, footer {
-    border:1px solid #e5e5e5;
+  section {
+    border-bottom:1px solid #e5e5e5;
     border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
@@ -437,6 +472,23 @@ footer {
                 }
               }
             }
+          }
+        }
+      }
+    }
+  }
+  .footer {
+    margin-bottom: 1em;
+    &__c {
+      display: inline-grid;
+      text-align: center;
+      &__col {
+        &--left {
+          display: flex;
+          justify-content: center;
+          &__socials {
+            display: grid;
+            grid-template-columns: 34px 34px;
           }
         }
       }
