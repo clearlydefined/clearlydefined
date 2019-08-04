@@ -248,7 +248,7 @@ footer {
   background-color: #222;
   &__c {
     display: flex;
-    width: 100%;
+    max-width: 100%;
     padding: .5em 1.5em;
     align-items: center;
     &__header {
@@ -256,8 +256,16 @@ footer {
         height: 60px;
       }
       &__toggler {
-        &__ibar {
-
+        border:none;
+        background: none;
+        position: absolute;
+          padding: 9px 10px;
+          border: 0.5px solid #333;
+          border-radius: 4px;
+          right: 35px;
+          top: 35px;
+        &:active {
+          border:none;
         }
       }
     }
@@ -279,10 +287,9 @@ footer {
               &--active {
                 padding-bottom: 6px;
                 border-bottom: 4px solid #2cbe4e;
-                color: #2cbe4e !important;
+                color: #2cbe4e;
               }
             }
-
           }
         }
       }
@@ -294,18 +301,21 @@ footer {
 @media (min-width: 768px) {
   .container {
     width: 750px;
+    max-width: 750px;
   }
 }
 
 @media (min-width: 992px) {
   .container {
     width: 970px;
+    max-width: 970px;
   }
 }
 
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 970px;
+    max-width: 1170px;
   }
 }
 
@@ -350,6 +360,88 @@ footer {
   .mbl {
     display: initial;
   }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border-color: #222;
+    
+    &__c {
+      align-items: initial;
+      flex-direction: column;
+      padding-bottom: 0;
+      &__header {
+        padding: 1em 0;
+        &__logo {
+          max-width: 75%;
+        }
+        &__toggler {
+          &__ibar {
+            display: block;
+            width: 22px;
+            height: 2px;
+            border-radius: 1px;
+            background-color: #fff;
+            @at-root & + #{&}{
+              margin-top:4px;
+            }
+          }
+          &:hover {
+            background-color: #333;
+          }
+        }
+      }
+      &__links {
+        &__ul {
+          flex-direction: column;
+          align-items: start;
+          padding: 0 .3em;
+          max-height: 0;
+          overflow: hidden;
+          &--toggle {
+            animation: toggle ease .7s forwards;
+          }
+          &--untoggle {
+            animation: untoggle ease .7s forwards;
+          }
+          @keyframes toggle {
+            0% {max-height: 0;}
+            100% {max-height: 300px;}
+          }
+          @keyframes untoggle {
+            0% {max-height: 300px;}
+            100% {max-height: 0;}
+          }
+          &:before {
+            content: "";
+            width:100%;
+            position:absolute;
+            left:0;
+            border-top: 1px solid #444;
+          }
+          &__li {
+            padding: 0;
+            margin: 1em 0;
+            width: 100%;
+            &--active {
+              padding-bottom: 6px;
+              border-bottom: 4px solid #2cbe4e;
+            }
+            &__a {
+              &__div {
+                &--active {
+                  padding-bottom: 0;
+                  border-bottom: none;
+                  color: #2cbe4e;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 
@@ -373,7 +465,11 @@ footer {
 
 @media print, screen and (max-width: 480px) {
   body {
-    padding:15px;
+    padding:0;
+  }
+
+  .content {
+    padding: 15px;
   }
 
   header .downloads {
