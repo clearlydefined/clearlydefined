@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 @import "rouge-github";
 
 body {
   background-color: #fff;
-  padding:50px;
+  padding:0;
+  margin: 0;
   font: 14px/1.5 "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
@@ -63,6 +64,7 @@ a:hover small {
 .wrapper {
   /*width:860px;*/
   margin:0 auto;
+  padding: 50px;
 }
 
 blockquote {
@@ -237,6 +239,80 @@ footer {
     list-style-type: none;
 }
 
+// navbar (head)
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #222;
+  &__c {
+    display: flex;
+    width: 100%;
+    padding: .5em 1.5em;
+    align-items: center;
+    &__header {
+      &__logo {
+        height: 60px;
+      }
+      &__toggler {
+        &__ibar {
+
+        }
+      }
+    }
+    &__links {
+      &__ul {
+        display: flex;
+        align-items: center;
+        margin: 0;
+        &__li {
+          list-style: none;
+          padding: 0 15px;
+          &__a {
+            &__div {
+              font-family: "Montserrat", sans-serif;
+              font-weight: 700;
+              color: #888;
+              font-size: 1.1em;
+
+              &--active {
+                padding-bottom: 6px;
+                border-bottom: 4px solid #2cbe4e;
+                color: #2cbe4e !important;
+              }
+            }
+
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.mbl {
+  display: none;
+}
+
 @media print, screen and (max-width: 960px) {
 
   div.wrapper {
@@ -269,6 +345,10 @@ footer {
     position:absolute;
     right:50px;
     top:52px;
+  }
+
+  .mbl {
+    display: initial;
   }
 }
 
