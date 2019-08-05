@@ -154,4 +154,22 @@ You can also get the result that would be given **if** a proposed curation PR we
 GET http://localhost:4000/definitions/npm/npmjs/-/redie/0.3.0/pr/23
 ```
 
+If you want to get multiple definitions in a single call, you can `POST` an array of coordinates (with up to 1000 coordinates) to `/definitions`:
+
+```json
+POST http://localhost:4000/definitions
+
+["npm/npmjs/-/redie/0.1.0", "npm/npmjs/-/redie/0.2.0", "npm/npmjs/-/redie/0.3.0"]
+```
+
+The response will be an object with a key for each coordinate:
+
+```json
+{
+  "npm/npmjs/-/redie/0.1.0": { ... },
+  "npm/npmjs/-/redie/0.2.0": { ... },
+  "npm/npmjs/-/redie/0.3.0": { ... }
+}
+```
+
 ### Raw outputs
