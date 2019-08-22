@@ -47,7 +47,7 @@ type/provider/namespace/name/revision
 
 Where the segments have following values:
 
-* type -- the type of the component you are looking for. For exammple, npm, git, nuget, maven, ... This talks about the _shape_ of the component.
+* type -- the type of the component you are looking for. For example, npm, git, nuget, maven, ... This talks about the _shape_ of the component.
 * provider -- where the component can be found. Examples include npmjs, mavencentral, github, nuget, ...
 * namespace -- many component systems have namespaces. GitHub orgs, NPM namespace, Maven group id, ... This segment must be supplied. If your component does not have a namespace, use '-' (ASCII hyphen).
 * name -- the name of the component you want. Given the `namespace` segment mentioned above, this is just the simple name.
