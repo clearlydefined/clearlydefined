@@ -68,7 +68,9 @@ To evaluate the discovered licenses for a package component, use the following s
 
 ## Troubleshooting: sources of truth for the declared license
 We always prefer a reference to a version control system, but if you’re unable to find that, other public references are okay.
-1. Target component metadata has license info indicating a license file URL in source repository, but the link is broken or points to a volatile location.
+1. Target component metadata has license info indicating a license URL, but the  link points to a volatile location.
+    * Apply license found at the volatile location at the time checked.
+1. Target component metadata has license info indicating a license file URL in source repository, but the link is broken.
     * Ignore the link specifics but use source repository URL as a candidate for source location in subsequent steps.
 1. Target component metadata has license info indicating a URL for a repository in source.
     * Look for version in source repository corresponding to target component version and use license information available there (e.g., LICENSE file, package metadata) if any.
