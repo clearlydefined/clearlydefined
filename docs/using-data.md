@@ -74,44 +74,44 @@ You can see the swagger API doc at https://api.clearlydefined.io/api-docs/
 
 ## Curation
 
-New curations, or changes to existing curations, are done via PATCHes. Ultimately these surface as PRs in the configured curation repo. They can be manipulated directy there but using this API keeps things regular. Below is an example curation.
+New curations, or changes to existing curations, are done via PATCHes. Ultimately these surface as PRs in the configured curation repo. They can be manipulated directy there but using this API keeps things regular. A set of curations is described together with its general intent, and understood as a ```contribution```. Below is an example contribution.
 
 ```json
 {
-  "described": {
-    "sourceLocation": {
-      "type": "git",
-      "provider": "github",
-      "url": "https://github.com/microsoft/redie",
-      "revision": "194269b5b7010ad6f8dc4ef608c88128615031ca"
-    }
+  "contributionInfo": {
+      "summary": "[Test] Update declared license",
+      "details": "The declared license should be Apache as per the LICENSE file.",
+      "resolution": "Updated declared license to Apache-2.0.",
+      "type":"incorrect",
+      "removeDefinitions":false
   },
-  "licensed": {
-    "license": {
-      "expression": "MIT"
-    }
-  }
+  "patches":[
+      {
+        "described": {
+          "sourceLocation": {
+            "type": "git",
+            "provider": "github",
+            "url": "https://github.com/microsoft/redie",
+            "revision": "194269b5b7010ad6f8dc4ef608c88128615031ca"
+          }
+        },
+        "licensed": {
+          "license": {
+            "expression": "MIT"
+          }
+        }
+      }
+  ]
 }
 ```
 
 Here the curation updates information in two data _neighborhoods_, `described` and `licensed`. (You will hear us talk about projects being ClearlyDescribed or ClearlyLicensed). These new values will be merged with the existing curation (as part of the PR merge) and laid over whatever data has been harvested when users access the data.
 
-To progammatically submit a curation, wrap the curation from above in an object with a `description` and then send it to the service as a PATCH to, for example, http://localhost:4000/curations/npm/npmjs/-/redie/0.3.0
-
-```json
-{
-  "description": "Supply the source location and correct the license to MIT",
-  "patch": {
-    body of the curation here
-  }
-}
-```
-
 You can also get the curation for a particular component revision using one of the following requests. Both return the full curation for the given component. The first (without the `pr` segment), gets the current curation that is in effect -- the content of the `master` branch. The second gets the curation proposed in the given pull request.
 
 ```
-GET http://localhost:4000/curations/npm/npmjs/-/redie/0.3.0
-GET http://localhost:4000/curations/npm/npmjs/-/redie/0.3.0/pr/23
+GET http://api.clearlydefined.io/curations/npm/npmjs/-/redie/0.3.0
+GET http://api.clearlydefined.io/curations/npm/npmjs/-/redie/0.3.0/pr/23
 ```
 
 ## Data access
