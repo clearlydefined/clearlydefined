@@ -23,7 +23,7 @@ The process below differes for components depending on whether they are "source"
 ## The Difference between Declared and Discovered licenses
 The ClearlyDefined definition for a component has two types of license information: declared and discovered.
 
-* The *declared license* for a component is what the component explicitly calls out, formally or through convention, as the overall license. This might be a `LICENSE` file at the root of a repo or the value of a `LICENSE` property in a package’s metadata.
+* The *declared license* for a component is what the component explicitly calls out, formally or through convention, as the overall license. This might be a `LICENSE` or `README` file at the root of a repo or the value of a `LICENSE` property in a package’s metadata such as packgage.json or pom.xml.
 
 * The *discovered licenses* in a component’s definition are the other licenses found in the files of the component. For example, a source file or sub-directory might have a header comment indicating an SPDX license id.
 
