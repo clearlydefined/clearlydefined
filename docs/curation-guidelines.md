@@ -23,8 +23,7 @@ The process below differes for components depending on whether they are "source"
 ## The Difference between Declared and Discovered licenses
 The ClearlyDefined definition for a component has two types of license information: declared and discovered.
 
-* The *declared license* for a component is what the component explicitly calls out, formally or through convention, as the overall license. This might be a `LICENSE` file at the root of a repo or the value of a `LICENSE` property in a package’s metadata. The declared license does not include license information about specific sub-components, even if called out as part of a formal or conventional license declaration.
-
+* The *declared license* for a component is what the component explicitly calls out, formally or through convention, as the overall license. This might be a `LICENSE` or `README` file at the root of a repo or the value of a `LICENSE` property in a package’s metadata such as packgage.json or pom.xml.
 * The *discovered licenses* in a component’s definition are the other licenses found in the files of the component or sub-components of the overall project. For example, a source file or sub-directory might have a header comment indicating an SPDX license id, or a sub-director might be under a different license.
 
 In other words, the declared license is what normal developers would understand the component producers intended the overall project license to be. The discovered licenses represent what other licenses are found in the component.
@@ -68,7 +67,9 @@ To evaluate the discovered licenses for a package component, use the following s
 
 ## Troubleshooting: sources of truth for the declared license
 We always prefer a reference to a version control system, but if you’re unable to find that, other public references are okay.
-1. Target component metadata has license info indicating a license file URL in source repository, but the link is broken or points to a volatile location.
+1. Target component metadata has license info indicating a license URL, but the  link points to a volatile location.
+    * Apply license found at the volatile location at the time checked.
+1. Target component metadata has license info indicating a license file URL in source repository, but the link is broken.
     * Ignore the link specifics but use source repository URL as a candidate for source location in subsequent steps.
 1. Target component metadata has license info indicating a URL for a repository in source.
     * Look for version in source repository corresponding to target component version and use license information available there (e.g., LICENSE file, package metadata) if any.
