@@ -12,9 +12,9 @@ This document sets out the minimum processes the ClearlyDefined community follow
 There are five possible license property values on a definition element:
 
 1. A valid SPDX license expression.
-2. The string `NOSASSERTION`. This indicates that license-like data is found, but that ClearlyDefined cannot identify a SPDX-identified license.
+2. The string `NOASSERTION`. This indicates that license-like data is found, but that ClearlyDefined cannot identify an SPDX-identified license.
 3. The string `NONE`. This indicates that a human confirmed that there is no license information in the file.
-4. The string `OTHER`. This indicates that a human confirmed that there is license information in the file but that the license is not an SPDX-identified license.)
+4. The string `OTHER`. This indicates that a human confirmed that there is license information in the file but that the license is not an SPDX-identified license.
 5. No value. This indicates that automated tooling did not find license-like data in the file.
 
 ## The Difference between "Source components" and "Package components"
