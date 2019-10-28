@@ -3,7 +3,7 @@
 Being ClearlyDefined can be more of an intent than an action. Many projects already make
 the necessary data (e.g., license, source location, attribution parties) available in easy
 to find places. Awesome! As long as the harvesting tools can find the info and you are
-consistent about keeping it uptodate, all is good.
+consistent about keeping it up-to-date, all is good.
 
 For some however, there may be a few steps. One of the core philosophies of ClearlyDefined
 is "meet them where they are". That is, we are not looking to drive a particular behavior
@@ -37,7 +37,7 @@ is the project itself. Dropping us a hint as to what approach you want clears up
 and makes it easy for the relevant data to be gathered.
 
 You can leave that hint in a very simple `clearly.yaml` file in your release and/or in your
-repo. The details of this file are still being worked out. We actually aren't intereested in
+repo. The details of this file are still being worked out. We actually aren't interested in
 foisting another file/format on the world so if your community already has a convention for
 where to store _metadata_, we just need to learn about that and then can look there for the
 hints.
