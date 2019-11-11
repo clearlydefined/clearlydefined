@@ -9,6 +9,7 @@ body {
   font: 14px/1.5 "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -270,8 +271,9 @@ footer {
     &__links {
       &__ul {
         display: flex;
-        align-items: center;
+        align-items: baseline;
         margin: 0;
+        height: 2em;
         &__li {
           list-style: none;
           padding: 0 15px;
