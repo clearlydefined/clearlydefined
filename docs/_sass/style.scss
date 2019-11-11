@@ -68,6 +68,10 @@ a:hover small {
   padding: 50px;
 }
 
+.content {
+  margin-top: 80px;
+}
+
 blockquote {
   border-left:1px solid #e5e5e5;
   margin:0;
@@ -245,6 +249,10 @@ footer {
   flex-direction: row;
   justify-content: center;
   background-color: #222;
+  position: fixed;
+  width: 100vw;
+  z-index: 999;
+  top: 0;
   &__c {
     display: flex;
     max-width: 100%;
