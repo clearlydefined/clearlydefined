@@ -69,7 +69,7 @@ a:hover small {
 }
 
 .content {
-  margin-top: 80px;
+  margin-top: 95px;
 }
 
 blockquote {
@@ -311,32 +311,44 @@ footer {
   &__c {
     display: inline-grid;
     grid-template-columns: 1fr 1fr 1fr;
-    &__col--left {
-      &__socials {
-        display: flex;
-        &__icon {
-          height: 24px;
-          width: 24px;
-          margin-right: .5em;
-          background: #0064b5;
-          transition: ease 1s;
-          &:hover {
-            background: #2cbe4e;
+    width: 100%;
+    max-width: 1200px;
+    &__col {
+      &--left {
+        &__socials {
+          display: flex;
+          &__icon {
+            height: 24px;
+            width: 24px;
+            margin-right: .5em;
+            background: #0064b5;
             transition: ease 1s;
-          }
-          @at-root &#{&}__github {
-            -webkit-mask: url(/assets/images/github-brands.svg) center / contain no-repeat;
-          }
-          @at-root &#{&}__mail {
-            -webkit-mask: url(/assets/images/envelope-solid.svg) center / contain no-repeat;
-          }
-          @at-root &#{&}__twitter {
-            -webkit-mask: url(/assets/images/twitter-brands.svg) center / contain no-repeat;
-          }
-          @at-root &#{&}__discord {
-            -webkit-mask: url(/assets/images/discord-brands.svg) center / contain no-repeat;
+            &:hover {
+              background: #2cbe4e;
+              transition: ease 1s;
+            }
+            @at-root &#{&}__github {
+              -webkit-mask: url(/assets/images/github-brands.svg) center / contain no-repeat;
+            }
+            @at-root &#{&}__mail {
+              -webkit-mask: url(/assets/images/envelope-solid.svg) center / contain no-repeat;
+            }
+            @at-root &#{&}__twitter {
+              -webkit-mask: url(/assets/images/twitter-brands.svg) center / contain no-repeat;
+            }
+            @at-root &#{&}__discord {
+              -webkit-mask: url(/assets/images/discord-brands.svg) center / contain no-repeat;
+            }
           }
         }
+      }
+      &--center {
+        display: flex;
+        justify-content: center;
+      }
+      &--right {
+        display: flex;
+        justify-content: flex-end;
       }
     }
   }
@@ -372,7 +384,6 @@ footer {
 
   div.wrapper {
     width:auto;
-    margin:0;
   }
 
   header, section, footer {
@@ -444,6 +455,7 @@ footer {
           padding: 0 .3em;
           max-height: 0;
           overflow: hidden;
+          height: 25em;
           &--toggle {
             animation: toggle ease .7s forwards;
           }
@@ -499,6 +511,15 @@ footer {
           &__socials {
             display: grid;
             grid-template-columns: 34px 34px;
+          }
+        }
+        &--center {
+          align-items: center;
+        }
+        &--right {
+          flex-direction: column;
+          span {
+            display: none;
           }
         }
       }
