@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 @import "rouge-github";
 
 body {
   background-color: #fff;
-  padding:50px;
+  padding:0;
+  margin: 0;
   font: 14px/1.5 "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -63,6 +65,11 @@ a:hover small {
 .wrapper {
   /*width:860px;*/
   margin:0 auto;
+  padding: 50px;
+}
+
+.content {
+  margin-top: 95px;
 }
 
 blockquote {
@@ -198,7 +205,7 @@ hr {
 }
 
 footer {
-  padding-left: 320px;
+  //padding-left: 320px;
   float:left;
   bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
@@ -237,11 +244,146 @@ footer {
     list-style-type: none;
 }
 
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #222;
+  position: fixed;
+  width: 100vw;
+  z-index: 999;
+  top: 0;
+  &__c {
+    display: flex;
+    max-width: 100%;
+    padding: .5em 1.5em;
+    align-items: center;
+    &__header {
+      &__logo {
+        height: 60px;
+      }
+      &__toggler {
+        border:none;
+        background: none;
+        position: absolute;
+          padding: 9px 10px;
+          border: 0.5px solid #333;
+          border-radius: 4px;
+          right: 35px;
+          top: 35px;
+        &:active {
+          border:none;
+        }
+      }
+    }
+    &__links {
+      &__ul {
+        display: flex;
+        align-items: baseline;
+        margin: 0;
+        height: 2em;
+        &__li {
+          list-style: none;
+          padding: 0 15px;
+          &__a {
+            &__div {
+              font-family: "Montserrat", sans-serif;
+              font-weight: 700;
+              color: #888;
+              font-size: 1.1em;
+              &--active {
+                padding-bottom: 6px;
+                border-bottom: 4px solid #2cbe4e;
+                color: #2cbe4e;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  &__c {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    max-width: 1200px;
+    &__col {
+      &--left {
+        &__socials {
+          display: flex;
+          &__icon {
+            height: 24px;
+            width: 24px;
+            margin-right: .5em;
+            background: #0064b5;
+            transition: ease 1s;
+            &:hover {
+              background: #2cbe4e;
+              transition: ease 1s;
+            }
+            @at-root &#{&}__github {
+              -webkit-mask: url(/assets/images/github-brands.svg) center / contain no-repeat;
+            }
+            @at-root &#{&}__mail {
+              -webkit-mask: url(/assets/images/envelope-solid.svg) center / contain no-repeat;
+            }
+            @at-root &#{&}__twitter {
+              -webkit-mask: url(/assets/images/twitter-brands.svg) center / contain no-repeat;
+            }
+            @at-root &#{&}__discord {
+              -webkit-mask: url(/assets/images/discord-brands.svg) center / contain no-repeat;
+            }
+          }
+        }
+      }
+      &--center {
+        display: flex;
+        justify-content: center;
+      }
+      &--right {
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+  }
+}
+
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+    max-width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+    max-width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+    max-width: 1170px;
+  }
+}
+
+.mbl {
+  display: none;
+}
+
 @media print, screen and (max-width: 960px) {
 
   div.wrapper {
     width:auto;
-    margin:0;
   }
 
   header, section, footer {
@@ -254,8 +396,8 @@ footer {
     padding-right:320px;
   }
 
-  section, footer {
-    border:1px solid #e5e5e5;
+  section {
+    border-bottom:1px solid #e5e5e5;
     border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
@@ -269,6 +411,119 @@ footer {
     position:absolute;
     right:50px;
     top:52px;
+  }
+
+  .mbl {
+    display: initial;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border-color: #222;
+    
+    &__c {
+      align-items: initial;
+      flex-direction: column;
+      padding-bottom: 0;
+      &__header {
+        padding: 1em 0;
+        &__logo {
+          max-width: 75%;
+        }
+        &__toggler {
+          &__ibar {
+            display: block;
+            width: 22px;
+            height: 2px;
+            border-radius: 1px;
+            background-color: #fff;
+            @at-root & + #{&}{
+              margin-top:4px;
+            }
+          }
+          &:hover {
+            background-color: #333;
+          }
+        }
+      }
+      &__links {
+        &__ul {
+          flex-direction: column;
+          align-items: start;
+          padding: 0 .3em;
+          max-height: 0;
+          overflow: hidden;
+          height: 25em;
+          &--toggle {
+            animation: toggle ease .7s forwards;
+          }
+          &--untoggle {
+            animation: untoggle ease .7s forwards;
+          }
+          @keyframes toggle {
+            0% {max-height: 0;}
+            100% {max-height: 300px;}
+          }
+          @keyframes untoggle {
+            0% {max-height: 300px;}
+            100% {max-height: 0;}
+          }
+          &:before {
+            content: "";
+            width:100%;
+            position:absolute;
+            left:0;
+            border-top: 1px solid #444;
+          }
+          &__li {
+            padding: 0;
+            margin: 1em 0;
+            width: 100%;
+            &--active {
+              padding-bottom: 6px;
+              border-bottom: 4px solid #2cbe4e;
+            }
+            &__a {
+              &__div {
+                &--active {
+                  padding-bottom: 0;
+                  border-bottom: none;
+                  color: #2cbe4e;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .footer {
+    margin-bottom: 1em;
+    &__c {
+      display: inline-grid;
+      text-align: center;
+      &__col {
+        &--left {
+          display: flex;
+          justify-content: center;
+          &__socials {
+            display: grid;
+            grid-template-columns: 34px 34px;
+          }
+        }
+        &--center {
+          align-items: center;
+        }
+        &--right {
+          flex-direction: column;
+          span {
+            display: none;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -293,7 +548,11 @@ footer {
 
 @media print, screen and (max-width: 480px) {
   body {
-    padding:15px;
+    padding:0;
+  }
+
+  .content {
+    padding: 15px;
   }
 
   header .downloads {

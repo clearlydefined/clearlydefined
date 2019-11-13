@@ -10,9 +10,9 @@ use_github_wiki: false
 use_prose_io: true
 use_toc: false
 google_cse_token: 
-custom_head: false
+custom_head: true
 custom_sidebar: true
-custom_footer: false
+custom_footer: true
 plugins:
   - jekyll-sitemap
   - jekyll-mentions
