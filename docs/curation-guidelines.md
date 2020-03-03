@@ -67,7 +67,7 @@ To evaluate the discovered licenses for a package component, use the following s
 
 ### Canonical locations for the declared license for source definitions 
 When curating the declared license for a source code repository, look in the canonical locations listed below.  
-1.	**License file.**  Look to see if a license file (e.g. LICENSE, COPYING) is included in the specific commit or version you are curating.  Sometimes the license is found on the README.  There may be more than one declared license.  If there is not any license information at the specific commit or version level, check the master branch.
+1.	**Source repository.**  Look to see if a license file (e.g. LICENSE, COPYING) is included in the specific commit or version you are curating.  Sometimes the license is found on the README.  There may be more than one declared license.  If there is not any license information at the specific commit or version level, check the master branch.
 2.	**File Headers.**  If there is not a declared license anywhere in the repository, look to see if there is any license information in the source code file header comments.  Look at multiple files to determine if they are under different licenses.  You can also try using a search function to find any mention of ‘license,’ for example.
 
 ### Canonical locations for the declared license for package definitions
@@ -76,7 +76,7 @@ When curating the declared license for a package, look in all the canonical loca
 If the canonical locations do not match (e.g., the license file states Apache-2.0 and the metadata states MIT), contact the author/publisher.  If you do not receive a response after 7 days, prioritize curating the declared license in the order listed below.
 1.	**Package files.**  Look to see if a license file (e.g. LICENSE, COPYING) is included in the package file contents. Sometimes there is license information on a README.
 2.  **Package metadata.**  Look to see if the target component metadata includes any license info, such as a license identifier or license file URL. 
-3.	**Source repository.**  Look for version in source repository corresponding to target component version.  Look for a license file (e.g. LICENSE, COPYING) or package manifest file (e.g. package.json, setup.py).  Also check the repository's README for license information.
+3.	**Source repository.**  Follow the canonical locations for soure definitions, above.  Also look for package manifest files (e.g. package.json, setup.py). 
 
 ## Troubleshooting
 We always prefer a reference to a version control system, but if you’re unable to find that, other public references are okay.
