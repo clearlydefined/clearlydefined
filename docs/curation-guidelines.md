@@ -32,7 +32,7 @@ In other words, the declared license is what normal developers would understand 
 ### Source component declared license
 To evaluate the declared license info for a source component, use the following steps:
 
-1. Determine the canonical names and locations for the declared licenses in the ecosystem at hand. These names and locations are listed in the source canonical locations section below [LINK]. 
+1. Determine the canonical names and locations for the declared licenses in the ecosystem at hand. These names and locations are listed in the source canonical locations section below. 
 2. Look to see whether there is license information in the relevant canonical locations for that ecosystem.
 3. If there is, evaluate that canonical license information against the current declared license definition in ClearlyDefined.
 
@@ -51,7 +51,7 @@ Although a package component can have a different license than the underlying so
 ### Package components declared license
 To evaluate the declared license info for a package component, use the following steps:
 
-1. Determine the canonical names and locations for the declared licenses in the ecosystem at hand. These names and locations for common ecosystems are listed in **Appendix A** [LINK].
+1. Determine the canonical names and locations for the declared licenses in the ecosystem at hand. These names and locations for common ecosystems are listed in **Appendix A**.
 2. Look to see whether there is license information in the relevant canonical locations for that ecosystem.
 3. If there is, evaluate that canonical license information against the current declared license definition in ClearlyDefined.
 
@@ -68,16 +68,15 @@ To evaluate the discovered licenses for a package component, use the following s
 ### Canonical locations for the declared license for source definitions 
 When curating the declared license for a source code repository, look in the canonical locations listed below.  
 1.	**License file.**  Look to see if a license file (e.g. LICENSE, COPYING) is included in the specific commit or version you are curating.  Sometimes the license is found on the README.  There may be more than one declared license.  If there is not any license information at the specific commit or version level, check the master branch.
-2.	**File Headers.**  If there is not a declared license anywhere in the repository, look to see if there is any license information in the file headers.  Look at multiple files to determine if they are under different licenses.  You can also try using a search function to find any mention of ‘license,’ for example.
+2.	**File Headers.**  If there is not a declared license anywhere in the repository, look to see if there is any license information in the source code file header comments.  Look at multiple files to determine if they are under different licenses.  You can also try using a search function to find any mention of ‘license,’ for example.
 
 ### Canonical locations for the declared license for package definitions
 When curating the declared license for a package, look in all the canonical locations listed below (1-3).  **Appendix A** has canonical locations for common package ecosystems.  
 
 If the canonical locations do not match (e.g., the license file states Apache-2.0 and the metadata states MIT), contact the author/publisher.  If you do not receive a response after 7 days, prioritize curating the declared license in the order listed below.
-1.	**License file.**  Look to see if a license file (e.g. LICENSE, COPYING) is included in the package file contents.  Sometimes the license is found on the README.
-2.	**Package metadata.**  Look to see if the target component metadata includes any license info, such as a license identifier or license file URL. 
-3.	**Source repository.**  Look in the associated source repository.
-    * Look for version in source repository corresponding to target component version and use license information available there in any source canonical locations [LINK].
+1.	**Package files.**  Look to see if a license file (e.g. LICENSE, COPYING) is included in the package file contents. Sometimes there is license information on a README.
+2.  **Package metadata.**  Look to see if the target component metadata includes any license info, such as a license identifier or license file URL. 
+3.	**Source repository.**  Look for version in source repository corresponding to target component version.  Look for a license file (e.g. LICENSE, COPYING) or package manifest file (e.g. package.json, setup.py).  Also check the repository's README for license information.
 
 ## Troubleshooting
 We always prefer a reference to a version control system, but if you’re unable to find that, other public references are okay.
@@ -110,31 +109,32 @@ We always prefer a reference to a version control system, but if you’re unable
 [TODO]
 
 # Appendix A - Package ecosystems
+When evaluating license information, always look in the version specific canonical location that corresponds to the version of the target component package. 
 
 ## Maven
 |  | Canonical Location |  
 | --- | --- |
-| **License file**| Look in the -sources.jar.  The “Source” field on the definition will link to the -sources.jar. |
-| **Package metadata**|  Look on the .pom file (on central.maven.org/) for `</licenses>`.  Do not rely on https://mvnrepository.com/.  To navigate to central.maven.org/, click on the package version number on the definition.|
-| **Source repository**| Look on the .pom file (on central.maven.org/) for `</url>`.|
+| **Package files**| Look in the -sources.jar. |
+| **Package metadata**|  Look on the .pom file.|
+| **Source repository**| Look on the .pom file for a URL to the source repository.|
 
 ## NPM
 |  | Canonical Location |  
 | --- | --- |
-|**License file**|  Look in the ClearlyDefined definition for the package files.| 
-|**Package metadata**|  Look on http://registry.npmjs.com/.  Do not rely on the license information on npmjs.com, because it is not version specific.  To find the registry, use this format: `http://registry.npmjs.com/[package name]/[version number]`.  Alternatively, you can look in the ClearyDefined definition for the package.json file and look for "license."|
-|**Source repository**|  The “Source” field on the definition may link to a GitHub commit.  Alternatively, you can look on the registry or in the package.json file for "url."  The package on https://www.npmjs.com may also link to the repository.|
+|**Package files**|  Look in the "Files" section on the ClearlyDefined definition.| 
+|**Package metadata**|  Look on the package.json in the "Files" section on the ClearlyDefined definition.  Alternatively, you can look on http://registry.npmjs.com/ (use this format: `http://registry.npmjs.com/[package name]/[version number]`).  Note:  the license information on npmjs.com displays the most current package license for all versions.  Unless you are evaluating the license for the most current package, you will want to use a version specific canonical location. |
+|**Source repository**|  The “Source” field on the ClearlyDefined definition may link to a GitHub commit.  Alternatively, you can look on the registry or the package.json file for a URL to the source repository.  The package on https://www.npmjs.com may also provide a link to the repository.|
 
 ## NuGet
 |  | Canonical Location |  
 | --- | --- |
-|**License file**|  Look in the ClearlyDefined definition for the package files.|
+|**Package files**|  Look in the "Files" section on the ClearlyDefined definition.|
 |**Package metadata**|  Look on https://www.nuget.org/.|  
-|**Source repository**| The “Source” field on the definition may link to a GitHub commit.  The package on https://www.nuget.org may also link to the repository (though it will not be commit specific).|
+|**Source repository**| The “Source” field on the ClearlyDefined definition may link to a GitHub commit.  The package on https://www.nuget.org may also provide a link to the source repository.|
 
 ## PyPi
 |  | Canonical Location |  
 | --- | --- |
-|**License file**|  Look in the ClearlyDefined definition for the package files. You can also click on “Download files” on https://pypi.org.|
-|**Package metadata**|  Look on https://pypi.org.  Do not rely on the Statistics links.  Alternatively, you can look at the setup.py file in the definition.| 
-|**Source repository**| The “Source” field on the definition may link to a GitHub commit.  You can also click on “Homepage” under “Project links’ on https://pypi.org/ (though it will not be commit specific).|
+|**Package files**|  Look in the "Files" section on the ClearlyDefined definition. You can also click on “Download files” on https://pypi.org.|
+|**Package metadata**|  Look on https://pypi.org.  Do not rely on the Statistics links.  You can also look at the setup.py file in the "Files" section on the ClearlyDefined definition.| 
+|**Source repository**| The “Source” field on the ClearlyDefined definition may link to a GitHub commit.  You can also click on “Homepage” under “Project links" on https://pypi.org/.|
