@@ -76,7 +76,7 @@ When curating the declared license for a package, look in all the canonical loca
 If the canonical locations do not match (e.g., the license file states Apache-2.0 and the metadata states MIT), contact the author/publisher.  If you do not receive a response after 7 days, prioritize curating the declared license in the order listed below.
 1.	**Package files.**  Look to see if a license file (e.g. LICENSE, COPYING) is included in the package file contents. Sometimes there is license information on a README.
 2.  **Package metadata.**  Look to see if the target component metadata includes any license info, such as a license identifier or license file URL. 
-3.	**Source repository.**  Follow the canonical locations for soure definitions, above.  Also look for package manifest files (e.g. package.json, setup.py). 
+3.	**Source repository.**  Follow the canonical locations for source definitions, above.  Also look for package manifest files (e.g. package.json, setup.py). 
 
 ## Troubleshooting
 We always prefer a reference to a version control system, but if you’re unable to find that, other public references are okay.
