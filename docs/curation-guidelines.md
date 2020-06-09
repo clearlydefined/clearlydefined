@@ -20,6 +20,10 @@ There are five possible license property values on a definition element:
 ## The Difference between "Source components" and "Package components"
 The process below differs for components depending on whether they are "source" or "package" components. A "source" package is the component in the preferred form of editing or building, like a Git repository.  A "package" component is a component in its functional form that is intended to be used without further editing or building, like would be installed by a package manager.
 
+For some package types such as Maven and Debian, both the “package” and “source” components are created simultaneously under their own respective ClearlyDefined definitions and linked together. 
+
+Both may contain equally valuable information and should be reviewed and curated together. For Maven, the definition containing the source has the type “sourcearchive”, while Debian has “debsrc”.
+
 ## The Difference between Declared and Discovered licenses
 The ClearlyDefined definition for a component has two types of license information: declared and discovered.
 
