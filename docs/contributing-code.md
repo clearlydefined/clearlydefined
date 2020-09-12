@@ -13,16 +13,16 @@ get setup with just that repo's functionality. To get the entire system setup lo
 end up with the website, service, and crawler running locally, serving up some sample harvested and curated data.
 
 1.  Clone these repos side by side:
-    - https://github.com/clearlydefined/website.git
-    - https://github.com/clearlydefined/service.git
-    - https://github.com/clearlydefined/crawler.git
-    - https://github.com/clearlydefined/harvested-data.git
+    - [Website](https://github.com/clearlydefined/website.git)
+    - [Service](https://github.com/clearlydefined/service.git)
+    - [Crawler](https://github.com/clearlydefined/crawler.git)
+    - [Harvested-data](https://github.com/clearlydefined/harvested-data.git)
       -- This is a **sample** set of data that changes over time and typically has data for the top 20 or so packages
       from supported different communities. The real data is stored in blob storage, document databases, and accessed via REST APIs.
-    - https://github.com/clearlydefined/sample-curated-data
+    - [Sample-curated-data](https://github.com/clearlydefined/sample-curated-data)
       -- This is a **sample** set of curations. It may change over time and typically has just a small number of
       curations intended to illustrate and test the workings of the system. The real curations are stored in the
-      https://github.com/clearlydefined/curated-data repo.
+      [curated-data](https://github.com/clearlydefined/curated-data) repo.
 1.  (Optional) Install [ScanCode](https://github.com/nexB/scancode-toolkit) by following the instructions provided [on their
     site](https://github.com/nexB/scancode-toolkit#quick-start). This is only needed if you plan on queuing components locally for scanning
 1.  Copy the `full.env.json` from the (service) repo up one directory level and name it `env.json`
