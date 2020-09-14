@@ -21,8 +21,8 @@ reach out to the community on one of these mediums:
 
 The absolutely simplest thing you can do to get involved is to use the data in ClearlyDefined.
 The set of data available is growing by the minute so if something is missing today, it
-might be there tomorrow. If a whole class or community of components is messing, perhaps you'd
-like to pitch and [contribute some code](#contribute-code) to support your domain. Either way,
+might be there tomorrow. If a whole class or community of components is missing, perhaps you'd
+like to pitch in and [contribute some code](#contribute-code) to support your domain. Either way,
 the [data user's guide](using-data) has information on how to get and understand the data in
 ClearlyDefined. Check out the [mock job posting for data consumers](roles/data-consumer).
 
@@ -49,7 +49,7 @@ for data contributors](roles/data-contributor).
 The ClearlyDefined tools are not perfect and not all projects have the data folks need. Thankfully
 there are people out there [contributing data](#contribute-data). Like any open source project
 these contributions need to be vetted, discussed and merged. That's what _curators_ do.
-If you understand free and open source software licensing and have a pension for 'getting it
+If you understand free and open source software licensing and have a penchant for 'getting it
 right', you are a perfect candidate to be a curator. The [data curation guide](data-curation)
 has more information on the role, the processes and the tools for curating data. Check out the
 [mock job posting for data curators](roles/data-curator).
@@ -57,9 +57,9 @@ has more information on the role, the processes and the tools for curating data.
 ## Contribute code
 
 ClearlyDefined is all about the data but there is a non-trivial service and website that makes
-it all happen. Whether you are a backend cloud kinda dev, a front-end UI hacker, UX designer,
+it all happen. Whether you are a backend cloud dev, a front-end UI hacker, UX designer,
 or graphic artist, there are many opportunities to make an impact. The current system is done
-with Node and React and is just an example of where we're headed. Imagine a system that harness
+with Node and React and is just an example of where we're headed. Imagine a system that harnesses
 100s (1000s) of cores to scan the world's open source and then analyze and present it to the
 entire community while enabling simple contribution and curation workflows and change upstreaming
 to communities from Debian to Node. Yeah, there's lots to do. Check out the [code contribution
@@ -70,7 +70,7 @@ guide](contributing-code) and what appeals to you. Also take a look at the
 
 Many organizations already have a stash of curated data relating to the components they produce or
 use. That's awesome. You can contribute that to ClearlyDefined and help kickstart the community
-in an area you care about. Even if 'all' you've done is figured out the source location/commit
+in an area you care about. Even if 'all' you've done is figure out the source location/commit
 that matches a given component version, that's a huge start. Or perhaps you've nailed down the
 contributor list or clarified some licenses. It's all good. Take a look at the [data donation
 guide](data-donation) for information on donating data you already have. You should also look at
