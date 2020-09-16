@@ -49,6 +49,6 @@ You can find the community at:
 * GitHub -- [github.com/clearlydefined](https://github.com/clearlydefined)
 * Discord -- [discord.gg/wEzHJku](https://discord.gg/wEzHJku)
 * Twitter -- [twitter.com/clearlydefd](https://twitter.com/clearlydefd)
-* Email -- [clearlydefined@googlegroups.com](mailto:clearlydefined@googlegroups.com)
+* Email -- [clearlydefined@googlegroups.com](mailto:clearlydefined@googlegroups.com) or join our [mailing list](https://groups.google.com/g/clearlydefined)
 
 Everyone would love to hear how you want to get involved in ClearlyDefined!
