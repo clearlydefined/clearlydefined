@@ -25,11 +25,12 @@ end up with the website, service, and crawler running locally, serving up some s
       [curated-data](https://github.com/clearlydefined/curated-data) repo.
 1.  (Optional) Install [ScanCode](https://github.com/nexB/scancode-toolkit) by following the instructions provided [on their
     site](https://github.com/nexB/scancode-toolkit#quick-start). This is only needed if you plan on queuing components locally for scanning
-1.  Copy the `full.env.json` from the (service) repo up one directory level and name it `env.json`
+1.  Copy the `minimal.env.json` from the (service) repo up one directory level and name it `env.json`
 1.  Edit the new `env.json` file as follows:
-    - Add a GitHub token to `CURATION_GITHUB_TOKEN` and `CRAWLER_GITHUB_TOKEN`. This enables you to login to the
-      local website or call the service APIs. You can use the same token for both settings. The tokens need only
-      minimal permissions and are used to call GitHub APIs to manage pull requests and get repo tags etc.
+    - Add a GitHub token to `CURATION_GITHUB_TOKEN`.
+      The token needs only minimal permissions and is used to call GitHub APIs to manage pull requests and get repo tags etc.
+    - Add a new entry to the config file, `CRAWLER_GITHUB_TOKEN`, and set it to the same GitHub token (or, if you prefer, you can also use a different token with similar permissions).
+    - Add the location of your local copy of harvested-data to `FILE_STORE_LOCATION`
     - Set `SCANCODE_HOME` to be the location of your ScanCode install from above.
 1.  Install and start each of the repos in a separate shell as follows (VS Code users can start using F5):
     - In the `crawler` folder run `npm install && npm start`
