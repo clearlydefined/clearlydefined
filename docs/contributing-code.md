@@ -9,34 +9,9 @@ about the particulars of their code.
 # Quick and easy complete local configuration
 
 You can setup individual parts of the system to run locally. Each repo's README has instructions on how to
-get setup with just that repo's functionality. To get the entire system setup locally, follow these steps. You will
-end up with the website, service, and crawler running locally, serving up some sample harvested and curated data.
+get setup with just that repo's functionality. 
 
-1.  Clone these repos side by side:
-    - [Website](https://github.com/clearlydefined/website.git)
-    - [Service](https://github.com/clearlydefined/service.git)
-    - [Crawler](https://github.com/clearlydefined/crawler.git)
-    - [Harvested-data](https://github.com/clearlydefined/harvested-data.git)
-      -- This is a **sample** set of data that changes over time and typically has data for the top 20 or so packages
-      from supported different communities. The real data is stored in blob storage, document databases, and accessed via REST APIs.
-    - [Sample-curated-data](https://github.com/clearlydefined/sample-curated-data)
-      -- This is a **sample** set of curations. It may change over time and typically has just a small number of
-      curations intended to illustrate and test the workings of the system. The real curations are stored in the
-      [curated-data](https://github.com/clearlydefined/curated-data) repo.
-1.  (Optional) Install [ScanCode](https://github.com/nexB/scancode-toolkit) by following the instructions provided [on their
-    site](https://github.com/nexB/scancode-toolkit#quick-start). This is only needed if you plan on queuing components locally for scanning
-1.  Copy the `minimal.env.json` from the (service) repo up one directory level and name it `env.json`
-1.  Edit the new `env.json` file as follows:
-    - Add a GitHub token to `CURATION_GITHUB_TOKEN`.
-      The token needs only minimal permissions and is used to call GitHub APIs to manage pull requests and get repo tags etc.
-    - Add a new entry to the config file, `CRAWLER_GITHUB_TOKEN`, and set it to the same GitHub token (or, if you prefer, you can also use a different token with similar permissions).
-    - Add the location of your local copy of harvested-data to `FILE_STORE_LOCATION`
-    - Set `SCANCODE_HOME` to be the location of your ScanCode install from above.
-1.  Install and start each of the repos in a separate shell as follows (VS Code users can start using F5):
-    - In the `crawler` folder run `npm install && npm start`
-    - In the `service` folder run `npm install && npm start`
-    - In the `website` folder run `npm install && npm run start:local-api` (see the [website README](https://github.com/clearlydefined/website) for information on connecting
-      the website to the dev and production services running in the cloud)
+To get the entire system setup locally, check out the [Dockerized ClearlyDefined environment setup](https://github.com/clearlydefined/docker_dev_env_experiment).
 
 After following these steps, you should see the ClearlyDefined website in your browser at `http://localhost:3000`
 and be able to browse the data, see curations, etc. If you login (top right corner), more functionality will light up.
