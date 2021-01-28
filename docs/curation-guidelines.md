@@ -96,6 +96,7 @@ We always prefer a reference to a version control system, but if you’re unable
     * Use an SPDX expression to indicate multiple licenses, using AND, OR, or WITH (see https://spdx.org/licenses/).
 1. Curate the declared license as `NONE` when the component verifiably and intentionally has no license.
 1. Curate the declared license as `OTHER` when the license is a proprietary license, such as an End-User-License-Agreement. 
+1. Target component includes a license file and a seperate PATENTS file that grants additional patent rights.  Curate the declared field with the license and add "AND `OTHER`". 
 1. Target component license information is limited to a non-SPDX license identifier that may not be version specific:
     * If the only license information is “BSD,” code the license as “BSD-3-Clause.”  Note - https://opensource.org/licenses/bsd-license.php is not a license version specific link. 
     * For L/GPL licensed packages, look in the ReadMe, package manifest, and source code files to determine if it is “GPL-#-only” or “GPL-#-or-later.” (Do not use the deprecated SPDX license identifiers – e.g. GPL-2.0+).
