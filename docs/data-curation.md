@@ -52,6 +52,11 @@ The curation process itself is meant to enforce and the curation principles abov
 6. If the curators come to agreement, the proposed curation is merged. If the curators can’t come to agreement, the PR can stay open but can’t be merged. Proposed curations open for 60 days with no activity will be closed. Curations that are merged overlay the existing harvest data in ClearlyDefined and produces that new data to its users immediately after merge. 
 7. Merged curations are upstreamed to the appropriate project(s) in a way that is respectful to the community’s way of working. ClearlyDefined’s ultimate goal is to help the FOSS community as a whole be more clearly defined. Submitting curations back upstream for future versions furthers this goal. 
 
+## Guidelines
+
+For more information about curation, please check out our [curation guidelines](https://docs.clearlydefined.io/curation-guidelines).
+
+
 If you have been curating data in private and want to start doing that in the open with the ClearlyDefined
 community, we want to talk to you. Get in touch on [Discord](https://discord.gg/wEzHJku) or
 [the mailing list](mailto:clearlydefined@googlegroups.com).
