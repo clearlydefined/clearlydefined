@@ -53,9 +53,7 @@ The curation process itself is meant to enforce and the curation principles abov
 7. Merged curations are upstreamed to the appropriate project(s) in a way that is respectful to the community’s way of working. ClearlyDefined’s ultimate goal is to help the FOSS community as a whole be more clearly defined. Submitting curations back upstream for future versions furthers this goal. 
 
 ## Guidelines
-
 For more information about curation, please check out our [curation guidelines](https://docs.clearlydefined.io/curation-guidelines).
-
 
 If you have been curating data in private and want to start doing that in the open with the ClearlyDefined
 community, we want to talk to you. Get in touch on [Discord](https://discord.gg/wEzHJku) or
