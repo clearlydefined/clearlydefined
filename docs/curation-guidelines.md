@@ -116,6 +116,7 @@ We always prefer a reference to a version control system, but if you’re unable
 When evaluating license information, always look in the version specific canonical location that corresponds to the version of the target component package. 
 
 ## Maven
+
 |  | Canonical Location |  
 | --- | --- |
 | **Package files**| Look in the -sources.jar. |
@@ -123,6 +124,7 @@ When evaluating license information, always look in the version specific canonic
 | **Source repository**| Look on the .pom file for a URL to the source repository.|
 
 ## NPM
+
 |  | Canonical Location |  
 | --- | --- |
 |**Package files**|  Look in the "Files" section on the ClearlyDefined definition.| 
@@ -130,6 +132,7 @@ When evaluating license information, always look in the version specific canonic
 |**Source repository**|  The “Source” field on the ClearlyDefined definition may link to a GitHub commit.  Alternatively, you can look on the registry or the package.json file for a URL to the source repository.  The package on https://www.npmjs.com may also provide a link to the repository.|
 
 ## NuGet
+
 |  | Canonical Location |  
 | --- | --- |
 |**Package files**|  Look in the "Files" section on the ClearlyDefined definition.|
@@ -137,6 +140,7 @@ When evaluating license information, always look in the version specific canonic
 |**Source repository**| The “Source” field on the ClearlyDefined definition may link to a GitHub commit.  The package on https://www.nuget.org may also provide a link to the source repository.|
 
 ## PyPi
+
 |  | Canonical Location |  
 | --- | --- |
 |**Package files**|  Look in the "Files" section on the ClearlyDefined definition. You can also click on “Download files” on https://pypi.org.|
