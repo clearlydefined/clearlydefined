@@ -6,6 +6,13 @@ You can get a sense of the system from the [architecture guide](code/architectur
 of the major pieces and how they fit together. The various repos may also have more specific information
 about the particulars of their code.
 
+## Major ClearlyDefined Repositories
+
+* [website](https://github.com/clearlydefined/website)
+* [service](https://github.com/clearlydefined/service)
+* [crawler](https://github.com/clearlydefined/crawler)
+* [curated-data](https://github.com/clearlydefined/curated-data)
+
 # Quick and easy complete local configuration
 
 You can setup individual parts of the system to run locally. Each repo's README has instructions on how to
