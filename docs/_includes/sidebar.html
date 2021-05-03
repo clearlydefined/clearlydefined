@@ -33,6 +33,9 @@
       <a href="{{ '/contributing-code' | relative_url }}">Contribute code</a>
     </li>
     <li>
+      <a href="{{ '/adding-sources' | relative_url }}">Adding a Harvest Source</a>
+    </li>
+    <li>
       <a href="{{ '/adopting' | relative_url }}">Adopt ClearlyDefined</a>
     </li>
   </ul>
@@ -49,43 +52,55 @@
 
 </div>
 
-      <div id="tools-buttons" style="width: 100%; text-align: left">
-        {% if site.google_cse_token %}
-          <script>
-          (function() {
-            var cx = "{{site.google_cse_token}}";
-            var gcse = document.createElement('script');
-            gcse.type = 'text/javascript';
-            gcse.async = true;
-            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(gcse, s);
-          })();
-          </script>
-          <gcse:search></gcse:search>
-        {% else %}
-          <form method="GET" action="{{ site.github.repository_url }}/search">
-            {% if site.use_github_wiki %}
-              <input type="hidden" name="type" value="Wikis">
-            {% endif %}
-            <input class="search-text" type="text" name="q" placeholder="Text to find"><input class="search-button" type="submit" value="Search">
-          </form>
-        {% endif %}
+<div id="tools-buttons" style="width: 100%; text-align: left">
+  {% if site.google_cse_token %}
+  <script>
+    (function () {
+      var cx = "{{site.google_cse_token}}";
+      var gcse = document.createElement('script');
+      gcse.type = 'text/javascript';
+      gcse.async = true;
+      gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(gcse, s);
+    })();
+  </script>
+  <gcse:search></gcse:search>
+  {% else %}
+  <form method="GET" action="{{ site.github.repository_url }}/search">
+    {% if site.use_github_wiki %}
+    <input type="hidden" name="type" value="Wikis">
+    {% endif %}
+    <input class="search-text" type="text" name="q" placeholder="Text to find"><input class="search-button"
+      type="submit" value="Search">
+  </form>
+  {% endif %}
 
-        {{page.relative_path}}
-        {% if site.use_github_wiki %}
-          <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/{{page.folder}}{{url | remove: '.html' | append: ''}}/_edit">Edit</a></span>
-          <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/{{page.folder}}{{url | remove: '.html' | append: ''}}/_history">History</a></span>
-          <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/{{page.folder}}{{url | remove: '.html' | append: '.md'}}/">Source</a></span>
-        {% else %}
-          <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/edit/{{site.git_branch}}{{page.folder}}{{url | remove: '.html' | append: '.md'}}">Edit Page</a></span><br/>
-          {% if site.use_prose_io %}
-          <span class="tools-element"><a target="_blank" href="http://prose.io/#{{site.github.repository_nwo}}/edit/{{site.git_branch}}{{page.folder}}{{url | remove: '.html' | append: '.md'}}">Edit Page with Prose.io</a></span><br/>
-          {% endif %}
-          <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/commits/{{site.git_branch}}{{page.folder}}{{url | remove: '.html' | append: '.md'}}">Page History</a></span><br/>
-          <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/blob/{{site.git_branch}}{{page.folder}}{{url | remove: '.html' | append: '.md'}}">Page Source</a></span><br/>
-        {% endif %}
-      </div>
+  {{page.relative_path}}
+  {% if site.use_github_wiki %}
+  <span class="tools-element"><a target="_blank"
+      href="{{ site.github.repository_url }}/{{page.folder}}{{url | remove: '.html' | append: ''}}/_edit">Edit</a></span>
+  <span class="tools-element"><a target="_blank"
+      href="{{ site.github.repository_url }}/{{page.folder}}{{url | remove: '.html' | append: ''}}/_history">History</a></span>
+  <span class="tools-element"><a target="_blank"
+      href="{{ site.github.repository_url }}/{{page.folder}}{{url | remove: '.html' | append: '.md'}}/">Source</a></span>
+  {% else %}
+  <span class="tools-element"><a target="_blank"
+      href="{{ site.github.repository_url }}/edit/{{site.git_branch}}{{page.folder}}{{url | remove: '.html' | append: '.md'}}">Edit
+      Page</a></span><br />
+  {% if site.use_prose_io %}
+  <span class="tools-element"><a target="_blank"
+      href="http://prose.io/#{{site.github.repository_nwo}}/edit/{{site.git_branch}}{{page.folder}}{{url | remove: '.html' | append: '.md'}}">Edit
+      Page with Prose.io</a></span><br />
+  {% endif %}
+  <span class="tools-element"><a target="_blank"
+      href="{{ site.github.repository_url }}/commits/{{site.git_branch}}{{page.folder}}{{url | remove: '.html' | append: '.md'}}">Page
+      History</a></span><br />
+  <span class="tools-element"><a target="_blank"
+      href="{{ site.github.repository_url }}/blob/{{site.git_branch}}{{page.folder}}{{url | remove: '.html' | append: '.md'}}">Page
+      Source</a></span><br />
+  {% endif %}
+</div>
 
 <div style="padding-top: 30px;">
   <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
