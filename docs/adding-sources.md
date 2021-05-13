@@ -63,7 +63,7 @@ If you would like to add a new Harvest source to ClearlyDefined, consider this c
 
 **Security** – how secure is the repository? Is there a team that is available to handle issues in a timely manner when they arise? How fast do they respond to issues, such as when a security vulnerability is planted as a backdoor in a package?
 
-**Automation** – does the repository support an API to support pulling of information? If not, is the package index organized in a schematized format that can programmatically queried using the package name and version and queried using HTTP(s). When using HTTP to mine data, ClearlyDefined should check for the existence of robots.txt or robot headers that indicate such mining is unacceptable. How much effort is it to automate the process
+**Automation** – does the repository support an API to support pulling of information? If not, is the package index organized in a schematized format that can programmatically queried using the package name and version and queried using HTTP(s). When using HTTP to mine data, ClearlyDefined should check for the existence of robots.txt or robot headers that indicate such mining is unacceptable. How much effort is it to automate the process?
 
 **Relationship** – reach out to the organization that maintains the repository to indicate that ClearlyDefined wishes to harvest data from their repository, with an explanation on how harvesting is done, what the data is used for and how much additional traffic this could result in. Identify/Resolve any concerns and provide a contact from ClearlyDefined in the event they need to support in case of an issue.
 
