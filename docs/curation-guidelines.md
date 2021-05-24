@@ -17,6 +17,8 @@ There are five possible license property values on a definition element:
 4. The string `OTHER`. This indicates that a human confirmed that there is license information in the file but that the license is not an SPDX-identified license.
 5. No value. This indicates that automated tooling did not find license-like data in the file.
 
+ClearlyDefined will follow the [SPDX Matching Guidelines](https://spdx.dev/license-list/matching-guidelines/).  If a license fails to meet the requirements of the [SPDX Matching Guidelines](https://spdx.dev/license-list/matching-guidelines/), the license will be curated as `OTHER`.
+
 ## The Difference between "Source components" and "Package components"
 The process below differs for components depending on whether they are "source" or "package" components. A "source" package is the component in the preferred form of editing or building, like a Git repository.  A "package" component is a component in its functional form that is intended to be used without further editing or building, like would be installed by a package manager.
 
