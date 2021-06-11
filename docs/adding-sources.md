@@ -18,7 +18,7 @@ We pull PyPi (Python) license information from https://pypi.org/
 
 ### Maven
 
-We pull Maven (Java) license information from multiple sources including:
+We pull Maven (Java) license information from multiple sources:
 
 * https://mvnrepository.com/repos/central
 * https://maven.google.com/
@@ -29,7 +29,10 @@ We pull Nuget (.NET) license information from https://www.nuget.org/
 
 ### Git
 
-We pull Git license information from https://github.com
+We pull Git license information from multiple sources:
+
+* https://github.com
+* https://gitlab.com
 
 ### Crate
 
