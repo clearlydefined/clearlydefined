@@ -86,12 +86,12 @@ If the canonical locations do not match (e.g., the license file states Apache-2.
 
 ## Troubleshooting
 We always prefer a reference to a version control system, but if you’re unable to find that, other public references are okay.
-1. Target component metadata gives a URL that points to a volatile location (e.g. a webpage or the master branch of a git repository).
+1. Target component package metadata gives a URL that points to a volatile location (e.g. a webpage or the master branch of a git repository).
     * Look for evidence of the license at the time the target component was published.
-1. Target component metadata points to a license file URL in source repository, but the link is broken.
+1. Target component package metadata points to a license URL in source repository, but the link is broken.
     * Ignore the link specifics and look for license information in other canonical locations in that source repository.
-1. Target component has no project/source location and does not have any license information. There exists a related version (newer or older) that does have license information.
-    * Use the related component’s license data, favoring for newer version if possible to discern
+1. Target component package metadata does not have a license URL or license information. There exists a related version (newer or older) of the package that does have license information.
+    * Use the related component’s license data, favoring for newer version if possible to discern.
 1. Target component has no project/source location and does not have any license information, but does declare a license in the copyright field (e.g., `<Copyright MIT>`)
     * Use the declared license in the copyright field
 1. Target component is using multiple licenses.
