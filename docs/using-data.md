@@ -56,6 +56,18 @@ Or, you could access it through the REST API like this:
 curl -X GET "https://api.clearlydefined.io/definitions/npm/npmjs/-/lodash/4.17.21" -H "accept: */*"
 ```
 
+**Special Notes**
+
+For git components, commit hashes, rather than version numbers, are used for revisions. 
+
+For example, these coordinates:
+
+```
+git/github/react-component/tree/7b90c11c4aa3458010cbc2031ff48ac4803030e4
+```
+
+Map to this [commit](https://github.com/react-component/tree/tree/7b90c11c4aa3458010cbc2031ff48ac4803030e4).
+
 ### Advanced
 
 As you get more comfortable with using ClearlyDefined's data, you might use these additional coordinate fields as well:
