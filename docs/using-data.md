@@ -2,41 +2,16 @@
 
 All of the ClearlyDefined data is available for everyone to see and use. You can browse and inspect in a [convenient web ui](#website) or hook up a client to the [REST API](https://api.clearlydefined.io/api-docs/) and integrate it into your systems.
 
-# Website
+## ClearlyDefined Coordinates
 
-## Browse Definitions
+In order to use ClearlyDefined's data (whether through the REST API or the Web UI), it's critical to understand how to find a component in the data. ClearlyDefined uses a system of **coordinates** to navigate to data about particular components.
 
-ClearlyDefined is all about making project data easily discoverable and available to people. On the **Definitions** tab you will see a search box. Click in there and start typing the name of a project. This will auto-suggest definitions that exist in ClearlyDefined. Pick one of the presented options and the related definition is added to the **Definitions** list. Note that if you are after a definition for a component not shown in the list, ClearlyDefined does not know about it yet.
-
-In the **Definition** list you see a high level summary of the related component -- its license, possible relationship to source in GitHub, a ClearlyDefined score, and more. If you click on an entry in the list, the entry expands to show more detail. The exact content here will change over time as the community learns more about what's most relevant. Typically this additional detail includes release date of the selected revision, details of licenses discovered in the files of the component, as well as a list of attribution parties, and more. Check out the [ClearlyDefined Glossary](glossary) for more info on the various terms you see in the panel.
-
-On the right side of any definition entry (expanded or collapsed) you will see a set of buttons that modify the list itself (adding related definitions or removing the current definition) or take you to alternative views of a definition. Typically hovering over a button will give you an idea of what it does. Go ahead and click around. You won't break anything.
-
-## Inspecting - Definitions Expanded View
-
-Key to understanding a definition is understanding how it was put together. That's what's happening when you click on the **Dig into this entry** button, after searching for a few definition on the [**Definitions**](https://clearlydefined.io/definitions) tab. 
-
-The **Described** pane provides information about the definition source (e.g. github URL), Release date, Tools and **Facets**.
-
-The second pane, **Licensed** provides information about the **Declared** licenses as well as the automatically **Discovered** ones. Additionally, **Attribution** and **Files** details are available (Total files, Unlicensed files, and Unattributed ones).
-
-The **Files** tab, allows to browse through the files that are part of definition, see which **Facet** each file belongs to, its **Licenses** and **Copyrights** Information. 
-
-Having selected a definition details about where the definition's content came from is shown. The bottom most pane, **Raw Data** on the tab shows the raw YAML form of the definition. The **Curation** pane shows you the text of any human additions or modifications that went into the final form of the definition. The **Harvested** pane shows the raw text dump of all tool output related to the definition.
-
-
-This is pretty overwhelming with lots and lots of detail. Over time, and with your help, we will discover effective ways presenting this data so you have enough of the right information at your finger tips to understand the definitions and be confident in their content.
-
-## A note on definition coordinates
-
-As you will have noticed, the same component name (e.g, jquery) shows up multiple times in the suggestion lists. Sometimes in entries that look like GitHub things, sometimes Maven or NPM or ... This in fact reflects reality -- the same project is often packaged or made available in multiple forms. Given the differences between these packaging forms names and even versioning often do not align. For example, the thing you know and commonly refer to as `jquery` is actually called `jquery` on NPM but `jquery/jquery` on GitHub. The version you know as `3.3.1` on NPM is `32b00373b3f42e5cdcb709df53f3b08b7184a944` on GitHub. It's even worse in that various package types can come from different providers. For example, you can install NPMs from GitHub!
-
-This is what we call, _the identity problem_. ClearlyDefined is NOT attempting to solve the identity problem. Instead, we give each unique thing (i.e., component) unique coordinates and then allow for the creation for _links_ between coordinates.
+### Basics
 
 Typical coordinates that you will encounter are a five part path-like structure as follows:
 
 ```
-npm/npmjs/-/jquery/3.3.1
+npm/npmjs/@fluentui/react-text/9.0.0-alpha.13
 ```
 
 Or, more generally:
@@ -52,17 +27,72 @@ Where the segments have following values:
 * namespace -- many component systems have namespaces. GitHub orgs, NPM namespace, Maven group id, ... This segment must be supplied. If your component does not have a namespace, use '-' (ASCII hyphen).
 * name -- the name of the component you want. Given the `namespace` segment mentioned above, this is just the simple name.
 * revision -- components typically have some differentiator like a version or commit id. Use that here. If this segment is omitted, the latest revision is used (if that makes sense for the provider).
+
+In the case of:
+
+```
+npm/npmjs/@fluentui/react-text/9.0.0-alpha.13
+```
+
+* npm is the **type** of component
+* npmjs is the **provider** - where the component can be found
+* @fluentui is the **namespace** of the component
+* react-text is the **name** of the component
+* 9.0.0-alpha.13 is the **revision** of the component
+
+A noted above, not all components have namespaces. For example, [the npm component lodash](https://www.npmjs.com/package/lodash) does not have a namespace. In this case, the coordinates would be:
+
+```
+npm/npmjs/-/lodash/4.17.21
+```
+
+You could see the definition in the Web UI by navigating to:
+
+https://clearlydefined.io/definitions/npm/npmjs/-/lodash/4.17.21
+
+Or, you could access it through the REST API like this:
+
+```
+curl -X GET "https://api.clearlydefined.io/definitions/npm/npmjs/-/lodash/4.17.21" -H "accept: */*"
+```
+
+**Special Notes**
+
+For git components, commit hashes, rather than version numbers, are used for revisions. 
+
+For example, these coordinates:
+
+```
+git/github/react-component/tree/7b90c11c4aa3458010cbc2031ff48ac4803030e4
+```
+
+Map to this [commit](https://github.com/react-component/tree/tree/7b90c11c4aa3458010cbc2031ff48ac4803030e4).
+
+### Advanced
+
+As you get more comfortable with using ClearlyDefined's data, you might use these additional coordinate fields as well:
+
 * pr -- literally the string `pr`. This is a marker segment and must be included if you are looking for the
   results of applying a particular curation PR to the harvested and curated data for a component
 * number -- the GitHub PR number to apply to the existing harvested and curated data.
 
-### Examples
+For example, if you wanted to see what the definition would look like with [this PR to the curated data merged](https://github.com/clearlydefined/curated-data/pull/12248), you would use these coordinates:
 
-* https://clearlydefined.io/definitions/npm/npmjs/-/react/2.20.1
-* https://clearlydefined.io/definitions/npm/npmjs/@someNamespace/coolpackage/1.13/pr/37
-* https://clearlydefined.io/definitions/git/github/clearlydefined/service/0.1.0
+```
+npm/npmjs/@microsoft/microsoft-graph-types/1.9.0/pr/12248
+```
 
-# Data API
+You could see the definition (with the PR applied) in the Web UI by navigating to:
+
+https://clearlydefined.io/definitions/npm/npmjs/@microsoft/microsoft-graph-types/1.9.0/pr/12248
+
+And this API call:
+
+```
+curl -X GET "https://api.clearlydefined.io/definitions/npm/npmjs/@microsoft/microsoft-graph-types/1.9.0/pr/12248"
+```
+
+## Data API
 
 The ClearlyDefined service manages both raw, harvested data and curated data, as well as the merge of these. These data can be expressed in relation to source code (e.g., a GitHub repo) or a package (e.g., an NPM, RPM, Maven project, ...). One of the key goals of ClearlyDefined is to correlate the _binary_ package with the original source.
 
@@ -70,7 +100,80 @@ The ClearlyDefined service manages both raw, harvested data and curated data, as
 
 As a result of this separation, the same component may show up in the data in several forms -- the NPM and its source are both treated separately. These components may also have different _revision_ identifiers (e.g., NPM version and Git commit hash). There are links between the different types and as the ecosystem progresses, this web of components will get richer and enable transitive operations, for example, given a vulnerability in a GitHub repo you will be able to find all the packaged versions and forms that included the vulnerable code.
 
-You can see the swagger API doc at https://api.clearlydefined.io/api-docs/
+### Definitions
+
+One of the most useful API calls is to retrieve a definition for a revision of a component.
+
+**Getting the definition for a component**
+
+To get the definition of a component at the coordinates 
+
+```
+npm/npmjs/@fluentui/react-text/9.0.0-alpha.13
+```
+
+You would run:
+
+```
+curl -X GET "https://api.clearlydefined.io/definitions/npm/npmjs/%40fluentui/react-text/9.0.0-alpha.13" -H "accept: */*"
+```
+
+**Getting coordinates for all definitions that match a given pattern**
+
+If you want to find all coordinates for components that match a given pattern (in this case, "lodash"), you would run:
+
+```
+curl -X GET "https://api.clearlydefined.io/definitions?pattern=lodash" -H "accept: */*"
+```
+
+### Harvests
+
+You may also wish to queue up a harvest of a component if you don't see it in ClearlyDefined. To harvest a component at these coordinates:
+
+```
+npm/npmjs/-/redie/0.3.0
+```
+
+You would run:
+
+```
+curl -X POST "https://api.clearlydefined.io/harvest" -H "accept: */*" -H "Content-Type: application/json" -d "[{\"tool\":\"package\",\"coordinates\":\"npm/npmjs/-/redie/0.3.0\"}]"
+```
+
+### Additional Docs
+
+You can see the additional API docs at https://api.clearlydefined.io/api-docs/
+
+## Website
+
+### Browse Definitions
+
+ClearlyDefined is all about making project data easily discoverable and available to people. On the **Definitions** tab you will see a search box. Click in there and start typing the name of a project. This will auto-suggest definitions that exist in ClearlyDefined. Pick one of the presented options and the related definition is added to the **Definitions** list. Note that if you are after a definition for a component not shown in the list, ClearlyDefined does not know about it yet.
+
+In the **Definition** list you see a high level summary of the related component -- its license, possible relationship to source in GitHub, a ClearlyDefined score, and more. If you click on an entry in the list, the entry expands to show more detail. The exact content here will change over time as the community learns more about what's most relevant. Typically this additional detail includes release date of the selected revision, details of licenses discovered in the files of the component, as well as a list of attribution parties, and more. Check out the [ClearlyDefined Glossary](glossary) for more info on the various terms you see in the panel.
+
+On the right side of any definition entry (expanded or collapsed) you will see a set of buttons that modify the list itself (adding related definitions or removing the current definition) or take you to alternative views of a definition. Typically hovering over a button will give you an idea of what it does. Go ahead and click around. You won't break anything.
+
+### Inspecting - Definitions Expanded View
+
+Key to understanding a definition is understanding how it was put together. That's what's happening when you click on the **Dig into this entry** button, after searching for a few definition on the [**Definitions**](https://clearlydefined.io/definitions) tab. 
+
+The **Described** pane provides information about the definition source (e.g. github URL), Release date, Tools and **Facets**.
+
+The second pane, **Licensed** provides information about the **Declared** licenses as well as the automatically **Discovered** ones. Additionally, **Attribution** and **Files** details are available (Total files, Unlicensed files, and Unattributed ones).
+
+The **Files** tab, allows to browse through the files that are part of definition, see which **Facet** each file belongs to, its **Licenses** and **Copyrights** Information. 
+
+Having selected a definition details about where the definition's content came from is shown. The bottom most pane, **Raw Data** on the tab shows the raw YAML form of the definition. The **Curation** pane shows you the text of any human additions or modifications that went into the final form of the definition. The **Harvested** pane shows the raw text dump of all tool output related to the definition.
+
+
+This is pretty overwhelming with lots and lots of detail. Over time, and with your help, we will discover effective ways presenting this data so you have enough of the right information at your finger tips to understand the definitions and be confident in their content.
+
+### A note on definition coordinates
+
+As you will have noticed, the same component name (e.g, jquery) shows up multiple times in the suggestion lists. Sometimes in entries that look like GitHub things, sometimes Maven or NPM or ... This in fact reflects reality -- the same project is often packaged or made available in multiple forms. Given the differences between these packaging forms names and even versioning often do not align. For example, the thing you know and commonly refer to as `jquery` is actually called `jquery` on NPM but `jquery/jquery` on GitHub. The version you know as `3.3.1` on NPM is `32b00373b3f42e5cdcb709df53f3b08b7184a944` on GitHub. It's even worse in that various package types can come from different providers. For example, you can install NPMs from GitHub!
+
+This is what we call, _the identity problem_. ClearlyDefined is NOT attempting to solve the identity problem. Instead, we give each unique thing (i.e., component) unique coordinates and then allow for the creation for _links_ between coordinates.
 
 ## Curation
 
@@ -113,63 +216,3 @@ You can also get the curation for a particular component revision using one of t
 GET http://api.clearlydefined.io/curations/npm/npmjs/-/redie/0.3.0
 GET http://api.clearlydefined.io/curations/npm/npmjs/-/redie/0.3.0/pr/23
 ```
-
-## Data access
-
-Once some data has been harvested and/or curated, you can acces the constituent parts or get the net result of merging the data together.
-
-### Definitions
-
-Most of the time you will want to see the end result of the harvesting with the curations mixed in. A GET to the `definitions` URL returns the summarized and curated view of the data about the identified component. For example,
-
-```
-GET http://localhost:4000/definitions/npm/npmjs/-/redie/0.3.0
-```
-
-In this case, we are accessing version 0.3.0 of the NPM called redie. Given the above curation, the result would look something like the snippet below. Notice that the `projectWebsite` and `issueTracker` information was not in the curation. That data was harvested through some automated tools.
-
-```json
-{
-  "described": {
-    "sourceLocation": {
-      "type": "git",
-      "provider": "github",
-      "url": "https://github.com/microsoft/redie",
-      "revision": "194269b5b7010ad6f8dc4ef608c88128615031ca"
-    },
-    "projectWebsite": "https://github.com/microsoft/redie",
-    "issueTracker": "https://github.com/microsoft/redie/issues"
-  },
-  "licensed": {
-    "license": {
-      "expression": "MIT"
-    }
-  }
-}
-```
-
-You can also get the result that would be given **if** a proposed curation PR were merged. Issue the same GET but add `/pr/<pr number>` on the end. For example, the following gets the result if PR #23 were merged.
-
-```
-GET http://localhost:4000/definitions/npm/npmjs/-/redie/0.3.0/pr/23
-```
-
-If you want to get multiple definitions in a single call, you can `POST` an array of coordinates (with up to 1000 coordinates) to `/definitions`:
-
-```json
-POST http://localhost:4000/definitions
-
-["npm/npmjs/-/redie/0.1.0", "npm/npmjs/-/redie/0.2.0", "npm/npmjs/-/redie/0.3.0"]
-```
-
-The response will be an object with a key for each coordinate:
-
-```json
-{
-  "npm/npmjs/-/redie/0.1.0": { ... },
-  "npm/npmjs/-/redie/0.2.0": { ... },
-  "npm/npmjs/-/redie/0.3.0": { ... }
-}
-```
-
-### Raw outputs
