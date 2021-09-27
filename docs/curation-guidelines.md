@@ -84,6 +84,14 @@ If the canonical locations do not match (e.g., the license file states Apache-2.
 2.  **Package metadata.**  Look to see if the target component metadata includes any license info, such as a license identifier or license file URL. 
 3.	**Source repository.**  Follow the canonical locations for source definitions, above.  Also look for package manifest files (e.g. package.json, setup.py). 
 
+## File level curations
+In ClearlyDefined, you can curate license and copyright information at the file level in the “Files” section of the definition.   For further information, also see the [Attribution information](https://github.com/clearlydefined/clearlydefined/blob/master/docs/curation-guidelines.md#attribution-information) section below. 
+
+1.	**License information to include.**  When curating license information for an individual file, string together all the licenses found on the file with an “AND,” unless otherwise specified.  For example, a file has a code comment at the top saying the component is MIT.  Further down the file is a comment saying a portion of the file is based on an Apache-2.0 licensed project.  When curating that file, you would curate “MIT AND Apache-2.0.”
+2.	**License information to ignore.**  Occasionally you may see a reference to a license that is not meant to apply to the file.  For example, a code comment saying the data looked at GPL licensed projects, would not result in a GPL license curation.  
+3.	**Copyright information to include.**  When curating the copyright information for an individual file, add any copyright statements found on the file.
+4.	**Copyright information to ignore.**  Some licenses include a copyright statement for the license text itself.  A copyright curation would not include the license’s copyright statement. 
+
 ## Troubleshooting
 We always prefer a reference to a version control system, but if you’re unable to find that, other public references are okay.
 1. Target component package metadata gives a URL that points to a volatile location (e.g. a webpage or the master branch of a git repository).
