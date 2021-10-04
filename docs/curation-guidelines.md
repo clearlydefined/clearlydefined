@@ -120,7 +120,14 @@ We always prefer a reference to a version control system, but if you’re unable
 * **Rationale**. Because copyright statements take a wide variety of forms, sometimes including typos or other inconsistencies, it is not the ClearlyDefined curator's role to guess the intent of the author or contributor to the package and so the Copyright statement should remain unmodified.
 
 # Source Location Information
-[TODO]
+Source code location should be considered where the source code was at the time the component was published. When curating the source code repository, look in the canonical locations listed below.  
+
+1. Package metadata
+1. Location provided in component files such as links in the README, file headers, etc.
+1. Other versions
+1. Author's other components for potential locations (such as GitHub user accounts)
+
+When dealing with multiple forks, you may have to look at the creation date to verify which one existed when the package was published.
 
 # Facets
 [TODO]
