@@ -1,4 +1,4 @@
-# ClearlyDefined, defined.
+#  ClearlyDefined, defined.
 
 This repo holds the docs, artwork, and other organizational content in support of [ClearlyDefined](https://clearlydefined.io). Check out the [doc](https://docs.clearlydefined.io) for how to [get involved](https://docs.clearlydefined.io/get-involved).
 
