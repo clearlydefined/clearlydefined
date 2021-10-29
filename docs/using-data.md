@@ -72,9 +72,9 @@ Map to this [commit](https://github.com/react-component/tree/tree/7b90c11c4aa345
 
 **Go components**
 
-For go components with slashes in the namespace, those slashes need to be url encoded as %2f.
+For Go components with slashes in the namespace, those slashes need to be url encoded as %2f.
 
-For example, a go component with this import path:
+For example, a Go component with this import path:
 
 ```
 golang.org/fx/crypto v0.0.0-20210921155107-089bfa567519
