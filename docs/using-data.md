@@ -56,7 +56,9 @@ Or, you could access it through the REST API like this:
 curl -X GET "https://api.clearlydefined.io/definitions/npm/npmjs/-/lodash/4.17.21" -H "accept: */*"
 ```
 
-**Special Notes**
+### Special Notes
+
+**Git components**
 
 For git components, commit hashes, rather than version numbers, are used for revisions. 
 
@@ -67,6 +69,36 @@ git/github/react-component/tree/7b90c11c4aa3458010cbc2031ff48ac4803030e4
 ```
 
 Map to this [commit](https://github.com/react-component/tree/tree/7b90c11c4aa3458010cbc2031ff48ac4803030e4).
+
+**Go components**
+
+For Go components with slashes in the namespace, those slashes need to be url encoded as %2f.
+
+For example, a Go component with this import path:
+
+```
+golang.org/fx/crypto v0.0.0-20210921155107-089bfa567519
+```
+
+would map to those coordinates:
+
+```
+go/golang/golang.org%2fx/crypto/v0.0.0-20210921155107-089bfa567519
+```
+
+The last word in the import path is considered the name of the component.
+
+Another example:
+
+```
+github.com/satori/go.uuid v1.2.1-0.20181028125025-b2ce2384e17b
+```
+
+would map to these coordinates
+
+```
+github.com%2fsatori/go.uuid/v1.2.1-0.20181028125025-b2ce2384e17b
+```
 
 ### Advanced
 
