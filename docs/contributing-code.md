@@ -92,7 +92,7 @@ technology be a barrier. Several contributors with little to no Node or React ex
 contributions. For example, the website needs designers and people who can think deeply about the curation User
 Experience and workflow. No code at all! Of course, if you are a React expert, there are challenges for you too.
 
-The ongoing work is tracked in a set of [GitHub Project on the ClearlyDefined org](https://github.com/clearlydefined/projects). Typically there will be a project for the current monthly milstone. In
+The ongoing work is tracked in a set of [GitHub Project on the ClearlyDefined org](https://github.com/orgs/clearlydefined/projects). Typically there will be a project for the current monthly milestone. In
 addition, each repo has a set of GitHub issues and typically several with _Help wanted_ or _Good first issue_ labels.
 Also look in the repos for a higher level view of the problem areas and a roadmap for where that repo's
 function is going.
