@@ -100,7 +100,14 @@ would map to these coordinates
 github.com%2fsatori/go.uuid/v1.2.1-0.20181028125025-b2ce2384e17b
 ```
 
-Because Go compnents often have slashes in the namespace and [cloudflare URL normalized](https://community.cloudflare.com/t/faq-url-normalization/259183) feature has turned on. The old GET APIs with `/:type/:provider/:namespace/:name/:revision` in the URL path is not working well. A new API could be used to overcome the issue by adding a coordinates in the URL query params. To use the API, `Accept-Version: 1.0.0` must be added to the hearders. Here is an example.
+Alternately, if you are using a component that has more than five slashes in it's namespace, you can use 
+an alternative version of the API to retrieve a definition for a coordinate (this is something we
+expect to expand in the future). This alterative API allows you to specify the coordinates as URL 
+query parameters.
+
+To use the API, `Accept-Version: 1.0.0` must be added to the headers. 
+
+Here is an example.
 
 ```
 curl --request GET 'https://api.clearlydefined.io/definitions?coordinates=go%2Fgolang%2Fgithub.com%252Fquasilyte%252Fregex%2Fsyntax%2Fv0.0.0' \
