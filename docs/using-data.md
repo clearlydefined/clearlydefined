@@ -100,17 +100,38 @@ would map to these coordinates
 github.com%2fsatori/go.uuid/v1.2.1-0.20181028125025-b2ce2384e17b
 ```
 
-Alternately, if you are using a component that has more than five slashes in it's namespace, you can use 
-an alternative version of the API to retrieve a definition for a coordinate (this is something we
-expect to expand in the future). This alterative API allows you to specify the coordinates as URL 
-query parameters.
+Alternately, if you are using a component that has more than five slashes in it's namespace, you can use an alternative version of the API to retrieve a definition for a coordinate. Below is a detailed example.
+
+For a go component with an import url of `github.com/quasilyte/regex/syntax v0.0.0-20200419152657-af9db7f4a3ab`, the coordinates would look like this:
+
+```
+type: go
+provider: golang
+namespace: github.com/quasilyte/regex (we will need to do url [percent-encoding](https://en.wikipedia.org/wiki/Percent-encoding) to this, see below)
+name: syntax
+revision: v0.0.0-20200419152657-af9db7f4a3ab
+```
+
+With this API, we need to encode the slashes in the namespace as '%2F'. You could do that by calling `encodeURIComponent(namespace)` in JS or similiar function in other language. So, for this example, the namespace we use in the coordinates is github.com%2Fquasilyte%2Fregex. Our coordinates would now look like this:
+
+```
+type: go
+provider: golang
+namespace: github.com%2Fquasilyte%2Fregex
+name: syntax
+revision: v0.0.0-20200419152657-af9db7f4a3ab
+```
+
+Put together, our corrdinates looks like: `go/golang/github.com%2Fquasilyte%2fregex/syntax/v0.0.0-20200419152657-af9db7f4a3ab`
+
+Because now the corrdinates is added in the query parameters, we need to encode the whole coordinates, e.g. calling encodeURIComponent() in JS.
 
 To use the API, `Accept-Version: 1.0.0` must be added to the headers. 
 
-Here is an example.
+You could try with the follwing curl command..
 
 ```
-curl --request GET 'https://api.clearlydefined.io/definitions?coordinates=go%2Fgolang%2Fgithub.com%252Fquasilyte%252Fregex%2Fsyntax%2Fv0.0.0' \
+curl --request GET 'https://api.clearlydefined.io/definitions?coordinates=go%2Fgolang%2Fgithub.com%252Fquasilyte%252Fregex%2Fsyntax%2Fv0.0.0-20200407221936-30656e2c4a95' \
 --header 'Accept-Version: 1.0.0' \
 --header 'Content-Type: application/json'
 ```
