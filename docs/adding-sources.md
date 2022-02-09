@@ -22,6 +22,7 @@ We pull Maven (Java) license information from multiple sources:
 
 * https://mvnrepository.com/repos/central
 * https://maven.google.com/
+* https://plugins.gradle.org/
 
 ### Nuget
 
