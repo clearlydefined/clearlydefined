@@ -100,6 +100,43 @@ would map to these coordinates
 github.com%2fsatori/go.uuid/v1.2.1-0.20181028125025-b2ce2384e17b
 ```
 
+Alternately, if you are using a component that has more than five slashes in it's namespace, you can use an alternative version of the API to retrieve a definition for a coordinate. Below is a detailed example.
+
+For a go component with an import url of `github.com/quasilyte/regex/syntax v0.0.0-20200419152657-af9db7f4a3ab`, the coordinates would look like this:
+
+```
+type: go
+provider: golang
+namespace: github.com/quasilyte/regex (we will need to do url [percent-encoding](https://en.wikipedia.org/wiki/Percent-encoding) to this, see below)
+name: syntax
+revision: v0.0.0-20200419152657-af9db7f4a3ab
+```
+
+We need to encode the slashes in the namespace as '%2F'. You could do that by calling `encodeURIComponent(namespace)` in JavaScript or a similar function in other languages. You could also manually add the encoding to the namespace. For this example, the namespace `github.com/quasilyte/regex` would become `github.com%2Fquasilyte%2Fregex`. 
+
+After encoding the namespace, our coordinates would now look like this:
+```
+type: go
+provider: golang
+namespace: github.com%2Fquasilyte%2Fregex
+name: syntax
+revision: v0.0.0-20200419152657-af9db7f4a3ab
+```
+
+Put together, our coordinates now look like this: `go/golang/github.com%2Fquasilyte%2fregex/syntax/v0.0.0-20200419152657-af9db7f4a3ab`
+
+Because we pass the coordinates as a query parameter, we need to encode the whole coordinate string. You could do that by calling encodeURIComponent(namespace) in JavaScript or a similar function in other languages. You could also manually add the encoding to the coordinates. After the encoding, `go/golang/github.com%2Fquasilyte%2fregex/syntax/v0.0.0-20200419152657-af9db7f4a3ab` would become `go%2Fgolang%2Fgithub.com%252Fquasilyte%252Fregex%2Fsyntax%2Fv0.0.0-20200407221936-30656e2c4a95`
+
+To use the API, `Accept-Version: 1.0.0` must be added to the headers. 
+
+Here is a curl command you could use with the example coordinates.
+
+```
+curl --request GET 'https://api.clearlydefined.io/definitions?coordinates=go%2Fgolang%2Fgithub.com%252Fquasilyte%252Fregex%2Fsyntax%2Fv0.0.0-20200407221936-30656e2c4a95' \
+--header 'Accept-Version: 1.0.0' \
+--header 'Content-Type: application/json'
+```
+
 ### Advanced
 
 As you get more comfortable with using ClearlyDefined's data, you might use these additional coordinate fields as well:
