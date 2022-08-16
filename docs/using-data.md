@@ -60,7 +60,7 @@ curl -X GET "https://api.clearlydefined.io/definitions/npm/npmjs/-/lodash/4.17.2
 
 **Git components**
 
-For git components, commit hashes, rather than version numbers, are used for revisions. 
+For git components, commit hashes, rather than version numbers, are used for revisions.
 
 For example, these coordinates:
 
@@ -112,7 +112,8 @@ name: syntax
 revision: v0.0.0-20200419152657-af9db7f4a3ab
 ```
 
-We need to encode the slashes in the namespace as '%2F'. You could do that by calling `encodeURIComponent(namespace)` in JavaScript or a similar function in other languages. You could also manually add the encoding to the namespace. For this example, the namespace `github.com/quasilyte/regex` would become `github.com%2Fquasilyte%2Fregex`. 
+We need to encode the slashes in the namespace as '%2F'. You could do that by calling `namespace.replaceAll('/', '%2F')` in JavaScript or a similar function in other languages. You could also manually add the encoding to the namespace. For this example, the namespace `github.com/quasilyte/regex` would become `github.com%2Fquasilyte%2Fregex`. Note that using a function like `encodeURIComponent`
+may cause issues with namespaces like `@std` ([see this issue](https://github.com/clearlydefined/clearlydefined/issues/157)).
 
 After encoding the namespace, our coordinates would now look like this:
 ```
@@ -127,7 +128,9 @@ Put together, our coordinates now look like this: `go/golang/github.com%2Fquasil
 
 Because we pass the coordinates as a query parameter, we need to encode the whole coordinate string. You could do that by calling encodeURIComponent(namespace) in JavaScript or a similar function in other languages. You could also manually add the encoding to the coordinates. After the encoding, `go/golang/github.com%2Fquasilyte%2fregex/syntax/v0.0.0-20200419152657-af9db7f4a3ab` would become `go%2Fgolang%2Fgithub.com%252Fquasilyte%252Fregex%2Fsyntax%2Fv0.0.0-20200407221936-30656e2c4a95`
 
-To use the API, `Accept-Version: 1.0.0` must be added to the headers. 
+To use the API, `Accept-Version: 1.0.0` must be added to the headers. Note:
+`Accept-Version` is currently accepted for `GET` requests but not `POST`
+requests (see [this issue](https://github.com/clearlydefined/clearlydefined/issues/155)).
 
 Here is a curl command you could use with the example coordinates.
 
@@ -175,7 +178,7 @@ One of the most useful API calls is to retrieve a definition for a revision of a
 
 **Getting the definition for a component**
 
-To get the definition of a component at the coordinates 
+To get the definition of a component at the coordinates
 
 ```
 npm/npmjs/@fluentui/react-text/9.0.0-alpha.13
@@ -225,13 +228,13 @@ On the right side of any definition entry (expanded or collapsed) you will see a
 
 ### Inspecting - Definitions Expanded View
 
-Key to understanding a definition is understanding how it was put together. That's what's happening when you click on the **Dig into this entry** button, after searching for a few definition on the [**Definitions**](https://clearlydefined.io/definitions) tab. 
+Key to understanding a definition is understanding how it was put together. That's what's happening when you click on the **Dig into this entry** button, after searching for a few definition on the [**Definitions**](https://clearlydefined.io/definitions) tab.
 
 The **Described** pane provides information about the definition source (e.g. github URL), Release date, Tools and **Facets**.
 
 The second pane, **Licensed** provides information about the **Declared** licenses as well as the automatically **Discovered** ones. Additionally, **Attribution** and **Files** details are available (Total files, Unlicensed files, and Unattributed ones).
 
-The **Files** tab, allows to browse through the files that are part of definition, see which **Facet** each file belongs to, its **Licenses** and **Copyrights** Information. 
+The **Files** tab, allows to browse through the files that are part of definition, see which **Facet** each file belongs to, its **Licenses** and **Copyrights** Information.
 
 Having selected a definition details about where the definition's content came from is shown. The bottom most pane, **Raw Data** on the tab shows the raw YAML form of the definition. The **Curation** pane shows you the text of any human additions or modifications that went into the final form of the definition. The **Harvested** pane shows the raw text dump of all tool output related to the definition.
 
