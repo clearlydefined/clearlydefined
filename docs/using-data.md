@@ -2,6 +2,22 @@
 
 All of the ClearlyDefined data is available for everyone to see and use. You can browse and inspect in a [convenient web ui](#website) or hook up a client to the [REST API](https://api.clearlydefined.io/api-docs/) and integrate it into your systems.
 
+## API Usage Considerations
+
+Current rate limits are as follows:
+
+### Endpoint-Specific Restrictions
+
+| Endpoint      | Method  | Limit    |
+|---------------|---------|----------|
+| /definitions  | POST    | 250 /min |
+| /curations    | POST    | 250 /min |
+| /notices      | POST    | 250 /min |
+
+All other endpoints are max 2K requests per minute. 
+
+You can check the _x-ratelimit-limit_ and _x-ratelimit-remaining_ response headers to track your usage.
+
 ## ClearlyDefined Coordinates
 
 In order to use ClearlyDefined's data (whether through the REST API or the Web UI), it's critical to understand how to find a component in the data. ClearlyDefined uses a system of **coordinates** to navigate to data about particular components.
