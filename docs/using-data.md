@@ -15,9 +15,9 @@ Host: [api.clearlydefined.io](https://api.clearlydefined.io/)
 
 | Endpoint      | Method  | Limit    |
 |---------------|---------|----------|
-| /definitions  | POST    | 60 /min  |
-| /curations    | POST    | 60 /min  |
-| /notices      | POST    | 60 /min  |
+| /definitions  | POST    | 250 /min |
+| /curations    | POST    | 250 /min |
+| /notices      | POST    | 250 /min |
 
 All other endpoints are max 2K requests per minute. 
 
