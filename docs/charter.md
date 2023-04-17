@@ -2,74 +2,41 @@
 layout: default
 ---
 
-# ClearlyDefined, defined.
+# ClearlyDefined, defined
 
 ## Mission
 
-Help FOSS projects be more successful through clearly defined project
-data.
+ClearlyDefined’s mission is to create a global database of licensing metadata for every Open Source software component ever published.
 
 ## Principles
 
-* Neutral – The project carries no affiliation or company driven focus
-* Open – The data, infrastructure, and processes are open to all
-* Factual – All data is factual. No interpretation or assessment is made
-* Upstream – Enable upstream projects as much as possible
-* Simple – Wherever possible the project will use the simple solution
+- Neutral – The project carries no affiliation or company driven focus;
+- Open – The data, infrastructure, and processes are open to all;
+- Factual – All data is factual. No interpretation or assessment is made;
+- Upstream – Enable upstream projects as much as possible;
+- Simple – Wherever possible the project will use the simple solution.
 
 ## Scope
 
-ClearlyDefined will pursue any data that makes FOSS projects easier to
-consume and thus more successful. Initially this work will focus on
-licensing data that form the core of understanding and meeting the
-legal obligations related to using FOSS. This includes:
+ClearlyDefined will focus on licensing metadata that form the core of understanding and meeting the legal obligations and security best practices related to using Open Source software. This includes:
 
-* License (declared and observed)
-* Copyright holders
-* Source location (including revision/commit)
+- License (declared and observed);
+- Copyright holders;
+- Source location (including revision/commit).
 
-### Why?
+## Motivation
 
-The FOSS licensing and security information landscape is vast and
-varied. Projects without clear metadata are harder to adopt and so get
-fewer contributions and lower engagement -- they enjoy less
-success. On the consumer side, enormous effort is required to
-discover, comply with licensing obligations, and track security
-issues. Even simple things like the location of the source for a
-component can be painful to find.
+With the move towards SBOMs (Software Bill of Materials) everywhere for compliance and security reasons, organizations will face great challenges to generate these at scale for each stage on the supply chain, for every build or release.
 
-These ambiguities mean that FOSS cannot be consumed with
-confidence. This affects the success of FOSS projects. We want to
-break this vicious cycle.
+Additionally, multiple organizations will have to fix the same missing or wrongly identified licensing metadata over and over again.
 
-### What?
+This is where ClearlyDefined comes in, by serving a cached copy of licensing metadata for each component through a simple API.
 
-Crowdsourcing the curation of licensing, security, accessibility data
-for FOSS projects. First clear licensing data. Later, clear security,
-accessibility data.
+Organizations will also be able to contribute back with any missing or wrongly identified licensing metadata, helping to create a database that is accurate for the benefit of all.
 
-### How?
+# ClearlyDefined, processes
 
-Harvesting data embedded in projects, curating the data in an open and
-collaborative process, contributing clearly defined project data back
-to the FOSS projects, and making the data freely and easily
-accessible. A virtuous cycle.
-
-### Future efforts will focus on further topics such as:
-
-* Security – facilitating the reporting and tracking of
-  vulnerabilities in projects
-* Accessibility – Characteristics and analysis of a project’s support
-  of accessibility related technology and concerns
-* Project data – Governance model, principals, issue tracking,
-  discussion forums, ...
-
-The ordering of this work and effort applied will depend entirely on
-the community and their interests.
-
-# ClearlyDefined, governed.
-
-## Processes
+## Overview
 
 The continuing goal of ClearlyDefined is to help originating projects
 craft and maintain clarity around their in-scope data as a native part
@@ -80,12 +47,18 @@ project serves as a one-stop-shop for the in-scope data making life
 easy for consumers.
 
 The project undertakes four main operations in support of the stated
-goals and scope. Those processes are listed here in rough execution
-order:
+goals and scope:
 
-### Harvest
+- Harvesting data embedded in projects;
+- Curating the data in an open and collaborative process;
+- Contributing clearly defined project data back to the FOSS projects; and
+- Making the data freely and easily accessible.
 
-Harvesting is the act getting data from upstream projects. This may be
+These processes are further described below.
+
+## Harvest
+
+Harvesting is the act of getting data from upstream projects. This may be
 as simple as reading prescribed data from canonical locations to
 full-on analysis of the source code using a variety of open tools. The
 discovered data is stored in its entirety in its native form in
@@ -100,7 +73,7 @@ agreed to tools and configurations will be admitted to the
 system. Harvesting operators are free to focus on a given domain of
 projects that best suit their expertise and interests.
 
-### Curate
+## Curate
 
 The curation process is fundamentally open and transparent. Curators
 (aka project committers or maintainers) work on harvested data, data
@@ -125,7 +98,7 @@ mechanical processes and developing a common understanding of the data
 and determining what is admissible. This requirement may be removed
 through a vote, as described below.
 
-### Contribute
+## Contribute
 
 Having curated data about a project, ClearlyDefined community members
 will seek to contribute the data upstream in a form most attractive to
@@ -140,7 +113,7 @@ ClearlyDefined (see Badging below) and will no longer need
 curation. Validations will continue but by opting into this program,
 the projects are endeavoring to effectively self-curate the data.
 
-### Serve
+## Serve
 
 Regardless of whether projects are self-curating or externally curated
 by ClearlyDefined, as a service to the consuming community, the
@@ -149,9 +122,11 @@ through programmatic (e.g., REST) APIs and through browsable web
 properties. The raw harvested data as well as the summarized and
 curated is made available through both access methods.
 
+# ClearlyDefined, community
+
 ## Roles
 
-### Curator
+### Data Curator
 
 A data curator is akin to a project maintainer or committer in typical
 open source projects. Curators have write permissions to the curation
@@ -187,7 +162,7 @@ with background information and proof of correctness.
 A serial contributor of quality data is a candidate to become a
 curator.
 
-### Consumer
+### Data Consumer
 
 A ClearlyDefined data consumer accesses the curated or harvested
 data. They understand that the data is provided as-is with no
@@ -219,15 +194,15 @@ consensus and recorded in the appropriate public record. When a formal
 decision is required, for example, when electing committers/curators,
 a vote is held using the following process:
 
-* A topic for voting is tabled by a curator by notifying all other
-  curators.
-* Once tabled, curators may vote during an open voting period lasting
+- A topic for voting is tabled by a curator by notifying all other
+  curators;
+- Once tabled, curators may vote during an open voting period lasting
   no less than one working week. Voting will occur on an agreed to,
   mutually convenient, and open medium (e.g., email, GitHub issue,
-  etc.)
-* A minimum of two positive (+1) votes and no negative (-1) votes
-  carries the topic. Note that negative votes must be substantiated.
-* Abstention (0) votes do not affect the outcome.
+  etc.);
+- A minimum of two positive (+1) votes and no negative (-1) votes
+  carries the topic. Note that negative votes must be substantiated;
+- Abstention (0) votes do not affect the outcome.
 
 ## Recognition and promotion
 
@@ -238,3 +213,55 @@ projects to show they are ClearlyDefined, thus increasing consumer
 confidence. Such recognitions may be made relative to a specific
 domain such as licensing or security, or in relation to the overall
 ClearlyDefined effort.
+
+# ClearlyDefined, governance
+
+## Governing Board
+
+The Governing Board voting members shall consist of:
+
+- the Executive Director of the Open Source Initiative;
+- the Steering Committee Chair; and
+- the Outreach Committee Chair.
+
+The Governing Board responsibilities consist of:
+
+- setting the overall strategic direction of the ClearlyDefined project, establishing main goals and identifying key priorities in accordance with feedback and input from the community;
+- managing the resources of the ClearlyDefined project in a responsible and sustainable manner, including budget, infrastructure, and human resources;
+- adopting and maintaining policies or rules and procedures for the ClearlyDefined project, such as a Code of Conduct and a trademark policy and any compliance or certification policies.
+
+## Steering Committee
+
+The Steering Committee shall be responsible for:
+
+- setting the technical direction of the ClearlyDefined project, establishing main goals and identifying key technical priorities;
+- overseeing all processes (harvest, curate, contribute, serve), ensuring that the underlying architecture enables these processes to run smoothly;
+- empowering the community (data curator, data contributor, data consumer, and code committer/maintainer), providing all the technical support necessary to achieve ClearlyDefined's mission;
+- establishing open collaboration with adjacent projects that are part of the ecosystem.
+
+## Outreach Committee
+
+The Outreach Committee shall be responsible for:
+
+- planning and executing efforts to promote the ClearlyDefined project to potential users and contributors;
+- organizing activities across events worldwide, both virtual and in person, to bring together existing community members and attract new ones;
+- creating educational material (documentation, whitepapers, webinars, podcasts, etc) to help individuals and companies understand how to use and contribute to the ClearlyDefined project;
+- managing communication across different channels (website, blog, social media, and press releases).
+
+## Members and Chairs
+
+The Steering and Outreach Committees are made up of community members with a sustained contribution over time, and recognized as interested in the long term health of the ClearlyDefined project. Members of the Steering and Outreach Committee recommend and appoint new members and vote for a Chair for each Committee to serve for a one-year term. Members will be removed from the committee if they resign, or if they are inactive in participating and contributing to the project for more than 6 months.
+
+## Meetings
+
+Governing Board meetings will be limited to the Governing Board members. They will be private unless decided otherwise by the Governing Board, as sensitive matters may not be made public. The Governing Board may choose to hold open, community meetings at its discretion.
+
+Steering and Outreach Committee meetings should be held periodically (monthly or fortnightly) and are intended to be open to the public. They can be conducted electronically, via teleconference, or in person. The Chair for each Committee should set the agenda ahead of time and preside over the meetings. The meeting minutes should be published and shared with the community through public channels.
+
+## Voting
+
+While it is the goal of the ClearlyDefined project to operate as a consensus based community, if any decision requires a vote to move forward, the members of the Governing Board, Steering Committee, or Outreach Committee, as applicable, shall vote on a one vote per member basis.
+
+Decisions by vote will be based on a majority vote, provided that at least sixty percent (60%) of the Governing Board, Steering Committee, Outreach Committee members, as applicable, are either present, participating electronically or via electronic vote (e.g., such as by email, or in a form as specified by the board materials) in advance of the meeting.
+
+A two-thirds majority vote will be required for any vote amending this Charter. Amendments will be communicated to the community through public channels, and will take effect immediately.
