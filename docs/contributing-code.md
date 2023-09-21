@@ -60,13 +60,13 @@ Always a topic in code and ClearlyDefined is no different. Here we follow these 
   letter variable names should be avoided except in certain very well known cases like loop indexes (e.g., `i`).
 - _Private -- Functions that are private to a class should be prefixed with an `_` (underscore). Note that this
   convention is not well-practiced at the moment.
-- Negative names -- Avoid negative names like `disbleCache`. Err, `disbleCache = true` means the cache is enabled?
+- Negative names -- Avoid negative names like `disableCache`. Err, `disableCache = true` means the cache is enabled?
   Now try `if (!disableCache) ...`. Instead, use `enableCache` defaulted to false (if that's what you want).
 
 ## Formatting
 
 As a general rule all code should be formatted using `prettier` and the settings in the `.prettierrc` file in
-the repo. Pleaes don't override them with local settings somehow. Here is a brief summary of the main points:
+the repo. Please don't override them with local settings somehow. Here is a brief summary of the main points:
 
 - Spaces not tabs. 'nuff said.
 - Minimal vertical white space. If you find you need to add blank lines to separate parts of a function,

@@ -39,7 +39,7 @@ Check out the [mock job posting for project adopters](roles/adopter).
 
 If you are like hundreds of others, you may spend a bunch of time figuring out the
 exact source code commit for a component version, or the license or attribution details for
-a compoenent. Wouldn't it be great if you could share that with folks or find information
+a component. Wouldn't it be great if you could share that with folks or find information
 that others have discovered? Head over to the [data contribution guide](contributing-data)
 to learn more about enhancing the data in ClearlyDefined. Check out the [mock job posting
 for data contributors](roles/data-contributor).
