@@ -6,18 +6,20 @@ All of the ClearlyDefined data is available for everyone to see and use. You can
 
 ClearlyDefined enforces specific rate limits on REST API calls to ensure stability and integrity of the platform. 
 
-You can check the _x-ratelimit-limit_ and _x-ratelimit-remaining_ response headers to track your usage.
+You can check the _x-ratelimit-limit_ and _x-ratelimit-remaining_ response headers to track your usage and reset window.
+
+If the rate limit is reached, an _HTTP 429_ response code will be returned. The rate limit is based on the window below.
 
 ### Production Instance Rate Limits
 
 Host: [api.clearlydefined.io](https://api.clearlydefined.io/)
 \([Docs](https://api.clearlydefined.io/api-docs/)\)
 
-| Endpoint      | Method  | Limit    |
-|---------------|---------|----------|
-| /definitions  | POST    | 250 /min |
-| /curations    | POST    | 250 /min |
-| /notices      | POST    | 250 /min |
+| Endpoint      | Method  | Limit    | Window |
+|---------------|---------|----------|--------|
+| /definitions  | POST    | 250 /min | 1 min  |
+| /curations    | POST    | 250 /min | 1 min  |
+| /notices      | POST    | 250 /min | 1 min  |
 
 All other endpoints are max 2K requests per minute. 
 
@@ -26,11 +28,11 @@ All other endpoints are max 2K requests per minute.
 Host: [dev-api.clearlydefined.io](https://dev-api.clearlydefined.io/)
 \([Docs](https://dev-api.clearlydefined.io/api-docs/)\)
 
-| Endpoint      | Method  | Limit    |
-|---------------|---------|----------|
-| /definitions  | POST    | 250 /min |
-| /curations    | POST    | 250 /min |
-| /notices      | POST    | 250 /min |
+| Endpoint      | Method  | Limit    | Window |
+|---------------|---------|----------|--------|
+| /definitions  | POST    | 250 /min | 5 min  |
+| /curations    | POST    | 250 /min | 5 min  |
+| /notices      | POST    | 250 /min | 5 min  |
 
 All other endpoints are max 500 requests per every 5 minutes.
 
