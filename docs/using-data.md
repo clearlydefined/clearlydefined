@@ -2,6 +2,40 @@
 
 All of the ClearlyDefined data is available for everyone to see and use. You can browse and inspect in a [convenient web ui](#website) or hook up a client to the [REST API](https://api.clearlydefined.io/api-docs/) and integrate it into your systems.
 
+## REST API Usage Considerations
+
+ClearlyDefined enforces specific rate limits on REST API calls to ensure stability and integrity of the platform. 
+
+You can check the _x-ratelimit-limit_ and _x-ratelimit-remaining_ response headers to track your usage and reset window.
+
+If the rate limit is reached, an _HTTP 429_ response code will be returned. The rate limit is based on the window below.
+
+### Production Instance Rate Limits
+
+Host: [api.clearlydefined.io](https://api.clearlydefined.io/)
+\([Docs](https://api.clearlydefined.io/api-docs/)\)
+
+| Endpoint      | Method  | Limit/Window    |
+|---------------|---------|-----------------|
+| /definitions  | POST    | 250 /min        |
+| /curations    | POST    | 250 /min        |
+| /notices      | POST    | 250 /min        |
+
+All other endpoints are max 2K requests per minute. 
+
+### Development Instance Rate Limits
+
+Host: [dev-api.clearlydefined.io](https://dev-api.clearlydefined.io/)
+\([Docs](https://dev-api.clearlydefined.io/api-docs/)\)
+
+| Endpoint      | Method  | Limit/Window    |
+|---------------|---------|-----------------|
+| /definitions  | POST    | 250 /min        |
+| /curations    | POST    | 250 /min        |
+| /notices      | POST    | 250 /min        |
+
+All other endpoints are max 500 requests per every 5 minutes.
+
 ## ClearlyDefined Coordinates
 
 In order to use ClearlyDefined's data (whether through the REST API or the Web UI), it's critical to understand how to find a component in the data. ClearlyDefined uses a system of **coordinates** to navigate to data about particular components.
