@@ -1,0 +1,346 @@
+{
+  "/__docusaurus/debug-1fd": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugbf-7-810"
+    }
+  },
+  "/__docusaurus/debug/config-e80": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugbf-7-810"
+    }
+  },
+  "/__docusaurus/debug/content-163": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugbf-7-810"
+    },
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-4f2": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugbf-7-810"
+    }
+  },
+  "/__docusaurus/debug/metadata-ad8": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugbf-7-810"
+    }
+  },
+  "/__docusaurus/debug/registry-5dc": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugbf-7-810"
+    }
+  },
+  "/__docusaurus/debug/routes-b7b": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugbf-7-810"
+    }
+  },
+  "/blog-868": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---blog-0-e-2-ae4"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogea-4-b94"
+      },
+      {
+        "content": "content---blogdf-5-ffc"
+      },
+      {
+        "content": "content---blog-3-bb-87b"
+      },
+      {
+        "content": "content---bloga-39-749"
+      }
+    ],
+    "metadata": "metadata---blogb-2-b-df1"
+  },
+  "/blog/archive-ef8": {
+    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__context": {
+      "plugin": "plugin---blog-0-e-2-ae4"
+    },
+    "archive": "archive---blog-archiveb-2-f-393"
+  },
+  "/blog/foss-backstage-60e": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-foss-backstageace-c51"
+      },
+      "plugin": "plugin---blog-0-e-2-ae4"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-foss-backstage-8-af-356"
+  },
+  "/blog/ort-community-days-b75": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-foss-backstageace-c51"
+      },
+      "plugin": "plugin---blog-0-e-2-ae4"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-ort-community-daysae-2-214"
+  },
+  "/blog/popular-licenses-2023-d20": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-foss-backstageace-c51"
+      },
+      "plugin": "plugin---blog-0-e-2-ae4"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-popular-licenses-2023-a-38-0ee"
+  },
+  "/blog/recap-vision-2024-c3b": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-foss-backstageace-c51"
+      },
+      "plugin": "plugin---blog-0-e-2-ae4"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-recap-vision-2024-de-8-93e"
+  },
+  "/blog/tags-cf4": {
+    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__context": {
+      "plugin": "plugin---blog-0-e-2-ae4"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "tags": "tags---blog-tagsa-70-da2"
+  },
+  "/blog/tags/events-0f8": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-0-e-2-ae4"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogea-4-b94"
+      },
+      {
+        "content": "content---blogdf-5-ffc"
+      }
+    ],
+    "tag": "tag---blog-tags-events-4-e-7-252",
+    "listMetadata": "listMetadata---blog-tags-events-907-226"
+  },
+  "/blog/tags/licenses-30a": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-0-e-2-ae4"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---bloga-39-749"
+      }
+    ],
+    "tag": "tag---blog-tags-licenses-5-af-216",
+    "listMetadata": "listMetadata---blog-tags-licenses-5-fa-cd2"
+  },
+  "/blog/tags/roadmap-0e3": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-0-e-2-ae4"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-3-bb-87b"
+      }
+    ],
+    "tag": "tag---blog-tags-roadmap-170-284",
+    "listMetadata": "listMetadata---blog-tags-roadmap-33-d-c13"
+  },
+  "/markdown-page-175": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---markdown-page-749-8c0"
+    },
+    "content": "content---markdown-page-393-028"
+  },
+  "/docs-924": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---docs-210-d1c"
+    }
+  },
+  "/docs-0d9": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "version": "version---docs-935-398"
+  },
+  "/docs-176": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/community/-a43": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-community-323-0fe"
+  },
+  "/docs/community/charter-949": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-community-charterfb-1-578"
+  },
+  "/docs/community/coc-2ed": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-community-coc-728-783"
+  },
+  "/docs/community/events-62d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-community-events-278-c02"
+  },
+  "/docs/community/meetings-3db": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-community-meetings-94-e-d8a"
+  },
+  "/docs/community/members-2dc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-community-membersc-1-c-a51"
+  },
+  "/docs/curation/-8a4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-curation-704-f86"
+  },
+  "/docs/curation/curation-guidelines-c12": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-curation-curation-guidelinesb-9-d-3ff"
+  },
+  "/docs/curation/curation-process-ad5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-curation-curation-processe-26-70a"
+  },
+  "/docs/curation/data-donation-e01": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-curation-data-donation-999-602"
+  },
+  "/docs/get-involved/-9f3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-get-involved-715-40b"
+  },
+  "/docs/get-involved/adding-sources-e68": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-get-involved-adding-sourcesf-37-ace"
+  },
+  "/docs/get-involved/adopting-598": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-get-involved-adopting-3-fe-420"
+  },
+  "/docs/get-involved/contributing-code-ab4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-get-involved-contributing-codee-28-335"
+  },
+  "/docs/get-involved/contributing-data-120": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-get-involved-contributing-data-3-ec-734"
+  },
+  "/docs/get-involved/data-curation-5a8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-get-involved-data-curation-961-2a4"
+  },
+  "/docs/get-involved/intro-519": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-get-involved-introbe-7-633"
+  },
+  "/docs/get-involved/using-data-c3e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-get-involved-using-data-6-b-3-004"
+  },
+  "/docs/harvest/-68a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-harvest-31-b-bc0"
+  },
+  "/docs/harvest/intro-50f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-harvest-intro-0-f-2-0d1"
+  },
+  "/docs/legal/-5d7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-legal-f-28-514"
+  },
+  "/docs/legal/NOTICES-acf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-legal-notices-3-fd-b23"
+  },
+  "/docs/legal/privacy-d36": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-legal-privacyd-2-c-e88"
+  },
+  "/docs/legal/terms-5e0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-legal-terms-733-761"
+  },
+  "/docs/resources/-c41": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-resources-333-07f"
+  },
+  "/docs/resources/architecture-0f2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-resources-architectureeac-b91"
+  },
+  "/docs/resources/defined-b8d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-resources-definedf-94-088"
+  },
+  "/docs/resources/FAQ-655": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-resources-fa-qe-81-266"
+  },
+  "/docs/resources/glossary-d0d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-resources-glossary-6-e-9-50d"
+  },
+  "/docs/resources/providers-7ee": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-resources-providers-4-a-7-ef4"
+  },
+  "/docs/resources/roadmap-829": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-resources-roadmap-3-e-8-37c"
+  },
+  "/docs/roles/-7e9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-roles-a-24-a50"
+  },
+  "/docs/roles/adopter-9cc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-roles-adopter-46-c-fd2"
+  },
+  "/docs/roles/code-contributor-f98": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-roles-code-contributor-45-a-5b7"
+  },
+  "/docs/roles/data-consumer-e04": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-roles-data-consumerf-06-ef3"
+  },
+  "/docs/roles/data-contributor-553": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-roles-data-contributor-5-a-8-31e"
+  },
+  "/docs/roles/data-curator-771": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-roles-data-curatord-30-ea7"
+  },
+  "/-0f4": {
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__context": {
+      "plugin": "plugin---markdown-page-749-8c0"
+    },
+    "config": "config---5-e-9-4f3"
+  }
+}

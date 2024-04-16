@@ -1,0 +1,29 @@
+{
+  "id": "resources/roadmap",
+  "title": "Roadmap",
+  "description": "This is the roadmap for 2024:",
+  "source": "@site/docs/resources/roadmap.md",
+  "sourceDirName": "resources",
+  "slug": "/resources/roadmap",
+  "permalink": "/docs/resources/roadmap",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/resources/roadmap.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "layout": "default",
+    "sidebar_position": 6,
+    "title": "Roadmap"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Architecture",
+    "permalink": "/docs/resources/architecture"
+  },
+  "next": {
+    "title": "Roles",
+    "permalink": "/docs/roles/"
+  }
+}

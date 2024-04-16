@@ -1,0 +1,29 @@
+{
+  "id": "roles/data-contributor",
+  "title": "Data contributor",
+  "description": "Are you a data scientist, librarian, or just love finding and",
+  "source": "@site/docs/roles/data-contributor.md",
+  "sourceDirName": "roles",
+  "slug": "/roles/data-contributor",
+  "permalink": "/docs/roles/data-contributor",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/roles/data-contributor.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "layout": "default",
+    "sidebar_position": 3,
+    "title": "Data contributor"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data curator",
+    "permalink": "/docs/roles/data-curator"
+  },
+  "next": {
+    "title": "Code contributor",
+    "permalink": "/docs/roles/code-contributor"
+  }
+}

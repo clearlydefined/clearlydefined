@@ -1,5 +1,7 @@
 ---
 layout: default
+sidebar_position: 1
+title: Data consumer
 ---
 
 Are you often frustrated when you use FOSS code and can’t find the
@@ -20,11 +22,11 @@ challenge and we're taking a community-wide approach.
 
 We want to:
 
-* Raise awareness within FOSS project teams
-* Make it easy to identify and supply missing information
-* Automatically harvest data from projects
-* Crowd-source the curation of that data
-* Feed the curated work back to the original projects
+- Raise awareness within FOSS project teams
+- Make it easy to identify and supply missing information
+- Automatically harvest data from projects
+- Crowd-source the curation of that data
+- Feed the curated work back to the original projects
 
 We are building a clearing house of FOSS metadata and we’d like you to
 consider consuming that data. If you are using FOSS code now, it may

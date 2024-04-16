@@ -1,0 +1,29 @@
+{
+  "id": "get-involved/contributing-code",
+  "title": "Contribute code",
+  "description": "First, thanks for your interest in the code for ClearlyDefined. While much of the project's focus is on getting,",
+  "source": "@site/docs/get-involved/contributing-code.md",
+  "sourceDirName": "get-involved",
+  "slug": "/get-involved/contributing-code",
+  "permalink": "/docs/get-involved/contributing-code",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/get-involved/contributing-code.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "layout": "default",
+    "sidebar_position": 6,
+    "title": "Contribute code"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Contribute data",
+    "permalink": "/docs/get-involved/contributing-data"
+  },
+  "next": {
+    "title": "Add a harvest",
+    "permalink": "/docs/get-involved/adding-sources"
+  }
+}

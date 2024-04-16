@@ -1,16 +1,22 @@
+---
+layout: default
+sidebar_position: 2
+title: Privacy policy
+---
+
 # ClearlyDefined Privacy Policy
 
-The ClearlyDefined project is an [Open Source Initiative](https://www.opensource.org) (OSI) incubator project. This document sets out the privacy policy for the ClearlyDefined website and associate services (“Website”).
+ClearlyDefined is an [Open Source Initiative](https://www.opensource.org) (OSI) project. This document sets out the privacy policy for the ClearlyDefined website and associate services (“Website”).
 
-By using the Website, you agree to be bound by the terms of this Privacy Policy.  If you do not accept the terms of this Privacy Policy, you must discontinue accessing or otherwise using the Website and any services provided on it.
+By using the Website, you agree to be bound by the terms of this Privacy Policy. If you do not accept the terms of this Privacy Policy, you must discontinue accessing or otherwise using the Website and any services provided on it.
 
 ## How We Use Your Data
 
-We may use non-personal aggregated data to improve the experience, usability, and content of the Website.  Except as otherwise set forth in this Privacy Policy, we do not collect or store personal data about you.
+We may use non-personal aggregated data to improve the experience, usability, and content of the Website. Except as otherwise set forth in this Privacy Policy, we do not collect or store personal data about you.
 
 ## Types of Data We Collect
 
-ClearlyDefined may collect and analyze non-personal data to evaluate how visitors use the Website.  ClearlyDefined may use information you provide, including authentication information, to enable the features and functions of the Website and its interaction with third party service.
+ClearlyDefined may collect and analyze non-personal data to evaluate how visitors use the Website. ClearlyDefined may use information you provide, including authentication information, to enable the features and functions of the Website and its interaction with third party service.
 
 <b>Aggregate Data.</b> We may gather aggregate data, which refers to information your computer automatically provides to us and which cannot be tied back to you as a specific individual. Examples include referral data (the websites you visited just before and just after the Website), the Website pages viewed, time spent at the Website, and Internet Protocol (IP) addresses. For example, when you request a page from the Website, our servers log your IP address to create aggregate reports on user demographics and traffic patterns and for purposes of system administration.
 
@@ -26,4 +32,4 @@ We use analytics tools to collect information about use of this site. Those tool
 
 ## Contacting Us
 
-Questions about this Privacy Policy can be directed to [clearlydefined@outlook.com](mailto:clearlydefined@googlegroups.com).
+Questions about this Privacy Policy can be directed to [nick.vidal@opensource.org](mailto:nick.vidal@opensource.org).

@@ -1,0 +1,29 @@
+{
+  "id": "resources/architecture",
+  "title": "Architecture",
+  "description": "ClearlyDefined is structured as a set of stateles, micro-services that can scale horizontally with ease.",
+  "source": "@site/docs/resources/architecture.md",
+  "sourceDirName": "resources",
+  "slug": "/resources/architecture",
+  "permalink": "/docs/resources/architecture",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/resources/architecture.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "layout": "default",
+    "sidebar_position": 5,
+    "title": "Architecture"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Providers",
+    "permalink": "/docs/resources/providers"
+  },
+  "next": {
+    "title": "Roadmap",
+    "permalink": "/docs/resources/roadmap"
+  }
+}

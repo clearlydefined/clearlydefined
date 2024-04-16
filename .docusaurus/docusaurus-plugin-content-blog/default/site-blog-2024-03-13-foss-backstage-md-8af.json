@@ -1,0 +1,38 @@
+{
+  "permalink": "/blog/foss-backstage",
+  "editUrl": "https://github.com/clearlydefined/clearlydefined/blog/2024-03-13-foss-backstage.md",
+  "source": "@site/blog/2024-03-13-foss-backstage.md",
+  "title": "Three perspectives from FOSS Backstage",
+  "description": "As a community manager, I find FOSS Backstage to be one of my favorite conferences content-wise and community-wise. This is a conference that happens every year in Berlin, usually in early March. It’s a great opportunity to meet community leaders from Europe and across the world with the goal of fostering discussions around three complementary perspectives: a) community health and growth, b) project governance and sustainability, and c) supply chain compliance and security.",
+  "date": "2024-03-13T00:00:00.000Z",
+  "tags": [
+    {
+      "label": "events",
+      "permalink": "/blog/tags/events"
+    }
+  ],
+  "readingTime": 0.38,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Nick Vidal",
+      "title": "Community Manager at Open Source Initiative",
+      "url": "https://github.com/nickvidal",
+      "imageURL": "https://github.com/nickvidal.png",
+      "key": "nickvidal"
+    }
+  ],
+  "frontMatter": {
+    "slug": "foss-backstage",
+    "title": "Three perspectives from FOSS Backstage",
+    "authors": "nickvidal",
+    "tags": [
+      "events"
+    ]
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "ClearlyDefined at the ORT Community Days",
+    "permalink": "/blog/ort-community-days"
+  }
+}

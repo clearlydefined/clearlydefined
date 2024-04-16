@@ -1,0 +1,25 @@
+{
+  "id": "legal/NOTICES",
+  "title": "Notices",
+  "description": "ClearlyDefined is built on the shoulders of hundreds of great libraries from folks all over the industry",
+  "source": "@site/docs/legal/NOTICES.md",
+  "sourceDirName": "legal",
+  "slug": "/legal/NOTICES",
+  "permalink": "/docs/legal/NOTICES",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/legal/NOTICES.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "layout": "default",
+    "sidebar_position": 3,
+    "title": "Notices"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Privacy policy",
+    "permalink": "/docs/legal/privacy"
+  }
+}
