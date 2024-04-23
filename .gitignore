@@ -62,3 +62,6 @@ typings/
 
 # bundler output files
 docs/Gemfile.lock
+
+# docusaurus build
+build
