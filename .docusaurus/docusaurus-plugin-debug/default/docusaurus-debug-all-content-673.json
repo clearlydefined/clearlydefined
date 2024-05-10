@@ -15,9 +15,9 @@
           "editUrlLocalized": "https://github.com/clearlydefined/clearlydefined/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/home/nick/cd_docs2/source/sidebars.js",
-          "contentPath": "/home/nick/cd_docs2/source/docs",
-          "contentPathLocalized": "/home/nick/cd_docs2/source/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/home/nick/cd_docs3/clearlydefined/sidebars.js",
+          "contentPath": "/home/nick/cd_docs3/clearlydefined/docs",
+          "contentPathLocalized": "/home/nick/cd_docs3/clearlydefined/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "id": "community/charter",
@@ -868,7 +868,7 @@
             {
               "id": "resources/roadmap",
               "title": "Roadmap",
-              "description": "This is the roadmap for 2024:",
+              "description": "There are three major pillars for ClearlyDefined technical work.",
               "source": "@site/docs/resources/roadmap.md",
               "sourceDirName": "resources",
               "slug": "/resources/roadmap",

@@ -3,63 +3,98 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug', 'c59'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config', '26e'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content', '90a'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData', 'e8d'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata', '286'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry', 'f0f'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes', '131'),
+    exact: true
+  },
+  {
     path: '/blog',
-    component: ComponentCreator('/blog', 'e3f'),
+    component: ComponentCreator('/blog', '075'),
     exact: true
   },
   {
     path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', 'f33'),
+    component: ComponentCreator('/blog/archive', '910'),
     exact: true
   },
   {
     path: '/blog/foss-backstage',
-    component: ComponentCreator('/blog/foss-backstage', 'e84'),
+    component: ComponentCreator('/blog/foss-backstage', '21a'),
     exact: true
   },
   {
     path: '/blog/ort-community-days',
-    component: ComponentCreator('/blog/ort-community-days', '390'),
+    component: ComponentCreator('/blog/ort-community-days', '867'),
     exact: true
   },
   {
     path: '/blog/popular-licenses-2023',
-    component: ComponentCreator('/blog/popular-licenses-2023', '0e1'),
+    component: ComponentCreator('/blog/popular-licenses-2023', '85d'),
     exact: true
   },
   {
     path: '/blog/recap-vision-2024',
-    component: ComponentCreator('/blog/recap-vision-2024', '100'),
+    component: ComponentCreator('/blog/recap-vision-2024', '1b0'),
     exact: true
   },
   {
     path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', 'e91'),
+    component: ComponentCreator('/blog/tags', '331'),
     exact: true
   },
   {
     path: '/blog/tags/events',
-    component: ComponentCreator('/blog/tags/events', '180'),
+    component: ComponentCreator('/blog/tags/events', 'c6e'),
     exact: true
   },
   {
     path: '/blog/tags/licenses',
-    component: ComponentCreator('/blog/tags/licenses', 'b19'),
+    component: ComponentCreator('/blog/tags/licenses', '151'),
     exact: true
   },
   {
     path: '/blog/tags/roadmap',
-    component: ComponentCreator('/blog/tags/roadmap', 'da8'),
+    component: ComponentCreator('/blog/tags/roadmap', '2d4'),
     exact: true
   },
   {
     path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', '109'),
+    component: ComponentCreator('/markdown-page', '057'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'f55'),
+    component: ComponentCreator('/docs', '2b0'),
     routes: [
       {
         path: '/docs',
@@ -299,7 +334,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '090'),
+    component: ComponentCreator('/', '890'),
     exact: true
   },
   {
