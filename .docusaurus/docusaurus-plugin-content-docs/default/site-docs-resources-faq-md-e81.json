@@ -1,0 +1,29 @@
+{
+  "id": "resources/FAQ",
+  "title": "FAQ",
+  "description": "What is this project?",
+  "source": "@site/docs/resources/FAQ.md",
+  "sourceDirName": "resources",
+  "slug": "/resources/FAQ",
+  "permalink": "/docs/resources/FAQ",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/resources/FAQ.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "layout": "default",
+    "sidebar_position": 1,
+    "title": "FAQ"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Resources",
+    "permalink": "/docs/resources/"
+  },
+  "next": {
+    "title": "Defined",
+    "permalink": "/docs/resources/defined"
+  }
+}

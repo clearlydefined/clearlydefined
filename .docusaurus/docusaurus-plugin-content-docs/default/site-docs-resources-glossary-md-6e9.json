@@ -1,0 +1,29 @@
+{
+  "id": "resources/glossary",
+  "title": "Glossary",
+  "description": "There are relatively few concepts and verbs in ClearlyDefined. Here is",
+  "source": "@site/docs/resources/glossary.md",
+  "sourceDirName": "resources",
+  "slug": "/resources/glossary",
+  "permalink": "/docs/resources/glossary",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/resources/glossary.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "layout": "default",
+    "sidebar_position": 2,
+    "title": "Glossary"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Defined",
+    "permalink": "/docs/resources/defined"
+  },
+  "next": {
+    "title": "Providers",
+    "permalink": "/docs/resources/providers"
+  }
+}

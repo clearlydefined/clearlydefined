@@ -1,0 +1,29 @@
+{
+  "id": "legal/privacy",
+  "title": "Privacy policy",
+  "description": "ClearlyDefined is an Open Source Initiative (OSI) project. This document sets out the privacy policy for the ClearlyDefined website and associate services (“Website”).",
+  "source": "@site/docs/legal/privacy.md",
+  "sourceDirName": "legal",
+  "slug": "/legal/privacy",
+  "permalink": "/docs/legal/privacy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/legal/privacy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "layout": "default",
+    "sidebar_position": 2,
+    "title": "Privacy policy"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Terms of use",
+    "permalink": "/docs/legal/terms"
+  },
+  "next": {
+    "title": "Notices",
+    "permalink": "/docs/legal/NOTICES"
+  }
+}

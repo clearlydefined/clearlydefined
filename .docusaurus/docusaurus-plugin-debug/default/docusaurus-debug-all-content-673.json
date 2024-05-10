@@ -1,0 +1,1588 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "editUrl": "https://github.com/clearlydefined/clearlydefined/docs",
+          "editUrlLocalized": "https://github.com/clearlydefined/clearlydefined/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/home/nick/cd_docs2/source/sidebars.js",
+          "contentPath": "/home/nick/cd_docs2/source/docs",
+          "contentPathLocalized": "/home/nick/cd_docs2/source/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "id": "community/charter",
+              "title": "Charter",
+              "description": "Mission",
+              "source": "@site/docs/community/charter.md",
+              "sourceDirName": "community",
+              "slug": "/community/charter",
+              "permalink": "/docs/community/charter",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/community/charter.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "layout": "default",
+                "sidebar_position": 5,
+                "title": "Charter"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Code of Conduct",
+                "permalink": "/docs/community/coc"
+              },
+              "next": {
+                "title": "Legal",
+                "permalink": "/docs/legal/"
+              }
+            },
+            {
+              "id": "community/coc",
+              "title": "Code of Conduct",
+              "description": "Our Pledge",
+              "source": "@site/docs/community/coc.md",
+              "sourceDirName": "community",
+              "slug": "/community/coc",
+              "permalink": "/docs/community/coc",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/community/coc.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "layout": "default",
+                "sidebar_position": 4,
+                "title": "Code of Conduct"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Members",
+                "permalink": "/docs/community/members"
+              },
+              "next": {
+                "title": "Charter",
+                "permalink": "/docs/community/charter"
+              }
+            },
+            {
+              "id": "community/community",
+              "title": "Community",
+              "description": "",
+              "source": "@site/docs/community/community.md",
+              "sourceDirName": "community",
+              "slug": "/community/",
+              "permalink": "/docs/community/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/community/community.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "layout": "default",
+                "sidebar_position": 7,
+                "title": "Community"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Adopter",
+                "permalink": "/docs/roles/adopter"
+              },
+              "next": {
+                "title": "Events",
+                "permalink": "/docs/community/events"
+              }
+            },
+            {
+              "id": "community/events",
+              "title": "Events",
+              "description": "The ClearlyDefined community participates in several events worldwide.",
+              "source": "@site/docs/community/events.md",
+              "sourceDirName": "community",
+              "slug": "/community/events",
+              "permalink": "/docs/community/events",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/community/events.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "layout": "default",
+                "sidebar_position": 1,
+                "title": "Events"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Community",
+                "permalink": "/docs/community/"
+              },
+              "next": {
+                "title": "Meetings",
+                "permalink": "/docs/community/meetings"
+              }
+            },
+            {
+              "id": "community/meetings",
+              "title": "Meetings",
+              "description": "ClearlyDefined holds periodic meetings. There are two types of meetings:",
+              "source": "@site/docs/community/meetings.md",
+              "sourceDirName": "community",
+              "slug": "/community/meetings",
+              "permalink": "/docs/community/meetings",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/community/meetings.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "layout": "default",
+                "sidebar_position": 2,
+                "title": "Meetings"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Events",
+                "permalink": "/docs/community/events"
+              },
+              "next": {
+                "title": "Members",
+                "permalink": "/docs/community/members"
+              }
+            },
+            {
+              "id": "community/members",
+              "title": "Members",
+              "description": "ClearlyDefined has a growing community. Some current members include:",
+              "source": "@site/docs/community/members.md",
+              "sourceDirName": "community",
+              "slug": "/community/members",
+              "permalink": "/docs/community/members",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/community/members.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "layout": "default",
+                "sidebar_position": 3,
+                "title": "Members"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Meetings",
+                "permalink": "/docs/community/meetings"
+              },
+              "next": {
+                "title": "Code of Conduct",
+                "permalink": "/docs/community/coc"
+              }
+            },
+            {
+              "id": "curation/curation",
+              "title": "Curation",
+              "description": "",
+              "source": "@site/docs/curation/curation.md",
+              "sourceDirName": "curation",
+              "slug": "/curation/",
+              "permalink": "/docs/curation/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/curation/curation.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "layout": "default",
+                "sidebar_position": 2,
+                "title": "Curation"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Adopt practices",
+                "permalink": "/docs/get-involved/adopting"
+              },
+              "next": {
+                "title": "Curation",
+                "permalink": "/docs/curation/curation-guidelines"
+              }
+            },
+            {
+              "id": "curation/curation-guidelines",
+              "title": "Curation",
+              "description": "ClearlyDefined licensing data forms the core understanding required to meet FOSS licensing obligations. This data includes:",
+              "source": "@site/docs/curation/curation-guidelines.md",
+              "sourceDirName": "curation",
+              "slug": "/curation/curation-guidelines",
+              "permalink": "/docs/curation/curation-guidelines",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/curation/curation-guidelines.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Curation",
+                "permalink": "/docs/curation/"
+              },
+              "next": {
+                "title": "How to curate",
+                "permalink": "/docs/curation/curation-process"
+              }
+            },
+            {
+              "id": "curation/curation-process",
+              "title": "How to curate",
+              "description": "Go to clearlydefined.io definitions.",
+              "source": "@site/docs/curation/curation-process.md",
+              "sourceDirName": "curation",
+              "slug": "/curation/curation-process",
+              "permalink": "/docs/curation/curation-process",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/curation/curation-process.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "layout": "default"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Curation",
+                "permalink": "/docs/curation/curation-guidelines"
+              },
+              "next": {
+                "title": "Donating data",
+                "permalink": "/docs/curation/data-donation"
+              }
+            },
+            {
+              "id": "curation/data-donation",
+              "title": "Donating data",
+              "description": "The process for donating existing data depends very much on what you have. Given that variation, we have not spent a lot of time documenting the process. Rather, please contact the team on",
+              "source": "@site/docs/curation/data-donation.md",
+              "sourceDirName": "curation",
+              "slug": "/curation/data-donation",
+              "permalink": "/docs/curation/data-donation",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/curation/data-donation.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "layout": "default"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "How to curate",
+                "permalink": "/docs/curation/curation-process"
+              },
+              "next": {
+                "title": "Harvest",
+                "permalink": "/docs/harvest/"
+              }
+            },
+            {
+              "id": "get-involved/adding-sources",
+              "title": "Add a harvest",
+              "description": "ClearlyDefined currently harvests several types of packages, the full list can be seen on the ClearlyDefined Stats Page.",
+              "source": "@site/docs/get-involved/adding-sources.md",
+              "sourceDirName": "get-involved",
+              "slug": "/get-involved/adding-sources",
+              "permalink": "/docs/get-involved/adding-sources",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/get-involved/adding-sources.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "layout": "default",
+                "sidebar_position": 7,
+                "title": "Add a harvest"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Contribute code",
+                "permalink": "/docs/get-involved/contributing-code"
+              },
+              "next": {
+                "title": "Adopt practices",
+                "permalink": "/docs/get-involved/adopting"
+              }
+            },
+            {
+              "id": "get-involved/adopting",
+              "title": "Adopt practices",
+              "description": "Being ClearlyDefined can be more of an intent than an action. Many projects already make",
+              "source": "@site/docs/get-involved/adopting.md",
+              "sourceDirName": "get-involved",
+              "slug": "/get-involved/adopting",
+              "permalink": "/docs/get-involved/adopting",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/get-involved/adopting.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 8,
+              "frontMatter": {
+                "layout": "default",
+                "sidebar_position": 8,
+                "title": "Adopt practices"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Add a harvest",
+                "permalink": "/docs/get-involved/adding-sources"
+              },
+              "next": {
+                "title": "Curation",
+                "permalink": "/docs/curation/"
+              }
+            },
+            {
+              "id": "get-involved/contributing-code",
+              "title": "Contribute code",
+              "description": "First, thanks for your interest in the code for ClearlyDefined. While much of the project's focus is on getting,",
+              "source": "@site/docs/get-involved/contributing-code.md",
+              "sourceDirName": "get-involved",
+              "slug": "/get-involved/contributing-code",
+              "permalink": "/docs/get-involved/contributing-code",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/get-involved/contributing-code.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "layout": "default",
+                "sidebar_position": 6,
+                "title": "Contribute code"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Contribute data",
+                "permalink": "/docs/get-involved/contributing-data"
+              },
+              "next": {
+                "title": "Add a harvest",
+                "permalink": "/docs/get-involved/adding-sources"
+              }
+            },
+            {
+              "id": "get-involved/contributing-data",
+              "title": "Contribute data",
+              "description": "Curation is the act of human vetting, updating and/or supplying of information.",
+              "source": "@site/docs/get-involved/contributing-data.md",
+              "sourceDirName": "get-involved",
+              "slug": "/get-involved/contributing-data",
+              "permalink": "/docs/get-involved/contributing-data",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/get-involved/contributing-data.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "layout": "default",
+                "sidebar_position": 5,
+                "title": "Contribute data"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Curate the data",
+                "permalink": "/docs/get-involved/data-curation"
+              },
+              "next": {
+                "title": "Contribute code",
+                "permalink": "/docs/get-involved/contributing-code"
+              }
+            },
+            {
+              "id": "get-involved/data-curation",
+              "title": "Curate the data",
+              "description": "Summary",
+              "source": "@site/docs/get-involved/data-curation.md",
+              "sourceDirName": "get-involved",
+              "slug": "/get-involved/data-curation",
+              "permalink": "/docs/get-involved/data-curation",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/get-involved/data-curation.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "layout": "default",
+                "sidebar_position": 4,
+                "title": "Curate the data"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Use the data",
+                "permalink": "/docs/get-involved/using-data"
+              },
+              "next": {
+                "title": "Contribute data",
+                "permalink": "/docs/get-involved/contributing-data"
+              }
+            },
+            {
+              "id": "get-involved/get-involved",
+              "title": "Get involved",
+              "description": "ClearlyDefined is under active development. There are lots of areas to explore,",
+              "source": "@site/docs/get-involved/get-involved.md",
+              "sourceDirName": "get-involved",
+              "slug": "/get-involved/",
+              "permalink": "/docs/get-involved/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/get-involved/get-involved.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "layout": "default",
+                "sidebar_position": 1,
+                "title": "Get involved"
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Introduction",
+                "permalink": "/docs/get-involved/intro"
+              }
+            },
+            {
+              "id": "get-involved/intro",
+              "title": "Introduction",
+              "description": "ClearlyDefined and our parent organization, the Open Source Initiative,",
+              "source": "@site/docs/get-involved/intro.md",
+              "sourceDirName": "get-involved",
+              "slug": "/get-involved/intro",
+              "permalink": "/docs/get-involved/intro",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/get-involved/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "layout": "default",
+                "sidebar_position": 1,
+                "title": "Introduction"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Get involved",
+                "permalink": "/docs/get-involved/"
+              },
+              "next": {
+                "title": "Use the data",
+                "permalink": "/docs/get-involved/using-data"
+              }
+            },
+            {
+              "id": "get-involved/using-data",
+              "title": "Use the data",
+              "description": "All of the ClearlyDefined data is available for everyone to see and use. You can browse and inspect in a convenient web ui or hook up a client to the REST API and integrate it into your systems.",
+              "source": "@site/docs/get-involved/using-data.md",
+              "sourceDirName": "get-involved",
+              "slug": "/get-involved/using-data",
+              "permalink": "/docs/get-involved/using-data",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/get-involved/using-data.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "layout": "default",
+                "sidebar_position": 3,
+                "title": "Use the data"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/docs/get-involved/intro"
+              },
+              "next": {
+                "title": "Curate the data",
+                "permalink": "/docs/get-involved/data-curation"
+              }
+            },
+            {
+              "id": "harvest/harvest",
+              "title": "Harvest",
+              "description": "",
+              "source": "@site/docs/harvest/harvest.md",
+              "sourceDirName": "harvest",
+              "slug": "/harvest/",
+              "permalink": "/docs/harvest/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/harvest/harvest.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "layout": "default",
+                "sidebar_position": 3,
+                "title": "Harvest"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Donating data",
+                "permalink": "/docs/curation/data-donation"
+              },
+              "next": {
+                "title": "Running the Harvester",
+                "permalink": "/docs/harvest/intro"
+              }
+            },
+            {
+              "id": "harvest/intro",
+              "title": "Running the Harvester",
+              "description": "Local dev",
+              "source": "@site/docs/harvest/intro.md",
+              "sourceDirName": "harvest",
+              "slug": "/harvest/intro",
+              "permalink": "/docs/harvest/intro",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/harvest/intro.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Harvest",
+                "permalink": "/docs/harvest/"
+              },
+              "next": {
+                "title": "Resources",
+                "permalink": "/docs/resources/"
+              }
+            },
+            {
+              "id": "legal/legal",
+              "title": "Legal",
+              "description": "",
+              "source": "@site/docs/legal/legal.md",
+              "sourceDirName": "legal",
+              "slug": "/legal/",
+              "permalink": "/docs/legal/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/legal/legal.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 8,
+              "frontMatter": {
+                "layout": "default",
+                "sidebar_position": 8,
+                "title": "Legal"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Charter",
+                "permalink": "/docs/community/charter"
+              },
+              "next": {
+                "title": "Terms of use",
+                "permalink": "/docs/legal/terms"
+              }
+            },
+            {
+              "id": "legal/NOTICES",
+              "title": "Notices",
+              "description": "ClearlyDefined is built on the shoulders of hundreds of great libraries from folks all over the industry",
+              "source": "@site/docs/legal/NOTICES.md",
+              "sourceDirName": "legal",
+              "slug": "/legal/NOTICES",
+              "permalink": "/docs/legal/NOTICES",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/legal/NOTICES.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "layout": "default",
+                "sidebar_position": 3,
+                "title": "Notices"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Privacy policy",
+                "permalink": "/docs/legal/privacy"
+              }
+            },
+            {
+              "id": "legal/privacy",
+              "title": "Privacy policy",
+              "description": "ClearlyDefined is an Open Source Initiative (OSI) project. This document sets out the privacy policy for the ClearlyDefined website and associate services (“Website”).",
+              "source": "@site/docs/legal/privacy.md",
+              "sourceDirName": "legal",
+              "slug": "/legal/privacy",
+              "permalink": "/docs/legal/privacy",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/legal/privacy.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "layout": "default",
+                "sidebar_position": 2,
+                "title": "Privacy policy"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Terms of use",
+                "permalink": "/docs/legal/terms"
+              },
+              "next": {
+                "title": "Notices",
+                "permalink": "/docs/legal/NOTICES"
+              }
+            },
+            {
+              "id": "legal/terms",
+              "title": "Terms of use",
+              "description": "ClearlyDefined is an Open Source Initiative project. This document sets out the terms of use for the ClearlyDefined website and associated data, services, APIs and tools (“Data and Services”).",
+              "source": "@site/docs/legal/terms.md",
+              "sourceDirName": "legal",
+              "slug": "/legal/terms",
+              "permalink": "/docs/legal/terms",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/legal/terms.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "layout": "default",
+                "sidebar_position": 1,
+                "title": "Terms of use"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Legal",
+                "permalink": "/docs/legal/"
+              },
+              "next": {
+                "title": "Privacy policy",
+                "permalink": "/docs/legal/privacy"
+              }
+            },
+            {
+              "id": "resources/architecture",
+              "title": "Architecture",
+              "description": "ClearlyDefined is structured as a set of stateles, micro-services that can scale horizontally with ease.",
+              "source": "@site/docs/resources/architecture.md",
+              "sourceDirName": "resources",
+              "slug": "/resources/architecture",
+              "permalink": "/docs/resources/architecture",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/resources/architecture.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "layout": "default",
+                "sidebar_position": 5,
+                "title": "Architecture"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Providers",
+                "permalink": "/docs/resources/providers"
+              },
+              "next": {
+                "title": "Roadmap",
+                "permalink": "/docs/resources/roadmap"
+              }
+            },
+            {
+              "id": "resources/defined",
+              "title": "Defined",
+              "description": "Being ClearlyDefined is about clarity in different domains of a component. For example, we talk about being ClearlyDescribed as meaning that the essential descriptive data about a component (e.g., source location) is available. Similarly, being ClearlyLicensed means that the key license-related data (e.g., license and attribution parties) are readily apparent. The set of domains coordinated by ClearlyDefined will evolve over time. The current set are detailed below.",
+              "source": "@site/docs/resources/defined.md",
+              "sourceDirName": "resources",
+              "slug": "/resources/defined",
+              "permalink": "/docs/resources/defined",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/resources/defined.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "layout": "default",
+                "sidebar_position": 2,
+                "title": "Defined"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "FAQ",
+                "permalink": "/docs/resources/faq"
+              },
+              "next": {
+                "title": "Glossary",
+                "permalink": "/docs/resources/glossary"
+              }
+            },
+            {
+              "id": "resources/faq",
+              "title": "FAQ",
+              "description": "What is this project?",
+              "source": "@site/docs/resources/faq.md",
+              "sourceDirName": "resources",
+              "slug": "/resources/faq",
+              "permalink": "/docs/resources/faq",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/resources/faq.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "layout": "default",
+                "sidebar_position": 1,
+                "title": "FAQ"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Resources",
+                "permalink": "/docs/resources/"
+              },
+              "next": {
+                "title": "Defined",
+                "permalink": "/docs/resources/defined"
+              }
+            },
+            {
+              "id": "resources/glossary",
+              "title": "Glossary",
+              "description": "There are relatively few concepts and verbs in ClearlyDefined. Here is",
+              "source": "@site/docs/resources/glossary.md",
+              "sourceDirName": "resources",
+              "slug": "/resources/glossary",
+              "permalink": "/docs/resources/glossary",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/resources/glossary.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "layout": "default",
+                "sidebar_position": 2,
+                "title": "Glossary"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Defined",
+                "permalink": "/docs/resources/defined"
+              },
+              "next": {
+                "title": "Providers",
+                "permalink": "/docs/resources/providers"
+              }
+            },
+            {
+              "id": "resources/providers",
+              "title": "Providers",
+              "description": "ClearlyDefined implements support for many providers that host open source packages.",
+              "source": "@site/docs/resources/providers.md",
+              "sourceDirName": "resources",
+              "slug": "/resources/providers",
+              "permalink": "/docs/resources/providers",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/resources/providers.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "layout": "default",
+                "sidebar_position": 4,
+                "title": "Providers"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Glossary",
+                "permalink": "/docs/resources/glossary"
+              },
+              "next": {
+                "title": "Architecture",
+                "permalink": "/docs/resources/architecture"
+              }
+            },
+            {
+              "id": "resources/resources",
+              "title": "Resources",
+              "description": "",
+              "source": "@site/docs/resources/resources.md",
+              "sourceDirName": "resources",
+              "slug": "/resources/",
+              "permalink": "/docs/resources/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/resources/resources.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "layout": "default",
+                "sidebar_position": 5,
+                "title": "Resources"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Running the Harvester",
+                "permalink": "/docs/harvest/intro"
+              },
+              "next": {
+                "title": "FAQ",
+                "permalink": "/docs/resources/faq"
+              }
+            },
+            {
+              "id": "resources/roadmap",
+              "title": "Roadmap",
+              "description": "This is the roadmap for 2024:",
+              "source": "@site/docs/resources/roadmap.md",
+              "sourceDirName": "resources",
+              "slug": "/resources/roadmap",
+              "permalink": "/docs/resources/roadmap",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/resources/roadmap.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "layout": "default",
+                "sidebar_position": 6,
+                "title": "Roadmap"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Architecture",
+                "permalink": "/docs/resources/architecture"
+              },
+              "next": {
+                "title": "Roles",
+                "permalink": "/docs/roles/"
+              }
+            },
+            {
+              "id": "roles/adopter",
+              "title": "Adopter",
+              "description": "Are you a representative of an open source project that’s working hard",
+              "source": "@site/docs/roles/adopter.md",
+              "sourceDirName": "roles",
+              "slug": "/roles/adopter",
+              "permalink": "/docs/roles/adopter",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/roles/adopter.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "layout": "default",
+                "sidebar_position": 5,
+                "title": "Adopter"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Code contributor",
+                "permalink": "/docs/roles/code-contributor"
+              },
+              "next": {
+                "title": "Community",
+                "permalink": "/docs/community/"
+              }
+            },
+            {
+              "id": "roles/code-contributor",
+              "title": "Code contributor",
+              "description": "Are you a Node, React, Python, or cloud dev who loves working on",
+              "source": "@site/docs/roles/code-contributor.md",
+              "sourceDirName": "roles",
+              "slug": "/roles/code-contributor",
+              "permalink": "/docs/roles/code-contributor",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/roles/code-contributor.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "layout": "default",
+                "sidebar_position": 4,
+                "title": "Code contributor"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Data contributor",
+                "permalink": "/docs/roles/data-contributor"
+              },
+              "next": {
+                "title": "Adopter",
+                "permalink": "/docs/roles/adopter"
+              }
+            },
+            {
+              "id": "roles/data-consumer",
+              "title": "Data consumer",
+              "description": "Are you often frustrated when you use FOSS code and can’t find the",
+              "source": "@site/docs/roles/data-consumer.md",
+              "sourceDirName": "roles",
+              "slug": "/roles/data-consumer",
+              "permalink": "/docs/roles/data-consumer",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/roles/data-consumer.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "layout": "default",
+                "sidebar_position": 1,
+                "title": "Data consumer"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Roles",
+                "permalink": "/docs/roles/"
+              },
+              "next": {
+                "title": "Data curator",
+                "permalink": "/docs/roles/data-curator"
+              }
+            },
+            {
+              "id": "roles/data-contributor",
+              "title": "Data contributor",
+              "description": "Are you a data scientist, librarian, or just love finding and",
+              "source": "@site/docs/roles/data-contributor.md",
+              "sourceDirName": "roles",
+              "slug": "/roles/data-contributor",
+              "permalink": "/docs/roles/data-contributor",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/roles/data-contributor.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "layout": "default",
+                "sidebar_position": 3,
+                "title": "Data contributor"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Data curator",
+                "permalink": "/docs/roles/data-curator"
+              },
+              "next": {
+                "title": "Code contributor",
+                "permalink": "/docs/roles/code-contributor"
+              }
+            },
+            {
+              "id": "roles/data-curator",
+              "title": "Data curator",
+              "description": "Are you a data scientist, librarian, or just love finding and",
+              "source": "@site/docs/roles/data-curator.md",
+              "sourceDirName": "roles",
+              "slug": "/roles/data-curator",
+              "permalink": "/docs/roles/data-curator",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/roles/data-curator.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "layout": "default",
+                "sidebar_position": 2,
+                "title": "Data curator"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Data consumer",
+                "permalink": "/docs/roles/data-consumer"
+              },
+              "next": {
+                "title": "Data contributor",
+                "permalink": "/docs/roles/data-contributor"
+              }
+            },
+            {
+              "id": "roles/roles",
+              "title": "Roles",
+              "description": "",
+              "source": "@site/docs/roles/roles.md",
+              "sourceDirName": "roles",
+              "slug": "/roles/",
+              "permalink": "/docs/roles/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/roles/roles.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "layout": "default",
+                "sidebar_position": 6,
+                "title": "Roles"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Roadmap",
+                "permalink": "/docs/resources/roadmap"
+              },
+              "next": {
+                "title": "Data consumer",
+                "permalink": "/docs/roles/data-consumer"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "category",
+                "label": "Get involved",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "get-involved/intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "get-involved/using-data"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "get-involved/data-curation"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "get-involved/contributing-data"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "get-involved/contributing-code"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "get-involved/adding-sources"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "get-involved/adopting"
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "get-involved/get-involved"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Curation",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "curation/curation-guidelines"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "curation/curation-process"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "curation/data-donation"
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "curation/curation"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Harvest",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "harvest/intro"
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "harvest/harvest"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Resources",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "resources/faq"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "resources/defined"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "resources/glossary"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "resources/providers"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "resources/architecture"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "resources/roadmap"
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "resources/resources"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Roles",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "roles/data-consumer"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "roles/data-curator"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "roles/data-contributor"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "roles/code-contributor"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "roles/adopter"
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "roles/roles"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Community",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "community/events"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "community/meetings"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "community/members"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "community/coc"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "community/charter"
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "community/community"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Legal",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "legal/terms"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "legal/privacy"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "legal/NOTICES"
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "legal/legal"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [
+        {
+          "id": "foss-backstage",
+          "metadata": {
+            "permalink": "/blog/foss-backstage",
+            "editUrl": "https://github.com/clearlydefined/clearlydefined/blog/2024-03-13-foss-backstage.md",
+            "source": "@site/blog/2024-03-13-foss-backstage.md",
+            "title": "Three perspectives from FOSS Backstage",
+            "description": "As a community manager, I find FOSS Backstage to be one of my favorite conferences content-wise and community-wise. This is a conference that happens every year in Berlin, usually in early March. It’s a great opportunity to meet community leaders from Europe and across the world with the goal of fostering discussions around three complementary perspectives: a) community health and growth, b) project governance and sustainability, and c) supply chain compliance and security.",
+            "date": "2024-03-13T00:00:00.000Z",
+            "tags": [
+              {
+                "label": "events",
+                "permalink": "/blog/tags/events"
+              }
+            ],
+            "readingTime": 0.38,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Nick Vidal",
+                "title": "Community Manager at Open Source Initiative",
+                "url": "https://github.com/nickvidal",
+                "imageURL": "https://github.com/nickvidal.png",
+                "key": "nickvidal"
+              }
+            ],
+            "frontMatter": {
+              "slug": "foss-backstage",
+              "title": "Three perspectives from FOSS Backstage",
+              "authors": "nickvidal",
+              "tags": [
+                "events"
+              ]
+            },
+            "unlisted": false,
+            "nextItem": {
+              "title": "ClearlyDefined at the ORT Community Days",
+              "permalink": "/blog/ort-community-days"
+            }
+          },
+          "content": "As a community manager, I find FOSS Backstage to be one of my favorite conferences content-wise and community-wise. This is a conference that happens every year in Berlin, usually in early March. It’s a great opportunity to meet community leaders from Europe and across the world with the goal of fostering discussions around three complementary perspectives: a) community health and growth, b) project governance and sustainability, and c) supply chain compliance and security.\n\nRead more: https://opensource.org/blog/three-perspectives-from-foss-backstage"
+        },
+        {
+          "id": "ort-community-days",
+          "metadata": {
+            "permalink": "/blog/ort-community-days",
+            "editUrl": "https://github.com/clearlydefined/clearlydefined/blog/2024-03-13-ort-community-days.md",
+            "source": "@site/blog/2024-03-13-ort-community-days.md",
+            "title": "ClearlyDefined at the ORT Community Days",
+            "description": "Once again Bosch’s campus in Berlin received ORT Community Days, the annual event organized by the OSS Review Toolkit (ORT) community. ORT is an Open Source suite of tools to automate software compliance checks.",
+            "date": "2024-03-13T00:00:00.000Z",
+            "tags": [
+              {
+                "label": "events",
+                "permalink": "/blog/tags/events"
+              }
+            ],
+            "readingTime": 0.55,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Nick Vidal",
+                "title": "Community Manager at Open Source Initiative",
+                "url": "https://github.com/nickvidal",
+                "imageURL": "https://github.com/nickvidal.png",
+                "key": "nickvidal"
+              }
+            ],
+            "frontMatter": {
+              "slug": "ort-community-days",
+              "title": "ClearlyDefined at the ORT Community Days",
+              "authors": "nickvidal",
+              "tags": [
+                "events"
+              ]
+            },
+            "unlisted": false,
+            "prevItem": {
+              "title": "Three perspectives from FOSS Backstage",
+              "permalink": "/blog/foss-backstage"
+            },
+            "nextItem": {
+              "title": "ClearlyDefined, recapping a year of progress and sharing a vision for 2024",
+              "permalink": "/blog/recap-vision-2024"
+            }
+          },
+          "content": "Once again Bosch’s campus in Berlin received ORT Community Days, the annual event organized by the OSS Review Toolkit (ORT) community. ORT is an Open Source suite of tools to automate software compliance checks.\n\nThe ClearlyDefined community had an important presence at the event, represented by E. Lynette Rayle and Lukas Spieß from GitHub and Qing Tomlinson from SAP. I had the pleasure to represent the Open Source Initiative as the community manager for ClearlyDefined. The mission of ClearlyDefined is to crowdsource a global database of licensing metadata for every software component ever published. We see the ORT community as an important partner towards achieving this mission.\n\nRead more: https://opensource.org/blog/clearlydefined-at-the-ort-community-days"
+        },
+        {
+          "id": "recap-vision-2024",
+          "metadata": {
+            "permalink": "/blog/recap-vision-2024",
+            "editUrl": "https://github.com/clearlydefined/clearlydefined/blog/2024-01-08-recap-vision-2024.md",
+            "source": "@site/blog/2024-01-08-recap-vision-2024.md",
+            "title": "ClearlyDefined, recapping a year of progress and sharing a vision for 2024",
+            "description": "At the beginning of 2023, I started as a community manager for ClearlyDefined, with the goals of creating an open governance model for the project and helping the OSI to establish a neutral infrastructure to foster collaboration among multiple stakeholders. Thanks to the amazing work from our community members, a lot of progress has been made in 2023, but there’s still a lot of work ahead of us. In this post, we would like to highlight some milestones achieved this past year and acknowledge some individuals who have contributed to the project. We would also like to share a vision for 2024 and invite all organizations who care about the Open Source supply chain to become involved.",
+            "date": "2024-01-08T00:00:00.000Z",
+            "tags": [
+              {
+                "label": "roadmap",
+                "permalink": "/blog/tags/roadmap"
+              }
+            ],
+            "readingTime": 0.6,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Nick Vidal",
+                "title": "Community Manager at Open Source Initiative",
+                "url": "https://github.com/nickvidal",
+                "imageURL": "https://github.com/nickvidal.png",
+                "key": "nickvidal"
+              }
+            ],
+            "frontMatter": {
+              "slug": "recap-vision-2024",
+              "title": "ClearlyDefined, recapping a year of progress and sharing a vision for 2024",
+              "authors": "nickvidal",
+              "tags": [
+                "roadmap"
+              ]
+            },
+            "unlisted": false,
+            "prevItem": {
+              "title": "ClearlyDefined at the ORT Community Days",
+              "permalink": "/blog/ort-community-days"
+            },
+            "nextItem": {
+              "title": "The most popular licenses for each language in 2023",
+              "permalink": "/blog/popular-licenses-2023"
+            }
+          },
+          "content": "At the beginning of 2023, I started as a community manager for ClearlyDefined, with the goals of creating an open governance model for the project and helping the OSI to establish a neutral infrastructure to foster collaboration among multiple stakeholders. Thanks to the amazing work from our community members, a lot of progress has been made in 2023, but there’s still a lot of work ahead of us. In this post, we would like to highlight some milestones achieved this past year and acknowledge some individuals who have contributed to the project. We would also like to share a vision for 2024 and invite all organizations who care about the Open Source supply chain to become involved.\n\nRead more: https://opensource.org/blog/clearlydefined-recapping-a-year-of-progress-and-sharing-a-vision-for-2024"
+        },
+        {
+          "id": "popular-licenses-2023",
+          "metadata": {
+            "permalink": "/blog/popular-licenses-2023",
+            "editUrl": "https://github.com/clearlydefined/clearlydefined/blog/2023-12-07-popular-licenses-2023.md",
+            "source": "@site/blog/2023-12-07-popular-licenses-2023.md",
+            "title": "The most popular licenses for each language in 2023",
+            "description": "The 2023 report of the licenses in use by the biggest package managers highlights the need to educate developers on the importance of licensing information. While many developers know that Open Source software forms the backbone of modern development, the data shows that much of their software is shared (and most likely also used) without a license.",
+            "date": "2023-12-07T00:00:00.000Z",
+            "tags": [
+              {
+                "label": "licenses",
+                "permalink": "/blog/tags/licenses"
+              }
+            ],
+            "readingTime": 0.3,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Nick Vidal",
+                "title": "Community Manager at Open Source Initiative",
+                "url": "https://github.com/nickvidal",
+                "imageURL": "https://github.com/nickvidal.png",
+                "key": "nickvidal"
+              }
+            ],
+            "frontMatter": {
+              "slug": "popular-licenses-2023",
+              "title": "The most popular licenses for each language in 2023",
+              "authors": "nickvidal",
+              "tags": [
+                "licenses"
+              ]
+            },
+            "unlisted": false,
+            "prevItem": {
+              "title": "ClearlyDefined, recapping a year of progress and sharing a vision for 2024",
+              "permalink": "/blog/recap-vision-2024"
+            }
+          },
+          "content": "The 2023 report of the licenses in use by the biggest package managers highlights the need to educate developers on the importance of licensing information. While many developers know that Open Source software forms the backbone of modern development, the data shows that much of their software is shared (and most likely also used) without a license.\n\nRead more: https://opensource.org/blog/the-most-popular-licenses-for-each-language-2023"
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "items": [
+            "foss-backstage",
+            "ort-community-days",
+            "recap-vision-2024",
+            "popular-licenses-2023"
+          ],
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 4,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          }
+        }
+      ],
+      "blogTags": {
+        "/blog/tags/events": {
+          "label": "events",
+          "items": [
+            "foss-backstage",
+            "ort-community-days"
+          ],
+          "permalink": "/blog/tags/events",
+          "pages": [
+            {
+              "items": [
+                "foss-backstage",
+                "ort-community-days"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/events",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 2,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/blog/tags/roadmap": {
+          "label": "roadmap",
+          "items": [
+            "recap-vision-2024"
+          ],
+          "permalink": "/blog/tags/roadmap",
+          "pages": [
+            {
+              "items": [
+                "recap-vision-2024"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/roadmap",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/blog/tags/licenses": {
+          "label": "licenses",
+          "items": [
+            "popular-licenses-2023"
+          ],
+          "permalink": "/blog/tags/licenses",
+          "pages": [
+            {
+              "items": [
+                "popular-licenses-2023"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/licenses",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        }
+      },
+      "blogTagsListPath": "/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        },
+        "unlisted": false
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

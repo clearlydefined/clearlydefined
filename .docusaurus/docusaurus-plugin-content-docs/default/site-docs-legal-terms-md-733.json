@@ -1,0 +1,29 @@
+{
+  "id": "legal/terms",
+  "title": "Terms of use",
+  "description": "ClearlyDefined is an Open Source Initiative project. This document sets out the terms of use for the ClearlyDefined website and associated data, services, APIs and tools (“Data and Services”).",
+  "source": "@site/docs/legal/terms.md",
+  "sourceDirName": "legal",
+  "slug": "/legal/terms",
+  "permalink": "/docs/legal/terms",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/legal/terms.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "layout": "default",
+    "sidebar_position": 1,
+    "title": "Terms of use"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Legal",
+    "permalink": "/docs/legal/"
+  },
+  "next": {
+    "title": "Privacy policy",
+    "permalink": "/docs/legal/privacy"
+  }
+}

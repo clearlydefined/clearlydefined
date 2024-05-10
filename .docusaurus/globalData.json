@@ -1,0 +1,213 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "get-involved/get-involved",
+          "docs": [
+            {
+              "id": "community/charter",
+              "path": "/docs/community/charter",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "community/coc",
+              "path": "/docs/community/coc",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "community/community",
+              "path": "/docs/community/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "community/events",
+              "path": "/docs/community/events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "community/meetings",
+              "path": "/docs/community/meetings",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "community/members",
+              "path": "/docs/community/members",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "curation/curation",
+              "path": "/docs/curation/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "curation/curation-guidelines",
+              "path": "/docs/curation/curation-guidelines",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "curation/curation-process",
+              "path": "/docs/curation/curation-process",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "curation/data-donation",
+              "path": "/docs/curation/data-donation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "get-involved/adding-sources",
+              "path": "/docs/get-involved/adding-sources",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "get-involved/adopting",
+              "path": "/docs/get-involved/adopting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "get-involved/contributing-code",
+              "path": "/docs/get-involved/contributing-code",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "get-involved/contributing-data",
+              "path": "/docs/get-involved/contributing-data",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "get-involved/data-curation",
+              "path": "/docs/get-involved/data-curation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "get-involved/get-involved",
+              "path": "/docs/get-involved/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "get-involved/intro",
+              "path": "/docs/get-involved/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "get-involved/using-data",
+              "path": "/docs/get-involved/using-data",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "harvest/harvest",
+              "path": "/docs/harvest/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "harvest/intro",
+              "path": "/docs/harvest/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "legal/legal",
+              "path": "/docs/legal/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "legal/NOTICES",
+              "path": "/docs/legal/NOTICES",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "legal/privacy",
+              "path": "/docs/legal/privacy",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "legal/terms",
+              "path": "/docs/legal/terms",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "resources/architecture",
+              "path": "/docs/resources/architecture",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "resources/defined",
+              "path": "/docs/resources/defined",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "resources/faq",
+              "path": "/docs/resources/faq",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "resources/glossary",
+              "path": "/docs/resources/glossary",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "resources/providers",
+              "path": "/docs/resources/providers",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "resources/resources",
+              "path": "/docs/resources/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "resources/roadmap",
+              "path": "/docs/resources/roadmap",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "roles/adopter",
+              "path": "/docs/roles/adopter",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "roles/code-contributor",
+              "path": "/docs/roles/code-contributor",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "roles/data-consumer",
+              "path": "/docs/roles/data-consumer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "roles/data-contributor",
+              "path": "/docs/roles/data-contributor",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "roles/data-curator",
+              "path": "/docs/roles/data-curator",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "roles/roles",
+              "path": "/docs/roles/",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/get-involved/",
+                "label": "Get involved"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

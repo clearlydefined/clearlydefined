@@ -1,0 +1,303 @@
+{
+  "/blog-e3f": {
+    "__comp": "a6aa9e1f",
+    "__context": {
+      "plugin": "a0651906"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "ea4249ac"
+      },
+      {
+        "content": "df55d933"
+      },
+      {
+        "content": "3bbd8115"
+      },
+      {
+        "content": "a3954a98"
+      }
+    ],
+    "metadata": "b2b675dd"
+  },
+  "/blog/archive-f33": {
+    "__comp": "9e4087bc",
+    "__context": {
+      "plugin": "a0651906"
+    },
+    "archive": "b2f554cd"
+  },
+  "/blog/foss-backstage-e84": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "a0651906"
+    },
+    "sidebar": "814f3328",
+    "content": "8af72d24"
+  },
+  "/blog/ort-community-days-390": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "a0651906"
+    },
+    "sidebar": "814f3328",
+    "content": "ae29f17b"
+  },
+  "/blog/popular-licenses-2023-0e1": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "a0651906"
+    },
+    "sidebar": "814f3328",
+    "content": "a386a411"
+  },
+  "/blog/recap-vision-2024-100": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "a0651906"
+    },
+    "sidebar": "814f3328",
+    "content": "de8a7315"
+  },
+  "/blog/tags-e91": {
+    "__comp": "01a85c17",
+    "__context": {
+      "plugin": "a0651906"
+    },
+    "sidebar": "814f3328",
+    "tags": "a7023ddc"
+  },
+  "/blog/tags/events-180": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "a0651906"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "ea4249ac"
+      },
+      {
+        "content": "df55d933"
+      }
+    ],
+    "tag": "4e71f1c0",
+    "listMetadata": "907b9a2f"
+  },
+  "/blog/tags/licenses-b19": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "a0651906"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "a3954a98"
+      }
+    ],
+    "tag": "5af210bf",
+    "listMetadata": "5fa18ac6"
+  },
+  "/blog/tags/roadmap-da8": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "a0651906"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "3bbd8115"
+      }
+    ],
+    "tag": "170d6c86",
+    "listMetadata": "33d935e4"
+  },
+  "/markdown-page-109": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "d911a031"
+    },
+    "content": "393be207"
+  },
+  "/docs-f55": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "23307937"
+    }
+  },
+  "/docs-5e8": {
+    "__comp": "a7bd4aaa",
+    "version": "935f2afb"
+  },
+  "/docs-e11": {
+    "__comp": "a94703ab"
+  },
+  "/docs/community-75e": {
+    "__comp": "17896441",
+    "content": "323ae7ca"
+  },
+  "/docs/community/charter-949": {
+    "__comp": "17896441",
+    "content": "fb1fd553"
+  },
+  "/docs/community/coc-2ed": {
+    "__comp": "17896441",
+    "content": "728eb771"
+  },
+  "/docs/community/events-62d": {
+    "__comp": "17896441",
+    "content": "2787f47e"
+  },
+  "/docs/community/meetings-3db": {
+    "__comp": "17896441",
+    "content": "94e0f2b6"
+  },
+  "/docs/community/members-2dc": {
+    "__comp": "17896441",
+    "content": "c1ce2b9c"
+  },
+  "/docs/curation-4c0": {
+    "__comp": "17896441",
+    "content": "7049aa48"
+  },
+  "/docs/curation/curation-guidelines-c12": {
+    "__comp": "17896441",
+    "content": "b9d4cd14"
+  },
+  "/docs/curation/curation-process-ad5": {
+    "__comp": "17896441",
+    "content": "e2604a4e"
+  },
+  "/docs/curation/data-donation-e01": {
+    "__comp": "17896441",
+    "content": "9992014f"
+  },
+  "/docs/get-involved-252": {
+    "__comp": "17896441",
+    "content": "715506c2"
+  },
+  "/docs/get-involved/adding-sources-e68": {
+    "__comp": "17896441",
+    "content": "f37f68ba"
+  },
+  "/docs/get-involved/adopting-598": {
+    "__comp": "17896441",
+    "content": "3feecd3b"
+  },
+  "/docs/get-involved/contributing-code-ab4": {
+    "__comp": "17896441",
+    "content": "e283d0ea"
+  },
+  "/docs/get-involved/contributing-data-120": {
+    "__comp": "17896441",
+    "content": "3ec799b2"
+  },
+  "/docs/get-involved/data-curation-5a8": {
+    "__comp": "17896441",
+    "content": "9618a232"
+  },
+  "/docs/get-involved/intro-519": {
+    "__comp": "17896441",
+    "content": "be72edee"
+  },
+  "/docs/get-involved/using-data-c3e": {
+    "__comp": "17896441",
+    "content": "6b37d5c0"
+  },
+  "/docs/harvest-d95": {
+    "__comp": "17896441",
+    "content": "31baa3c9"
+  },
+  "/docs/harvest/intro-50f": {
+    "__comp": "17896441",
+    "content": "0f2ead1c"
+  },
+  "/docs/legal-91c": {
+    "__comp": "17896441",
+    "content": "f281aa64"
+  },
+  "/docs/legal/NOTICES-acf": {
+    "__comp": "17896441",
+    "content": "3fd99124"
+  },
+  "/docs/legal/privacy-d36": {
+    "__comp": "17896441",
+    "content": "d2cbfc4d"
+  },
+  "/docs/legal/terms-5e0": {
+    "__comp": "17896441",
+    "content": "7331222f"
+  },
+  "/docs/resources-6cd": {
+    "__comp": "17896441",
+    "content": "33364b1e"
+  },
+  "/docs/resources/architecture-0f2": {
+    "__comp": "17896441",
+    "content": "eac9ea66"
+  },
+  "/docs/resources/defined-b8d": {
+    "__comp": "17896441",
+    "content": "f945043f"
+  },
+  "/docs/resources/faq-860": {
+    "__comp": "17896441",
+    "content": "b66a831f"
+  },
+  "/docs/resources/glossary-d0d": {
+    "__comp": "17896441",
+    "content": "6e952969"
+  },
+  "/docs/resources/providers-7ee": {
+    "__comp": "17896441",
+    "content": "4a74c6ec"
+  },
+  "/docs/resources/roadmap-829": {
+    "__comp": "17896441",
+    "content": "3e813167"
+  },
+  "/docs/roles-e79": {
+    "__comp": "17896441",
+    "content": "a24a527a"
+  },
+  "/docs/roles/adopter-9cc": {
+    "__comp": "17896441",
+    "content": "46cbf6a8"
+  },
+  "/docs/roles/code-contributor-f98": {
+    "__comp": "17896441",
+    "content": "45aee2a2"
+  },
+  "/docs/roles/data-consumer-e04": {
+    "__comp": "17896441",
+    "content": "f06f0ad0"
+  },
+  "/docs/roles/data-contributor-553": {
+    "__comp": "17896441",
+    "content": "5a8e06c6"
+  },
+  "/docs/roles/data-curator-771": {
+    "__comp": "17896441",
+    "content": "d30f0a49"
+  },
+  "/-090": {
+    "__comp": "c4f5d8e4",
+    "__context": {
+      "plugin": "d911a031"
+    },
+    "config": "5e9f5e1a"
+  }
+}

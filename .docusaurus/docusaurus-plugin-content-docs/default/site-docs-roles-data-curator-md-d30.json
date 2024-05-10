@@ -1,0 +1,29 @@
+{
+  "id": "roles/data-curator",
+  "title": "Data curator",
+  "description": "Are you a data scientist, librarian, or just love finding and",
+  "source": "@site/docs/roles/data-curator.md",
+  "sourceDirName": "roles",
+  "slug": "/roles/data-curator",
+  "permalink": "/docs/roles/data-curator",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/roles/data-curator.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "layout": "default",
+    "sidebar_position": 2,
+    "title": "Data curator"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data consumer",
+    "permalink": "/docs/roles/data-consumer"
+  },
+  "next": {
+    "title": "Data contributor",
+    "permalink": "/docs/roles/data-contributor"
+  }
+}

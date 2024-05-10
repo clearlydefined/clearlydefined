@@ -1,0 +1,29 @@
+{
+  "id": "resources/defined",
+  "title": "Defined",
+  "description": "Being ClearlyDefined is about clarity in different domains of a component. For example, we talk about being ClearlyDescribed as meaning that the essential descriptive data about a component (e.g., source location) is available. Similarly, being ClearlyLicensed means that the key license-related data (e.g., license and attribution parties) are readily apparent. The set of domains coordinated by ClearlyDefined will evolve over time. The current set are detailed below.",
+  "source": "@site/docs/resources/defined.md",
+  "sourceDirName": "resources",
+  "slug": "/resources/defined",
+  "permalink": "/docs/resources/defined",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/clearlydefined/clearlydefined/docs/resources/defined.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "layout": "default",
+    "sidebar_position": 2,
+    "title": "Defined"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "FAQ",
+    "permalink": "/docs/resources/faq"
+  },
+  "next": {
+    "title": "Glossary",
+    "permalink": "/docs/resources/glossary"
+  }
+}
