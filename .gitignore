@@ -1,6 +1,9 @@
 # Build
 build/
 
+# Docusaurus
+.docusaurus/
+
 # Logs
 logs
 *.log
