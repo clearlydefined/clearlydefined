@@ -139,7 +139,21 @@ We always prefer a reference to a version control system, but if you’re unable
 
 # Source Location Information
 
-[TODO]
+When curating the source code location for a package component, consider where the source code was at the time the component was published. When curating the source code repository, look in the canonical locations listed below.
+
+1. Package metadata
+2. Location provided in component files such as links in the README, file headers, etc.
+3. Other versions
+4. Author's other components for potential locations (such as GitHub user accounts)
+
+When dealing with multiple forks, you may have to look at the creation date to verify which one existed when the package was published.
+
+## Supported source locations
+
+Currently, GitHub and GitLab are supported source code locations.
+
+- GitHub: https://github.com/{owner}/{repo}/commits/{commit_sha}
+- GitLab: https://gitlab.com/{owner}/{repo}/-/commit/{commit_sha}
 
 # Facets
 
@@ -163,20 +177,20 @@ When evaluating license information, always look in the version specific canonic
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Package files**     | Look in the "Files" section on the ClearlyDefined definition.                                                                                                                                                                                                                                                                                                                                                                                                      |
 | **Package metadata**  | Look on the package.json in the "Files" section on the ClearlyDefined definition. Alternatively, you can look on http://registry.npmjs.com/ (use this format: `http://registry.npmjs.com/[package name]/[version number]`). Note: the license information on npmjs.com displays the most current package license for all versions. Unless you are evaluating the license for the most current package, you will want to use a version specific canonical location. |
-| **Source repository** | The “Source” field on the ClearlyDefined definition may link to a GitHub commit. Alternatively, you can look on the registry or the package.json file for a URL to the source repository. The package on https://www.npmjs.com may also provide a link to the repository.                                                                                                                                                                                          |
+| **Source repository** | The “Source” field on the ClearlyDefined definition may link to a GitHub or GitLab commit. Alternatively, you can look on the registry or the package.json file for a URL to the source repository. The package on https://www.npmjs.com may also provide a link to the repository.                                                                                                                                                                                |
 
 ## NuGet
 
-|                       | Canonical Location                                                                                                                                                      |
-| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Package files**     | Look in the "Files" section on the ClearlyDefined definition.                                                                                                           |
-| **Package metadata**  | Look on https://www.nuget.org/.                                                                                                                                         |
-| **Source repository** | The “Source” field on the ClearlyDefined definition may link to a GitHub commit. The package on https://www.nuget.org may also provide a link to the source repository. |
+|                       | Canonical Location                                                                                                                                                                |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Package files**     | Look in the "Files" section on the ClearlyDefined definition.                                                                                                                     |
+| **Package metadata**  | Look on https://www.nuget.org/.                                                                                                                                                   |
+| **Source repository** | The “Source” field on the ClearlyDefined definition may link to a GitHub or GitLab commit. The package on https://www.nuget.org may also provide a link to the source repository. |
 
 ## PyPi
 
-|                       | Canonical Location                                                                                                                                             |
-| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Package files**     | Look in the "Files" section on the ClearlyDefined definition. You can also click on “Download files” on https://pypi.org.                                      |
-| **Package metadata**  | Look on https://pypi.org. Do not rely on the Statistics links. You can also look at the setup.py file in the "Files" section on the ClearlyDefined definition. |
-| **Source repository** | The “Source” field on the ClearlyDefined definition may link to a GitHub commit. You can also click on “Homepage” under “Project links" on https://pypi.org/.  |
+|                       | Canonical Location                                                                                                                                                      |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Package files**     | Look in the "Files" section on the ClearlyDefined definition. You can also click on “Download files” on https://pypi.org.                                               |
+| **Package metadata**  | Look on https://pypi.org. Do not rely on the Statistics links. You can also look at the setup.py file in the "Files" section on the ClearlyDefined definition.          |
+| **Source repository** | The “Source” field on the ClearlyDefined definition may link to a GitHub or GitLab commit. You can also click on “Homepage” under “Project links" on https://pypi.org/. |
