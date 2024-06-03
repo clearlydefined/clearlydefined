@@ -6,7 +6,7 @@ title: Architecture
 
 # Architecture
 
-ClearlyDefined is structured as a set of stateles, micro-services that can scale horizontally with ease.
+ClearlyDefined is structured as a set of stateless, micro-services that can scale horizontally with ease.
 The services collaborate via REST APIs using shared service-to-service tokens and/or shared access to storage
 (e.g., blob storage). The website is React-based an talks almost solely to the service.
 
@@ -32,7 +32,7 @@ Unsurprisingly, the `service` is at the heart of the system. It supports a [set 
 - Harvesting -- Get or queue traversals of components of various supported types
 - Origin scanning -- Support for searching and selecting components and versions from a wide range of systems such as GitHub, npmjs, Maven Central.
 
-The service process itself is completely stateless and can scale horizontally as needed. It does relativley little compute itself. The heaviest lifting it does is summarizing, aggregating and curating definitions from their
+The service process itself is completely stateless and can scale horizontally as needed. It does relatively little compute itself. The heaviest lifting it does is summarizing, aggregating and curating definitions from their
 constituent parts. That computation is only done once and then cached until invalidated by new data. So, most of
 the time the service is listing blobs or getting blobs and returning their content.
 
@@ -44,7 +44,7 @@ logic is probably < 500 lines of Node code.
 
 The website is a simple React app that uses the [Create React App framework](https://github.com/facebook/create-react-app), [Redux](https://redux.js.org) and [React-Bootstrap](https://react-bootstrap.github.io). All of its content comes via the service, even when it is talking to GitHub or npmjs or Maven Central. This allows us to manage access tokens, do caching, and precompute results. This approach also simplifies client code and enables the easy creation of alternative front-ends with consistent functional behavior.
 
-The app was put together by new React devs so is bound to have a number of less than opitimal designs and approaches.
+The app was put together by new React devs so is bound to have a number of less than optimal designs and approaches.
 
 ### Badges
 
@@ -55,7 +55,7 @@ So, for example:
 /badges/git/github/expressjs/express/351396f971280ab79faddcf9782ea50f4e88358d
 
 You can embed this into your open source project by putting the following markdown into your Readme.
-(Note please replace variables with your poject information)
+(Note please replace variables with your project information)
 
 ```
 ![My ClearlyDefined Score](https://api.clearlydefined.io/badges/:type/:provider/:namespace/:name/:revision)

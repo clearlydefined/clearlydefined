@@ -286,7 +286,7 @@ This is what we call, _the identity problem_. ClearlyDefined is NOT attempting t
 
 ## Curation
 
-New curations, or changes to existing curations, are done via PATCHes. Ultimately these surface as PRs in the configured curation repo. They can be manipulated directy there but using this API keeps things regular. A set of curations is described together with its general intent, and understood as a `contribution`. Below is an example contribution.
+New curations, or changes to existing curations, are done via PATCHes. Ultimately these surface as PRs in the configured curation repo. They can be manipulated directly there but using this API keeps things regular. A set of curations is described together with its general intent, and understood as a `contribution`. Below is an example contribution.
 
 ```json
 {
