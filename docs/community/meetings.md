@@ -18,6 +18,10 @@ Meeting minutes:
 
 https://docs.google.com/document/d/1m-1FnavQ73LvCHzsWI8tmqGZbnsAxewUuhrGtxWiJqs/edit
 
+Slides:
+
+- [2024-06-03](/slides/ClearlyDefined-2024-06-03.pdf)
+
 ## Developer meetings
 
 Held every Wednesday at 10:30am U.S. Eastern time:
