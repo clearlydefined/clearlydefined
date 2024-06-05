@@ -4,10 +4,20 @@
         <title>ClearlyDefined Docs Blog</title>
         <link>https://docs.clearlydefined.io/blog</link>
         <description>ClearlyDefined Docs Blog</description>
-        <lastBuildDate>Wed, 13 Mar 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 May 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Unveiling ClearlyDefined, this free SBOM service gets cleared for takeoff]]></title>
+            <link>https://docs.clearlydefined.io/blog/unveiling-clearlydefined</link>
+            <guid>https://docs.clearlydefined.io/blog/unveiling-clearlydefined</guid>
+            <pubDate>Thu, 16 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[With all the buzz around SBOMs and Open Source supply chain compliance and security, a new revolution is igniting at ClearlyDefined. This amazing project has been flying under the radar since its inception six years ago, but now this free service and open source project from the Open Source Initiative (OSI) gets cleared for takeoff with the launch of a new website focused on stellar documentation, excellent engineering, and healthy community growth.]]></description>
+            <content:encoded><![CDATA[<p>With all the buzz around SBOMs and Open Source supply chain compliance and security, a new revolution is igniting at ClearlyDefined. This amazing project has been flying under the radar since its inception six years ago, but now this free service and open source project from the Open Source Initiative (OSI) gets cleared for takeoff with the launch of a new website focused on stellar documentation, excellent engineering, and healthy community growth.</p>
+<p>Read more: <a href="https://opensource.org/blog/unveiling-clearlydefined-this-free-sbom-service-gets-cleared-for-takeoff" target="_blank" rel="noopener noreferrer">https://opensource.org/blog/unveiling-clearlydefined-this-free-sbom-service-gets-cleared-for-takeoff</a></p>]]></content:encoded>
+            <category>events</category>
+        </item>
         <item>
             <title><![CDATA[Three perspectives from FOSS Backstage]]></title>
             <link>https://docs.clearlydefined.io/blog/foss-backstage</link>
