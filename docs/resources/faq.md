@@ -25,7 +25,7 @@ by the Open Source Initiative. You can find the Charter of the organization
 Other technologies like SPDX, OpenChain, Quartermaster, etc. are
 complementary to ClearlyDefined. Where they bring tools, process, approaches,
 and data formats, ClearlyDefined brings the data itself. In this way ClearlyDefined is the
-proverbial _missing piece_. ClearlyDefined is most like [libraries.io](https://libraries.io)
+proverbial _missing piece_. ClearlyDefined is similar to [libraries.io](https://libraries.io)
 though we vary in breadth and depth.
 
 ### This is awesome, how can I/we/my organization get involved?
