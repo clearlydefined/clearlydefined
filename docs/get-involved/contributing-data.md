@@ -31,11 +31,11 @@ Either way you should pick the one that best matches your
 interests. For example, if you are using `jquery` there's a good chance that there is an npm, maven
 package and several forms. Pick the one from the source that most closely matches your interests.
 
-Having selected the one that you want, update the definiiton in the bottom right editor to match
+Having selected the one that you want, update the definition in the bottom right editor to match
 you new info. For example, if you found the source location, create a `sourceLocation` property
 in the `described` section and fill in the data.
 
-Once you have finished you data entry, click **Contribute curation**. That askes you for
+Once you have finished you data entry, click **Contribute curation**. That asks you for
 some descriptive info on your suggestions and then opens a pull request in
 [curation repo on GitHub](https://github.com/clearlydefined/curated-data). Curators will take a
 look at your suggestion, validate your approach and then merge the changes into the curation repo.

@@ -110,7 +110,7 @@ otherwise access the definitions for their components of interest.
 
 Harvesting is the act of running one or more tools on a revision of a
 component. The resultant tool outputs are stored for future use in
-summarization and the creation of defintions.
+summarization and the creation of definitions.
 
 ### Summary
 

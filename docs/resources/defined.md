@@ -12,7 +12,7 @@ ClearlyDefined seeks to identify the minimal possible set of factual information
 
 ## Described
 
-For communities to engage with confidence, they need to know what they are getting into. For example, when using a version of a component, knowing the location of the source, where the project lives and where issues are managed help users understand the project more clearly and more quickly. Note that this is not intended to be a catch all bag of subjective information. Rather, we gather essential factal information about component itself.
+For communities to engage with confidence, they need to know what they are getting into. For example, when using a version of a component, knowing the location of the source, where the project lives and where issues are managed help users understand the project more clearly and more quickly. Note that this is not intended to be a catch all bag of subjective information. Rather, we gather essential factual information about component itself.
 
 The full set of properties that make a component ClearlyDescribed:
 
@@ -22,15 +22,15 @@ The full set of properties that make a component ClearlyDescribed:
   - url
   - revision
   - path
-- issueTracker - The URL to the system in which bugs and features are tracked for the described component. Knowing the issues tracker allows the community to engage more fully in the evolution of the component. This locaton may change after the component was released and the definition published. As such, the value of this property may be updated at any time.
-- projectWebsite - The URL to the website where the community for the described component lives. Knowing the website enables users to find documentation, better understand the component, and to find and collaborate with the community. This locaton may change after the component was released and the definition published. As such, the value of this property may be updated at any time.
+- issueTracker - The URL to the system in which bugs and features are tracked for the described component. Knowing the issues tracker allows the community to engage more fully in the evolution of the component. This location may change after the component was released and the definition published. As such, the value of this property may be updated at any time.
+- projectWebsite - The URL to the website where the community for the described component lives. Knowing the website enables users to find documentation, better understand the component, and to find and collaborate with the community. This location may change after the component was released and the definition published. As such, the value of this property may be updated at any time.
 - releaseDate -- The ISO8601 date when the component was released. While more precision may be included, generally you should assume the release date to the day. Unless there are corrections, this value should not change.
 
 ### Facets
 
 It turns out that many projects contain an assortment of code, only some of which is actually part of the component they ship. For example, tests and samples generally are not part of the release of a project. As such, consumers generally need not be concerned with the licenses of that content. For example, the packaged [TypeScript](https://github.com/microsoft/typescript) component includes about 200 files but the full source of the component has >36,000 files -- lots of tests.
 
-To accomodate this level of detail and variation, ClearlyDefined's _described_ domain includes the notion of _facets_. A facet of a component is a subset of the files related to the component. It's really just a grouping that helps us understand the shape of the project. Each facet is described by a set of `glob` expressions -- essentially wildcart patterns that are matched against filenames.
+To accommodate this level of detail and variation, ClearlyDefined's _described_ domain includes the notion of _facets_. A facet of a component is a subset of the files related to the component. It's really just a grouping that helps us understand the shape of the project. Each facet is described by a set of `glob` expressions -- essentially wildcard patterns that are matched against filenames.
 
 While there are many different ways to slice up one's source, for simplicity and generality, ClearlyDefined identifies a fixed set of canonical facets as discussed below. The facet declarations are not meant to be hard and fast rules nor are they intended for anything other than the uses in ClearlyDefined -- differentiating files that go in the delivery/consumption forms of the component. In short, think of this as specifying what goes into the consumed outputs. You need not fill in each facet. Key element is that all files that go into the release are part of the relevant facet.
 
@@ -45,7 +45,7 @@ Each facet definition can have zero or more glob expressions. A file can be capt
 
 ## Licensed
 
-Being ClearlyLicensed is a main focus of ClearlyDefined. Many projects have a license. Not all are clearly identified or identified uniformely. Often times there are more licenses at play in the code than are stated in the project. Even when the license is known, the information required to comply with the license (e.g., source location and the parties to the attribution requirement) are not always clear.
+Being ClearlyLicensed is a main focus of ClearlyDefined. Many projects have a license. Not all are clearly identified or identified uniformly. Often times there are more licenses at play in the code than are stated in the project. Even when the license is known, the information required to comply with the license (e.g., source location and the parties to the attribution requirement) are not always clear.
 
 This ambiguity results in component users who either end up not following the project requirements or who spend enormous effort trying to "get it right". ClearlyDefined addresses both scenarios by clarifying the licensing information around a component.
 
@@ -66,4 +66,4 @@ Each facet includes the following licensing-related information:
 
 Component security is an important and evolving area. ClearlyDefined is helping project teams be explicit about their security approach and any vulnerabilities they may have found and fixed. This is meant to augment existing efforts such as the NIST database and security.org.
 
-As the initial focus of ClearlyDefined is on licening related information, the notion of being ClearlySecured is still being fleshed out. You can help shape the secure domain by defining scenarios to be supported (or not).
+As the initial focus of ClearlyDefined is on licensing related information, the notion of being ClearlySecured is still being fleshed out. You can help shape the secure domain by defining scenarios to be supported (or not).
