@@ -26,7 +26,7 @@ const FeatureList = [
   {
     title: 'Contribute data',
     image: require('@site/static/img/contribute_data.png').default,
-    link: '/docs/get-involved/contribute-data',
+    link: '/docs/get-involved/contributing-data',
     description: (
       <>
         Enhacing the data is something that anyone can do.
