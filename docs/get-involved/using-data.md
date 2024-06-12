@@ -152,7 +152,8 @@ name: syntax
 revision: v0.0.0-20200419152657-af9db7f4a3ab
 ```
 
-We need to encode the slashes in the namespace as '%2F'. You could do that by calling `encodeURIComponent(namespace)` in JavaScript or a similar function in other languages. You could also manually add the encoding to the namespace. For this example, the namespace `github.com/quasilyte/regex` would become `github.com%2Fquasilyte%2Fregex`.
+We need to encode the slashes in the namespace as '%2F'. You could do that by calling `namespace.replaceAll('/', '%2F')` in JavaScript or a similar function in other languages. You could also manually add the encoding to the namespace. For this example, the namespace `github.com/quasilyte/regex` would become `github.com%2Fquasilyte%2Fregex`. Note that using a function like `encodeURIComponent`
+may cause issues with namespaces like `@std`.
 
 After encoding the namespace, our coordinates would now look like this:
 
@@ -168,7 +169,8 @@ Put together, our coordinates now look like this: `go/golang/github.com%2Fquasil
 
 Because we pass the coordinates as a query parameter, we need to encode the whole coordinate string. You could do that by calling encodeURIComponent(namespace) in JavaScript or a similar function in other languages. You could also manually add the encoding to the coordinates. After the encoding, `go/golang/github.com%2Fquasilyte%2fregex/syntax/v0.0.0-20200419152657-af9db7f4a3ab` would become `go%2Fgolang%2Fgithub.com%252Fquasilyte%252Fregex%2Fsyntax%2Fv0.0.0-20200407221936-30656e2c4a95`
 
-To use the API, `Accept-Version: 1.0.0` must be added to the headers.
+To use the API, `Accept-Version: 1.0.0` must be added to the headers. Note:
+`Accept-Version` is currently accepted for `GET` requests but not `POST` requests.
 
 Here is a curl command you could use with the example coordinates.
 
