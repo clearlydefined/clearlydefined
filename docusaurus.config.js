@@ -35,6 +35,44 @@ const config = {
     locales: ['en'],
   },
 
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            to: '/docs/get-involved/intro',
+            from: '/get-involved',
+          },
+          {
+            to: '/docs/get-involved/using-data',
+            from: '/using-data',
+          },
+          {
+            to: '/docs/get-involved/data-curation',
+            from: '/data-curation',
+          },
+          {
+            to: '/docs/get-involved/contributing-data',
+            from: '/contributing-data',
+          },
+          {
+            to: '/docs/get-involved/contributing-code',
+            from: '/contributing-code',
+          },
+          {
+            to: '/docs/get-involved/adding-sources',
+            from: '/adding-sources',
+          },
+          {
+            to: '/docs/get-involved/adopting',
+            from: '/adopting',
+          }
+        ],
+      },
+    ],
+  ],
+
   presets: [
     [
       'classic',
