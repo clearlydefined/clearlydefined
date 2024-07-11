@@ -20,6 +20,7 @@ https://docs.google.com/document/d/1m-1FnavQ73LvCHzsWI8tmqGZbnsAxewUuhrGtxWiJqs/
 
 Slides:
 
+- [2024-07-01](/slides/ClearlyDefined-2024-07-01.pdf)
 - [2024-06-03](/slides/ClearlyDefined-2024-06-03.pdf)
 
 ## Developer meetings
