@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.clearlydefined.io/blog</id>
     <title>ClearlyDefined Docs Blog</title>
-    <updated>2024-05-16T00:00:00.000Z</updated>
+    <updated>2024-07-09T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.clearlydefined.io/blog"/>
     <subtitle>ClearlyDefined Docs Blog</subtitle>
     <icon>https://docs.clearlydefined.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Beyond SPDX, expanding licenses identified by ClearlyDefined]]></title>
+        <id>https://docs.clearlydefined.io/blog/beyond-spdx</id>
+        <link href="https://docs.clearlydefined.io/blog/beyond-spdx"/>
+        <updated>2024-07-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[ClearlyDefined now supports non-SPDX licenses. Scancode already provides this functionality and it offers mapping from these non-SPDX licenses to the SPDX LicenseRef. Organizations using ClearlyDefined now have the option to decide how to handle non-SPDX licenses based on their own needs.]]></summary>
+        <content type="html"><![CDATA[<p>ClearlyDefined now supports non-SPDX licenses. Scancode already provides this functionality and it offers mapping from these non-SPDX licenses to the SPDX LicenseRef. Organizations using ClearlyDefined now have the option to decide how to handle non-SPDX licenses based on their own needs.</p>
+<p>Read more: <a href="https://opensource.org/blog/beyond-spdx-expanding-licenses-identified-by-clearlydefined" target="_blank" rel="noopener noreferrer">https://opensource.org/blog/beyond-spdx-expanding-licenses-identified-by-clearlydefined</a></p>]]></content>
+        <author>
+            <name>Nick Vidal</name>
+            <uri>https://github.com/nickvidal</uri>
+        </author>
+        <category label="spdx" term="spdx"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Unveiling ClearlyDefined, this free SBOM service gets cleared for takeoff]]></title>
         <id>https://docs.clearlydefined.io/blog/unveiling-clearlydefined</id>

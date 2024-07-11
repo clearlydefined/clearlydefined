@@ -4,10 +4,20 @@
         <title>ClearlyDefined Docs Blog</title>
         <link>https://docs.clearlydefined.io/blog</link>
         <description>ClearlyDefined Docs Blog</description>
-        <lastBuildDate>Thu, 16 May 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 09 Jul 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Beyond SPDX, expanding licenses identified by ClearlyDefined]]></title>
+            <link>https://docs.clearlydefined.io/blog/beyond-spdx</link>
+            <guid>https://docs.clearlydefined.io/blog/beyond-spdx</guid>
+            <pubDate>Tue, 09 Jul 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[ClearlyDefined now supports non-SPDX licenses. Scancode already provides this functionality and it offers mapping from these non-SPDX licenses to the SPDX LicenseRef. Organizations using ClearlyDefined now have the option to decide how to handle non-SPDX licenses based on their own needs.]]></description>
+            <content:encoded><![CDATA[<p>ClearlyDefined now supports non-SPDX licenses. Scancode already provides this functionality and it offers mapping from these non-SPDX licenses to the SPDX LicenseRef. Organizations using ClearlyDefined now have the option to decide how to handle non-SPDX licenses based on their own needs.</p>
+<p>Read more: <a href="https://opensource.org/blog/beyond-spdx-expanding-licenses-identified-by-clearlydefined" target="_blank" rel="noopener noreferrer">https://opensource.org/blog/beyond-spdx-expanding-licenses-identified-by-clearlydefined</a></p>]]></content:encoded>
+            <category>spdx</category>
+        </item>
         <item>
             <title><![CDATA[Unveiling ClearlyDefined, this free SBOM service gets cleared for takeoff]]></title>
             <link>https://docs.clearlydefined.io/blog/unveiling-clearlydefined</link>
