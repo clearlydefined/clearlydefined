@@ -4,10 +4,30 @@
         <title>ClearlyDefined Docs Blog</title>
         <link>https://docs.clearlydefined.io/blog</link>
         <description>ClearlyDefined Docs Blog</description>
-        <lastBuildDate>Tue, 09 Jul 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 06 Aug 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[GUAC adopts license metadata from ClearlyDefined]]></title>
+            <link>https://docs.clearlydefined.io/blog/guac</link>
+            <guid>https://docs.clearlydefined.io/blog/guac</guid>
+            <pubDate>Tue, 06 Aug 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[The software supply chain just gained some transparency thanks to an integration of the Open Source Initiative (OSI) project, ClearlyDefined, into GUAC (Graph for Understanding Artifact Composition), an OpenSSF project from the Linux Foundation. GUAC provides a comprehensive mapping of software packages, dependencies, vulnerabilities, attestations, and more, allowing organizations to achieve better compliance and security of their software supply chain.]]></description>
+            <content:encoded><![CDATA[<p>The software supply chain just gained some transparency thanks to an integration of the Open Source Initiative (OSI) project, ClearlyDefined, into GUAC (Graph for Understanding Artifact Composition), an OpenSSF project from the Linux Foundation. GUAC provides a comprehensive mapping of software packages, dependencies, vulnerabilities, attestations, and more, allowing organizations to achieve better compliance and security of their software supply chain.</p>
+<p>Read more: <a href="https://opensource.org/blog/guac-adopts-license-metadata-from-clearlydefined" target="_blank" rel="noopener noreferrer">https://opensource.org/blog/guac-adopts-license-metadata-from-clearlydefined</a></p>]]></content:encoded>
+            <category>guac</category>
+        </item>
+        <item>
+            <title><![CDATA[Better identifying conda packages with ClearlyDefined]]></title>
+            <link>https://docs.clearlydefined.io/blog/conda</link>
+            <guid>https://docs.clearlydefined.io/blog/conda</guid>
+            <pubDate>Tue, 23 Jul 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[ClearlyDefined, an Open Source project that helps organizations with supply chain compliance, now provides a new harvester implementation for conda, a popular package manager with a large collection of pre-built packages for various domains, including data science, machine learning, scientific computing and more.]]></description>
+            <content:encoded><![CDATA[<p>ClearlyDefined, an Open Source project that helps organizations with supply chain compliance, now provides a new harvester implementation for conda, a popular package manager with a large collection of pre-built packages for various domains, including data science, machine learning, scientific computing and more.</p>
+<p>Read more: <a href="https://opensource.org/blog/better-identifying-conda-packages-with-clearlydefined" target="_blank" rel="noopener noreferrer">https://opensource.org/blog/better-identifying-conda-packages-with-clearlydefined</a></p>]]></content:encoded>
+            <category>conda</category>
+        </item>
         <item>
             <title><![CDATA[Beyond SPDX, expanding licenses identified by ClearlyDefined]]></title>
             <link>https://docs.clearlydefined.io/blog/beyond-spdx</link>
