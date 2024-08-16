@@ -170,12 +170,12 @@ const config = {
                 href: '/docs/resources/providers',
               },
               {
-                label: 'Curation',
-                href: '/docs/curation/curation-guidelines',
+                label: 'Installation',
+                href: '/docs/installation/',
               },
               {
-                label: 'Harvest',
-                href: '/docs/harvest/intro',
+                label: 'Curation',
+                href: '/docs/curation/curation-guidelines',
               },
               {
                 label: 'Roadmap',
@@ -282,12 +282,12 @@ const config = {
                 href: '/docs/resources/providers',
               },
               {
-                label: 'Curation',
-                href: '/docs/curation/curation-guidelines',
+                label: 'Installation',
+                href: '/docs/installation/',
               },
               {
-                label: 'Harvest',
-                href: '/docs/harvest/intro',
+                label: 'Curation',
+                href: '/docs/curation/curation-guidelines',
               },
               {
                 label: 'Roadmap',
