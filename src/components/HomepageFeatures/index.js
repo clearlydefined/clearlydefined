@@ -36,7 +36,7 @@ const FeatureList = [
   {
     title: 'Contribute code',
     image: require('@site/static/img/contribute_code.png').default,
-    link: '/docs/get-involved/contribute-code',
+    link: '/docs/get-involved/contributing-code',
     description: (
       <>
         It’s about the data but there is a non-trivial service that drives it.
