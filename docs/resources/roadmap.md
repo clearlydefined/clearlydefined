@@ -105,16 +105,7 @@ These are the main objectives for 2024:
   - 2024: +GitHub, Stacklok, JetBrains, Codethink, Kusari ?
 - Key result 2: Double community contributions on GitHub by end of the year
 
-2. Incentivize organizations like GitHub to create their own local harvest, including SAP and Bloomberg. The focus will be on the documentation of the process, which is quite complex.
-
-- Key result 1: Achieve 3 local harvests by end of year
-  - 2023: Microsoft
-  - 2024: +GitHub, SAP, Bloomberg, Stacklok, Kusari ?
-- Key result 2: Expand documentation, and increase contributions by 50%
-  - 2023: Microsoft
-  - 2024: +GitHub, SAP, Stacklok, Kusari ?
-
-3. Work closely together with various other organizations, including the ORT, TODO Group, OSPO++, OSPO Alliance, OpenChain, SPDX, GUAC, Eclipse Foundation, and Software Heritage, to promote ClearlyDefined. Work closely together with OpenSSF.
+2. Work closely together with various other organizations, including the ORT, TODO Group, OSPO++, OSPO Alliance, OpenChain, SPDX, GUAC, Eclipse Foundation, and Software Heritage, to promote ClearlyDefined. Work closely together with OpenSSF.
 
 - Key result 1: Triple the number of organizations we are involved with
   - 2023: OpenChain, ORT
