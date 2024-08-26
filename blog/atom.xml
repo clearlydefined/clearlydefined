@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.clearlydefined.io/blog</id>
     <title>ClearlyDefined Docs Blog</title>
-    <updated>2024-08-06T00:00:00.000Z</updated>
+    <updated>2024-08-20T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.clearlydefined.io/blog"/>
     <subtitle>ClearlyDefined Docs Blog</subtitle>
     <icon>https://docs.clearlydefined.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[SAP, enhancing Open Source license compliance through Open Source data]]></title>
+        <id>https://docs.clearlydefined.io/blog/sap</id>
+        <link href="https://docs.clearlydefined.io/blog/sap"/>
+        <updated>2024-08-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In 2018, SAP began its engagement with ClearlyDefined, and has since become an integral part of SAP’s internal Free and Open Source (FOSS) compliance process, aiding in the acquisition of important package metadata required for risk evaluation.]]></summary>
+        <content type="html"><![CDATA[<p>In 2018, SAP began its engagement with ClearlyDefined, and has since become an integral part of SAP’s internal Free and Open Source (FOSS) compliance process, aiding in the acquisition of important package metadata required for risk evaluation.</p>
+<p>Read more: <a href="https://opensource.net/clearlydefined-at-sap/" target="_blank" rel="noopener noreferrer">https://opensource.net/clearlydefined-at-sap/</a></p>]]></content>
+        <author>
+            <name>Qing Tomlinson</name>
+            <uri>https://github.com/qtomlinson</uri>
+        </author>
+        <category label="sap" term="sap"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GUAC adopts license metadata from ClearlyDefined]]></title>
         <id>https://docs.clearlydefined.io/blog/guac</id>

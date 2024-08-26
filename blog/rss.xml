@@ -4,10 +4,20 @@
         <title>ClearlyDefined Docs Blog</title>
         <link>https://docs.clearlydefined.io/blog</link>
         <description>ClearlyDefined Docs Blog</description>
-        <lastBuildDate>Tue, 06 Aug 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 20 Aug 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[SAP, enhancing Open Source license compliance through Open Source data]]></title>
+            <link>https://docs.clearlydefined.io/blog/sap</link>
+            <guid>https://docs.clearlydefined.io/blog/sap</guid>
+            <pubDate>Tue, 20 Aug 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[In 2018, SAP began its engagement with ClearlyDefined, and has since become an integral part of SAP’s internal Free and Open Source (FOSS) compliance process, aiding in the acquisition of important package metadata required for risk evaluation.]]></description>
+            <content:encoded><![CDATA[<p>In 2018, SAP began its engagement with ClearlyDefined, and has since become an integral part of SAP’s internal Free and Open Source (FOSS) compliance process, aiding in the acquisition of important package metadata required for risk evaluation.</p>
+<p>Read more: <a href="https://opensource.net/clearlydefined-at-sap/" target="_blank" rel="noopener noreferrer">https://opensource.net/clearlydefined-at-sap/</a></p>]]></content:encoded>
+            <category>sap</category>
+        </item>
         <item>
             <title><![CDATA[GUAC adopts license metadata from ClearlyDefined]]></title>
             <link>https://docs.clearlydefined.io/blog/guac</link>
