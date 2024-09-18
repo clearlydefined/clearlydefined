@@ -158,16 +158,16 @@ const config = {
                 href: '/blog',
               },
               {
+                label: 'UI',
+                href: 'https://clearlydefined.io/',
+              },
+              {
+                label: 'API',
+                href: 'https://api.clearlydefined.io/api-docs/',
+              },
+              {
                 label: 'FAQ',
                 href: '/docs/resources/faq',
-              },
-              {
-                label: 'Glossary',
-                href: '/docs/resources/glossary',
-              },
-              {
-                label: 'Providers',
-                href: '/docs/resources/providers',
               },
               {
                 label: 'Installation',
@@ -270,16 +270,16 @@ const config = {
                 href: '/blog',
               },
               {
+                label: 'UI',
+                href: 'https://clearlydefined.io/',
+              },
+              {
+                label: 'API',
+                href: 'https://api.clearlydefined.io/api-docs/',
+              },
+              {
                 label: 'FAQ',
                 href: '/docs/resources/faq',
-              },
-              {
-                label: 'Glossary',
-                href: '/docs/resources/glossary',
-              },
-              {
-                label: 'Providers',
-                href: '/docs/resources/providers',
               },
               {
                 label: 'Installation',
