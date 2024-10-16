@@ -4,10 +4,20 @@
         <title>ClearlyDefined Docs Blog</title>
         <link>https://docs.clearlydefined.io/blog</link>
         <description>ClearlyDefined Docs Blog</description>
-        <lastBuildDate>Tue, 20 Aug 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 16 Oct 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[ClearlyDefined’s Steering and Outreach Committees Defined]]></title>
+            <link>https://docs.clearlydefined.io/blog/2024-elections</link>
+            <guid>https://docs.clearlydefined.io/blog/2024-elections</guid>
+            <pubDate>Wed, 16 Oct 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[We are excited to announce the newly elected leaders for the ClearlyDefined Steering and Outreach Committees!]]></description>
+            <content:encoded><![CDATA[<p>We are excited to announce the newly elected leaders for the ClearlyDefined Steering and Outreach Committees!</p>
+<p>Read more: <a href="https://opensource.org/blog/clearlydefineds-steering-and-outreach-committees-defined" target="_blank" rel="noopener noreferrer">https://opensource.org/blog/clearlydefineds-steering-and-outreach-committees-defined</a></p>]]></content:encoded>
+            <category>elections</category>
+        </item>
         <item>
             <title><![CDATA[SAP, enhancing Open Source license compliance through Open Source data]]></title>
             <link>https://docs.clearlydefined.io/blog/sap</link>
