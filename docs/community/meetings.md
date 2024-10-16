@@ -20,6 +20,7 @@ https://docs.google.com/document/d/1m-1FnavQ73LvCHzsWI8tmqGZbnsAxewUuhrGtxWiJqs/
 
 Slides:
 
+- [2024-10-07](/slides/ClearlyDefined-2024-10-07.pdf)
 - [2024-09-09](/slides/ClearlyDefined-2024-09-09.pdf)
 - [2024-08-05](/slides/ClearlyDefined-2024-08-05.pdf)
 - [2024-07-01](/slides/ClearlyDefined-2024-07-01.pdf)
