@@ -4,10 +4,20 @@
         <title>ClearlyDefined Docs Blog</title>
         <link>https://docs.clearlydefined.io/blog</link>
         <description>ClearlyDefined Docs Blog</description>
-        <lastBuildDate>Wed, 16 Oct 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 13 Nov 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[ClearlyDefined v2.0 adds support for LicenseRefs]]></title>
+            <link>https://docs.clearlydefined.io/blog/version2</link>
+            <guid>https://docs.clearlydefined.io/blog/version2</guid>
+            <pubDate>Wed, 13 Nov 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[We are excited to announce the release of ClearlyDefined v2.0 which adds over 2,000 new well-known licenses it can identify. You can see the complete list of new non-SPDX licenses in ScanCode LicenseDB.]]></description>
+            <content:encoded><![CDATA[<p>We are excited to announce the release of ClearlyDefined v2.0 which adds over 2,000 new well-known licenses it can identify. You can see the complete list of new non-SPDX licenses in ScanCode LicenseDB.</p>
+<p>Read more: <a href="https://opensource.org/blog/clearlydefined-v2-0-adds-support-for-licenserefs" target="_blank" rel="noopener noreferrer">https://opensource.org/blog/clearlydefined-v2-0-adds-support-for-licenserefs</a></p>]]></content:encoded>
+            <category>licenseref</category>
+        </item>
         <item>
             <title><![CDATA[ClearlyDefined’s Steering and Outreach Committees Defined]]></title>
             <link>https://docs.clearlydefined.io/blog/2024-elections</link>
