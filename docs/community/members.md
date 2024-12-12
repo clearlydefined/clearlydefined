@@ -8,12 +8,12 @@ title: Members
 
 ClearlyDefined has a growing community. Some current members include:
 
-- Microsoft
-- GitHub
-- SAP
-- Bloomberg
-- Kusari
-- Codethink
+![Microsoft](/img/microsoft.png)
+![GitHub](/img/github.png)
+![SAP](/img/sap.png)
+![Bloomberg](/img/bloomberg.png)
+![Cisco](/img/cisco.png)
+![Kusari](/img/kusari.jpg)
 
 ## Steering Committee
 
