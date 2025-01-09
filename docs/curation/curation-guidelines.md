@@ -1,3 +1,8 @@
+---
+layout: default
+sidebar_position: 1
+---
+
 # Curation
 
 ClearlyDefined licensing data forms the core understanding required to meet FOSS licensing obligations. This data includes:
