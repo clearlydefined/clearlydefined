@@ -1,8 +1,9 @@
 ---
 layout: default
+sidebar_position: 2
 ---
 
-# How to curate
+# Curation via UI
 
 Go to clearlydefined.io definitions.
 
