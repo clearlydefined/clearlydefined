@@ -104,29 +104,29 @@ curl -X PATCH https://api.clearlydefined.io/curations \
 -H "accept: application/json" \
 -H "Content-Type: application/json" \
 -d '{
-"contributionInfo": {
-"summary": "test",
-"details": "test details",
-"resolution": "test resolution",
-"type": "Missing"
-},
-"patches": [
-{
-"coordinates": {
-"type": "maven",
-"provider": "mavencentral",
-"namespace": "org.glassfish.jersey.core",
-"name": "jersey-client"
-},
-"revisions": {
-"2.25.1": {
-"licensed": {
-"declared": "Apache-1.0 AND MIT"
-}
-}
-}
-}
-]
+    "contributionInfo": {
+        "summary": "test",
+        "details": "test details",
+        "resolution": "test resolution",
+        "type": "Missing"
+    },
+    "patches": [
+        {
+            "coordinates": {
+                "type": "maven",
+                "provider": "mavencentral",
+                "namespace": "org.glassfish.jersey.core",
+                "name": "jersey-client"
+            },
+            "revisions": {
+                "2.25.1": {
+                    "licensed": {
+                        "declared": "Apache-1.0 AND MIT"
+                    }
+                }
+            }
+        }
+    ]
 }'
 ```
 
