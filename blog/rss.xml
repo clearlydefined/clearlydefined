@@ -4,10 +4,19 @@
         <title>ClearlyDefined Docs Blog</title>
         <link>https://docs.clearlydefined.io/blog</link>
         <description>ClearlyDefined Docs Blog</description>
-        <lastBuildDate>Wed, 13 Nov 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 11 Dec 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[ClearlyDefined 2024 in review – milestones, growth and community impact]]></title>
+            <link>https://docs.clearlydefined.io/blog/recap-2024</link>
+            <guid>https://docs.clearlydefined.io/blog/recap-2024</guid>
+            <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[As 2024 draws to a close, it’s time to reflect on a transformative year for the ClearlyDefined project. From technical advancements to community growth, this year has been nothing short of extraordinary. Here’s a recap of our key milestones and how we’ve continued to bring clarity to the Open Source ecosystem.]]></description>
+            <content:encoded><![CDATA[<p>As 2024 draws to a close, it’s time to reflect on a transformative year for the ClearlyDefined project. From technical advancements to community growth, this year has been nothing short of extraordinary. Here’s a recap of our key milestones and how we’ve continued to bring clarity to the Open Source ecosystem.</p>
+<p>Read more: <a href="https://opensource.org/blog/clearlydefined-2024-in-review-milestones-growth-and-community-impact" target="_blank" rel="noopener noreferrer">https://opensource.org/blog/clearlydefined-2024-in-review-milestones-growth-and-community-impact</a></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[ClearlyDefined v2.0 adds support for LicenseRefs]]></title>
             <link>https://docs.clearlydefined.io/blog/version2</link>
@@ -17,6 +26,16 @@
             <content:encoded><![CDATA[<p>We are excited to announce the release of ClearlyDefined v2.0 which adds over 2,000 new well-known licenses it can identify. You can see the complete list of new non-SPDX licenses in ScanCode LicenseDB.</p>
 <p>Read more: <a href="https://opensource.org/blog/clearlydefined-v2-0-adds-support-for-licenserefs" target="_blank" rel="noopener noreferrer">https://opensource.org/blog/clearlydefined-v2-0-adds-support-for-licenserefs</a></p>]]></content:encoded>
             <category>licenseref</category>
+        </item>
+        <item>
+            <title><![CDATA[ClearlyDefined at SOSS Fusion 2024 - a collaborative solution to Open Source license compliance]]></title>
+            <link>https://docs.clearlydefined.io/blog/soss-fusion</link>
+            <guid>https://docs.clearlydefined.io/blog/soss-fusion</guid>
+            <pubDate>Wed, 06 Nov 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Open Source Initiative in collaboration with GitHub and SAP presented ClearlyDefined at SOSS Fusion.]]></description>
+            <content:encoded><![CDATA[<p>The Open Source Initiative in collaboration with GitHub and SAP presented ClearlyDefined at SOSS Fusion.</p>
+<p>Read more: <a href="https://opensource.org/blog/clearlydefined-at-soss-fusion-2024-a-collaborative-solution-to-open-source-license-compliance" target="_blank" rel="noopener noreferrer">https://opensource.org/blog/clearlydefined-at-soss-fusion-2024-a-collaborative-solution-to-open-source-license-compliance</a></p>]]></content:encoded>
+            <category>events</category>
         </item>
         <item>
             <title><![CDATA[ClearlyDefined’s Steering and Outreach Committees Defined]]></title>

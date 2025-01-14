@@ -2,11 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.clearlydefined.io/blog</id>
     <title>ClearlyDefined Docs Blog</title>
-    <updated>2024-11-13T00:00:00.000Z</updated>
+    <updated>2024-12-11T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.clearlydefined.io/blog"/>
     <subtitle>ClearlyDefined Docs Blog</subtitle>
     <icon>https://docs.clearlydefined.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[ClearlyDefined 2024 in review – milestones, growth and community impact]]></title>
+        <id>https://docs.clearlydefined.io/blog/recap-2024</id>
+        <link href="https://docs.clearlydefined.io/blog/recap-2024"/>
+        <updated>2024-12-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[As 2024 draws to a close, it’s time to reflect on a transformative year for the ClearlyDefined project. From technical advancements to community growth, this year has been nothing short of extraordinary. Here’s a recap of our key milestones and how we’ve continued to bring clarity to the Open Source ecosystem.]]></summary>
+        <content type="html"><![CDATA[<p>As 2024 draws to a close, it’s time to reflect on a transformative year for the ClearlyDefined project. From technical advancements to community growth, this year has been nothing short of extraordinary. Here’s a recap of our key milestones and how we’ve continued to bring clarity to the Open Source ecosystem.</p>
+<p>Read more: <a href="https://opensource.org/blog/clearlydefined-2024-in-review-milestones-growth-and-community-impact" target="_blank" rel="noopener noreferrer">https://opensource.org/blog/clearlydefined-2024-in-review-milestones-growth-and-community-impact</a></p>]]></content>
+        <author>
+            <name>Nick Vidal</name>
+            <uri>https://github.com/nickvidal</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ClearlyDefined v2.0 adds support for LicenseRefs]]></title>
         <id>https://docs.clearlydefined.io/blog/version2</id>
@@ -20,6 +33,20 @@
             <uri>https://github.com/elrayle</uri>
         </author>
         <category label="licenseref" term="licenseref"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ClearlyDefined at SOSS Fusion 2024 - a collaborative solution to Open Source license compliance]]></title>
+        <id>https://docs.clearlydefined.io/blog/soss-fusion</id>
+        <link href="https://docs.clearlydefined.io/blog/soss-fusion"/>
+        <updated>2024-11-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Open Source Initiative in collaboration with GitHub and SAP presented ClearlyDefined at SOSS Fusion.]]></summary>
+        <content type="html"><![CDATA[<p>The Open Source Initiative in collaboration with GitHub and SAP presented ClearlyDefined at SOSS Fusion.</p>
+<p>Read more: <a href="https://opensource.org/blog/clearlydefined-at-soss-fusion-2024-a-collaborative-solution-to-open-source-license-compliance" target="_blank" rel="noopener noreferrer">https://opensource.org/blog/clearlydefined-at-soss-fusion-2024-a-collaborative-solution-to-open-source-license-compliance</a></p>]]></content>
+        <author>
+            <name>Nick Vidal</name>
+            <uri>https://github.com/nickvidal</uri>
+        </author>
+        <category label="events" term="events"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[ClearlyDefined’s Steering and Outreach Committees Defined]]></title>
