@@ -30,10 +30,10 @@ Below is the full JSON payload structure with all elements combined, which can b
 ```json
 {
   "contributionInfo": {
-    "summary": "test",
-    "details": "test details",
-    "resolution": "test resolution",
-    "type": "Missing"
+    "summary": "org.glassfish.jersey.core:jersey-client 2.25.1",
+    "details": "Add CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0",
+    "resolution": "https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/2.25.1/jersey-client-2.25.1.pom",
+    "type": "Incorrect"
   },
   "patches": [
     {
@@ -46,7 +46,7 @@ Below is the full JSON payload structure with all elements combined, which can b
       "revisions": {
         "2.25.1": {
           "licensed": {
-            "declared": "Apache-1.0 AND MIT"
+            "declared": "CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0"
           }
         }
       }
@@ -105,10 +105,10 @@ curl -X PATCH https://api.clearlydefined.io/curations \
 -H "Content-Type: application/json" \
 -d '{
     "contributionInfo": {
-        "summary": "test",
-        "details": "test details",
-        "resolution": "test resolution",
-        "type": "Missing"
+        "summary": "org.glassfish.jersey.core:jersey-client 2.25.1",
+        "details": "Add CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0",
+        "resolution": "https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/2.25.1/jersey-client-2.25.1.pom",
+        "type": "Incorrect"
     },
     "patches": [
         {
@@ -121,7 +121,7 @@ curl -X PATCH https://api.clearlydefined.io/curations \
             "revisions": {
                 "2.25.1": {
                     "licensed": {
-                        "declared": "Apache-1.0 AND MIT"
+                        "declared": "CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0"
                     }
                 }
             }
