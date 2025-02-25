@@ -10,7 +10,7 @@ ClearlyDefined holds periodic meetings. There are two types of meetings:
 
 ## Community meetings
 
-Held every first Monday of the month at 11am U.S. Eastern time:
+Held every first Monday of the month at 10:30am U.S. Eastern time:
 
 https://bloomberg.zoom.us/j/99537607660?pwd=UHU0eXFXaWlYS3lySTlyd1c1NFhhZz09
 
