@@ -5,22 +5,18 @@ sidebar_position: 2
 
 # Curation via UI
 
-Go to clearlydefined.io definitions.
+Go to clearlydefined.io, select a provider, and search for the component you’re interested in.
 
-![clearlydefined.io](/img/image4.png)
+![clearlydefined.io](/img/curate_find.png)
 
-Search for the component you’re interested in and identify the thing you want to change.
+View the component. Make your curation by clicking the "pencil" button.
 
-![clearlydefined.io](/img/image2.png)
+![clearlydefined.io](/img/curate_view.png)
 
-Make your curation.
+Make the changes and press the “contribute” button. The curation will be submitted and a PR will be created.
 
-![clearlydefined.io](/img/image5.png)
-
-Press the “contribute” button and include your justification on the popup. When you click “OK” the curation will be submitted and a PR will be created.
-
-![clearlydefined.io](/img/image1.png)
+![clearlydefined.io](/img/curate_edit.png)
 
 Review PR on GitHub and participate in discussion if applicable.
 
-![clearlydefined.io](/img/image3.png)
+![clearlydefined.io](/img/curate_pr.png)
