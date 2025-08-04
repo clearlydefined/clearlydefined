@@ -16,6 +16,9 @@ https://bloomberg.zoom.us/j/99537607660?pwd=UHU0eXFXaWlYS3lySTlyd1c1NFhhZz09
 
 Slides:
 
+- [2025-07-07](/slides/ClearlyDefined-2025-07-07.pdf)
+- [2025-06-02](/slides/ClearlyDefined-2025-06-02.pdf)
+- [2025-05-05](/slides/ClearlyDefined-2025-05-05.pdf)
 - [2025-04-07](/slides/ClearlyDefined-2025-04-07.pdf)
 - [2025-03-03](/slides/ClearlyDefined-2025-03-03.pdf)
 - [2025-02-03](/slides/ClearlyDefined-2025-02-03.pdf)
