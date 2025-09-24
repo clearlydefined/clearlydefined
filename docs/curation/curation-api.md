@@ -134,7 +134,7 @@ Alternatively you can also use some API Client tool to send the above request.
 
 ## File level Curation
 
-If you want to curate the discovered license for a specific file you can use the below payload
+In addition to curating the declared license for a package, curation can also be performed at the file level. For example, you may want to update the license information specifically for individual files such as package/README.markdown and package/package.json. Furthermore, you can update both the license details and attributions within files like package/LICENSE.markdown. To accomplish this, you can use the payload shown below
 
 ```json
 {
@@ -177,9 +177,9 @@ If you want to curate the discovered license for a specific file you can use the
   ]
 }
 ```
-##### Revisions
-The revisions object maps specific versions of the package to their respective license information.
+##### Explaination
 
+- **revisions:** The revisions object maps specific versions of the package to their respective license information.
 - **version number:** Denotes the particular version of the package (e.g., "3.1.5").
 - **files:** An array of object containing file name and information to be updated.
 - **path:** An attribute containing the path of file whose information needs to be updated.
