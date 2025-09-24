@@ -131,3 +131,57 @@ curl -X PATCH https://api.clearlydefined.io/curations \
 ```
 
 Alternatively you can also use some API Client tool to send the above request.
+
+## File level Curation
+
+If you want to curate the discovered license for a specific file you can use the below payload
+
+```json
+{
+  "contributionInfo": {
+    "summary": "jszip 3.1.5 license clarification",
+    "details": "Add/clarify license information and attributions for jszip 3.1.5",
+    "resolution": "https://github.com/Stuk/jszip",
+    "type": "Incomplete"
+  },
+  "patches": [
+    {
+      "coordinates": {
+      "type": "npm",
+      "provider": "npmjs",
+      "name": "jszip"
+    },
+    "revisions": {
+      "3.1.5": {
+        "files": [
+          {
+            "path": "package/README.markdown",
+            "license": ""
+          },
+          {
+            "path": "package/package.json",
+            "license": "GPL-3.0-only OR MIT"
+          },
+          {
+            "path": "package/LICENSE.markdown",
+            "license": "GPL-3.0-only OR MIT",
+            "attributions": [
+              "Copyright (c) 2007 Free Software Foundation, Inc. http://fsf.org/",
+              "Copyright (c) 2009-2016 Stuart Knightley, David Duponchel, Franz Buchinger, Antonio Afonso"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
+```
+##### Revisions
+The revisions object maps specific versions of the package to their respective license information.
+
+- **version number:** Denotes the particular version of the package (e.g., "3.1.5").
+- **files:** An array of object containing file name and information to be updated.
+- **path:** An attribute containing the path of file whose information needs to be updated.
+- **license:** The license(s) declared for the specified file (e.g., "Apache-1.0 AND MIT").
+- **attributions:** An array of string, containing attributions to be assigned to this file.
