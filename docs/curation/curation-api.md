@@ -150,24 +150,35 @@ In addition to curating the declared license for a package, curation can also be
       "type": "npm",
       "provider": "npmjs",
       "name": "jszip"
-    },
-    "revisions": {
-      "3.1.5": {
-        "files": [
-          {
-            "path": "package/README.markdown",
-            "license": ""
+      },
+      "revisions": {
+        "3.1.5": {
+          "described": {
+            "releaseDate": "2025-11-09",
+            "sourceLocation": {
+              "name": "jszip",
+              "namespace": "Stuk",
+              "provider": "github",
+              "revision": "a4138a23cb9b8eb773c19af7d36d5ce2bcf4bfda",
+              "type": "git",
+              "url": "https://github.com/Stuk/jszip/commit/a4138a23cb9b8eb773c19af7d36d5ce2bcf4bfda"
+            }
           },
-          {
-            "path": "package/package.json",
-            "license": "GPL-3.0-only OR MIT"
-          },
-          {
-            "path": "package/LICENSE.markdown",
-            "license": "GPL-3.0-only OR MIT",
-            "attributions": [
-              "Copyright (c) 2007 Free Software Foundation, Inc. http://fsf.org/",
-              "Copyright (c) 2009-2016 Stuart Knightley, David Duponchel, Franz Buchinger, Antonio Afonso"
+          "files": [
+            {
+              "path": "package/README.markdown",
+              "license": "GPL-3.0-only OR MIT"
+            },
+            {
+              "path": "package/package.json",
+              "license": "GPL-3.0-only OR MIT"
+            },
+            {
+              "path": "package/LICENSE.markdown",
+              "license": "GPL-3.0-only OR MIT",
+              "attributions": [
+                "Copyright (c) 2007 Free Software Foundation, Inc. http://fsf.org/",
+                "Copyright (c) 2009-2016 Stuart Knightley, David Duponchel, Franz Buchinger, Antonio Afonso"
               ]
             }
           ]
@@ -177,6 +188,8 @@ In addition to curating the declared license for a package, curation can also be
   ]
 }
 ```
+This is the test PR that was generated for the dev repository with above payload: [PR#1585](https://github.com/clearlydefined/curated-data-dev/pull/1585/files)
+
 ##### Explaination
 
 - **revisions:** The revisions object maps specific versions of the package to their respective license information.
