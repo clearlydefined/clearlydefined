@@ -37,7 +37,7 @@ https://docs.google.com/document/d/1m-1FnavQ73LvCHzsWI8tmqGZbnsAxewUuhrGtxWiJqs/
 
 ## Developer meetings
 
-Held every Wednesday at 10:30am U.S. Eastern time:
+Held every Wednesday at 10:00am U.S. Eastern time:
 
 https://github.zoom.us/j/92059611723?pwd=QWNrS0FaWWtVam5ReU9LbzFuUDZRdz09
 
