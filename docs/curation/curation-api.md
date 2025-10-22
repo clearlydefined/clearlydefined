@@ -131,3 +131,70 @@ curl -X PATCH https://api.clearlydefined.io/curations \
 ```
 
 Alternatively you can also use some API Client tool to send the above request.
+
+## File level Curation
+
+In addition to curating the declared license for a package, curation can also be performed at the file level. For example, you may want to update the license information specifically for individual files such as package/README.markdown and package/package.json. Furthermore, you can update both the license details and attributions within files like package/LICENSE.markdown. To accomplish this, you can use the payload shown below
+
+```json
+{
+  "contributionInfo": {
+    "summary": "jszip 3.1.5 license clarification",
+    "details": "Add/clarify license information and attributions for jszip 3.1.5",
+    "resolution": "https://github.com/Stuk/jszip",
+    "type": "Incomplete"
+  },
+  "patches": [
+    {
+      "coordinates": {
+      "type": "npm",
+      "provider": "npmjs",
+      "name": "jszip"
+      },
+      "revisions": {
+        "3.1.5": {
+          "described": {
+            "releaseDate": "2025-11-09",
+            "sourceLocation": {
+              "name": "jszip",
+              "namespace": "Stuk",
+              "provider": "github",
+              "revision": "a4138a23cb9b8eb773c19af7d36d5ce2bcf4bfda",
+              "type": "git",
+              "url": "https://github.com/Stuk/jszip/commit/a4138a23cb9b8eb773c19af7d36d5ce2bcf4bfda"
+            }
+          },
+          "files": [
+            {
+              "path": "package/README.markdown",
+              "license": "GPL-3.0-only OR MIT"
+            },
+            {
+              "path": "package/package.json",
+              "license": "GPL-3.0-only OR MIT"
+            },
+            {
+              "path": "package/LICENSE.markdown",
+              "license": "GPL-3.0-only OR MIT",
+              "attributions": [
+                "Copyright (c) 2007 Free Software Foundation, Inc. http://fsf.org/",
+                "Copyright (c) 2009-2016 Stuart Knightley, David Duponchel, Franz Buchinger, Antonio Afonso"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
+```
+This is the test PR that was generated for the dev repository with above payload: [PR#1585](https://github.com/clearlydefined/curated-data-dev/pull/1585/files)
+
+##### Explaination
+
+- **revisions:** The revisions object maps specific versions of the package to their respective license information.
+- **version number:** Denotes the particular version of the package (e.g., "3.1.5").
+- **files:** An array of object containing file name and information to be updated.
+- **path:** An attribute containing the path of file whose information needs to be updated.
+- **license:** The license(s) declared for the specified file (e.g., "Apache-1.0 AND MIT").
+- **attributions:** An array of string, containing attributions to be assigned to this file.
