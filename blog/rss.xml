@@ -4,10 +4,19 @@
         <title>ClearlyDefined Docs Blog</title>
         <link>https://docs.clearlydefined.io/blog</link>
         <description>ClearlyDefined Docs Blog</description>
-        <lastBuildDate>Wed, 11 Dec 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 05 Aug 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Case study, enhancing SBOMs with cdsbom at the Linux Foundation]]></title>
+            <link>https://docs.clearlydefined.io/blog/sbom-linux-foundation</link>
+            <guid>https://docs.clearlydefined.io/blog/sbom-linux-foundation</guid>
+            <pubDate>Tue, 05 Aug 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[A Linux Foundation case study on using cdsbom to enhance SPDX SBOMs with license data from ClearlyDefined for better compliance and transparency.]]></description>
+            <content:encoded><![CDATA[<p>A Linux Foundation case study on using cdsbom to enhance SPDX SBOMs with license data from ClearlyDefined for better compliance and transparency.</p>
+<p>Read more: <a href="https://opensource.org/blog/case-study-enhancing-sboms-with-cdsbom-at-the-linux-foundation" target="_blank" rel="noopener noreferrer" class="">https://opensource.org/blog/case-study-enhancing-sboms-with-cdsbom-at-the-linux-foundation</a></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[ClearlyDefined 2024 in review – milestones, growth and community impact]]></title>
             <link>https://docs.clearlydefined.io/blog/recap-2024</link>
@@ -15,7 +24,7 @@
             <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[As 2024 draws to a close, it’s time to reflect on a transformative year for the ClearlyDefined project. From technical advancements to community growth, this year has been nothing short of extraordinary. Here’s a recap of our key milestones and how we’ve continued to bring clarity to the Open Source ecosystem.]]></description>
             <content:encoded><![CDATA[<p>As 2024 draws to a close, it’s time to reflect on a transformative year for the ClearlyDefined project. From technical advancements to community growth, this year has been nothing short of extraordinary. Here’s a recap of our key milestones and how we’ve continued to bring clarity to the Open Source ecosystem.</p>
-<p>Read more: <a href="https://opensource.org/blog/clearlydefined-2024-in-review-milestones-growth-and-community-impact" target="_blank" rel="noopener noreferrer">https://opensource.org/blog/clearlydefined-2024-in-review-milestones-growth-and-community-impact</a></p>]]></content:encoded>
+<p>Read more: <a href="https://opensource.org/blog/clearlydefined-2024-in-review-milestones-growth-and-community-impact" target="_blank" rel="noopener noreferrer" class="">https://opensource.org/blog/clearlydefined-2024-in-review-milestones-growth-and-community-impact</a></p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[ClearlyDefined v2.0 adds support for LicenseRefs]]></title>
@@ -24,7 +33,7 @@
             <pubDate>Wed, 13 Nov 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[We are excited to announce the release of ClearlyDefined v2.0 which adds over 2,000 new well-known licenses it can identify. You can see the complete list of new non-SPDX licenses in ScanCode LicenseDB.]]></description>
             <content:encoded><![CDATA[<p>We are excited to announce the release of ClearlyDefined v2.0 which adds over 2,000 new well-known licenses it can identify. You can see the complete list of new non-SPDX licenses in ScanCode LicenseDB.</p>
-<p>Read more: <a href="https://opensource.org/blog/clearlydefined-v2-0-adds-support-for-licenserefs" target="_blank" rel="noopener noreferrer">https://opensource.org/blog/clearlydefined-v2-0-adds-support-for-licenserefs</a></p>]]></content:encoded>
+<p>Read more: <a href="https://opensource.org/blog/clearlydefined-v2-0-adds-support-for-licenserefs" target="_blank" rel="noopener noreferrer" class="">https://opensource.org/blog/clearlydefined-v2-0-adds-support-for-licenserefs</a></p>]]></content:encoded>
             <category>licenseref</category>
         </item>
         <item>
@@ -34,7 +43,7 @@
             <pubDate>Wed, 06 Nov 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[The Open Source Initiative in collaboration with GitHub and SAP presented ClearlyDefined at SOSS Fusion.]]></description>
             <content:encoded><![CDATA[<p>The Open Source Initiative in collaboration with GitHub and SAP presented ClearlyDefined at SOSS Fusion.</p>
-<p>Read more: <a href="https://opensource.org/blog/clearlydefined-at-soss-fusion-2024-a-collaborative-solution-to-open-source-license-compliance" target="_blank" rel="noopener noreferrer">https://opensource.org/blog/clearlydefined-at-soss-fusion-2024-a-collaborative-solution-to-open-source-license-compliance</a></p>]]></content:encoded>
+<p>Read more: <a href="https://opensource.org/blog/clearlydefined-at-soss-fusion-2024-a-collaborative-solution-to-open-source-license-compliance" target="_blank" rel="noopener noreferrer" class="">https://opensource.org/blog/clearlydefined-at-soss-fusion-2024-a-collaborative-solution-to-open-source-license-compliance</a></p>]]></content:encoded>
             <category>events</category>
         </item>
         <item>
@@ -44,7 +53,7 @@
             <pubDate>Wed, 16 Oct 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[We are excited to announce the newly elected leaders for the ClearlyDefined Steering and Outreach Committees!]]></description>
             <content:encoded><![CDATA[<p>We are excited to announce the newly elected leaders for the ClearlyDefined Steering and Outreach Committees!</p>
-<p>Read more: <a href="https://opensource.org/blog/clearlydefineds-steering-and-outreach-committees-defined" target="_blank" rel="noopener noreferrer">https://opensource.org/blog/clearlydefineds-steering-and-outreach-committees-defined</a></p>]]></content:encoded>
+<p>Read more: <a href="https://opensource.org/blog/clearlydefineds-steering-and-outreach-committees-defined" target="_blank" rel="noopener noreferrer" class="">https://opensource.org/blog/clearlydefineds-steering-and-outreach-committees-defined</a></p>]]></content:encoded>
             <category>elections</category>
         </item>
         <item>
@@ -54,7 +63,7 @@
             <pubDate>Tue, 20 Aug 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[In 2018, SAP began its engagement with ClearlyDefined, and has since become an integral part of SAP’s internal Free and Open Source (FOSS) compliance process, aiding in the acquisition of important package metadata required for risk evaluation.]]></description>
             <content:encoded><![CDATA[<p>In 2018, SAP began its engagement with ClearlyDefined, and has since become an integral part of SAP’s internal Free and Open Source (FOSS) compliance process, aiding in the acquisition of important package metadata required for risk evaluation.</p>
-<p>Read more: <a href="https://opensource.net/clearlydefined-at-sap/" target="_blank" rel="noopener noreferrer">https://opensource.net/clearlydefined-at-sap/</a></p>]]></content:encoded>
+<p>Read more: <a href="https://opensource.net/clearlydefined-at-sap/" target="_blank" rel="noopener noreferrer" class="">https://opensource.net/clearlydefined-at-sap/</a></p>]]></content:encoded>
             <category>sap</category>
         </item>
         <item>
@@ -64,7 +73,7 @@
             <pubDate>Tue, 06 Aug 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[The software supply chain just gained some transparency thanks to an integration of the Open Source Initiative (OSI) project, ClearlyDefined, into GUAC (Graph for Understanding Artifact Composition), an OpenSSF project from the Linux Foundation. GUAC provides a comprehensive mapping of software packages, dependencies, vulnerabilities, attestations, and more, allowing organizations to achieve better compliance and security of their software supply chain.]]></description>
             <content:encoded><![CDATA[<p>The software supply chain just gained some transparency thanks to an integration of the Open Source Initiative (OSI) project, ClearlyDefined, into GUAC (Graph for Understanding Artifact Composition), an OpenSSF project from the Linux Foundation. GUAC provides a comprehensive mapping of software packages, dependencies, vulnerabilities, attestations, and more, allowing organizations to achieve better compliance and security of their software supply chain.</p>
-<p>Read more: <a href="https://opensource.org/blog/guac-adopts-license-metadata-from-clearlydefined" target="_blank" rel="noopener noreferrer">https://opensource.org/blog/guac-adopts-license-metadata-from-clearlydefined</a></p>]]></content:encoded>
+<p>Read more: <a href="https://opensource.org/blog/guac-adopts-license-metadata-from-clearlydefined" target="_blank" rel="noopener noreferrer" class="">https://opensource.org/blog/guac-adopts-license-metadata-from-clearlydefined</a></p>]]></content:encoded>
             <category>guac</category>
         </item>
         <item>
@@ -74,7 +83,7 @@
             <pubDate>Tue, 23 Jul 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[ClearlyDefined, an Open Source project that helps organizations with supply chain compliance, now provides a new harvester implementation for conda, a popular package manager with a large collection of pre-built packages for various domains, including data science, machine learning, scientific computing and more.]]></description>
             <content:encoded><![CDATA[<p>ClearlyDefined, an Open Source project that helps organizations with supply chain compliance, now provides a new harvester implementation for conda, a popular package manager with a large collection of pre-built packages for various domains, including data science, machine learning, scientific computing and more.</p>
-<p>Read more: <a href="https://opensource.org/blog/better-identifying-conda-packages-with-clearlydefined" target="_blank" rel="noopener noreferrer">https://opensource.org/blog/better-identifying-conda-packages-with-clearlydefined</a></p>]]></content:encoded>
+<p>Read more: <a href="https://opensource.org/blog/better-identifying-conda-packages-with-clearlydefined" target="_blank" rel="noopener noreferrer" class="">https://opensource.org/blog/better-identifying-conda-packages-with-clearlydefined</a></p>]]></content:encoded>
             <category>conda</category>
         </item>
         <item>
@@ -84,7 +93,7 @@
             <pubDate>Tue, 09 Jul 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[ClearlyDefined now supports non-SPDX licenses. Scancode already provides this functionality and it offers mapping from these non-SPDX licenses to the SPDX LicenseRef. Organizations using ClearlyDefined now have the option to decide how to handle non-SPDX licenses based on their own needs.]]></description>
             <content:encoded><![CDATA[<p>ClearlyDefined now supports non-SPDX licenses. Scancode already provides this functionality and it offers mapping from these non-SPDX licenses to the SPDX LicenseRef. Organizations using ClearlyDefined now have the option to decide how to handle non-SPDX licenses based on their own needs.</p>
-<p>Read more: <a href="https://opensource.org/blog/beyond-spdx-expanding-licenses-identified-by-clearlydefined" target="_blank" rel="noopener noreferrer">https://opensource.org/blog/beyond-spdx-expanding-licenses-identified-by-clearlydefined</a></p>]]></content:encoded>
+<p>Read more: <a href="https://opensource.org/blog/beyond-spdx-expanding-licenses-identified-by-clearlydefined" target="_blank" rel="noopener noreferrer" class="">https://opensource.org/blog/beyond-spdx-expanding-licenses-identified-by-clearlydefined</a></p>]]></content:encoded>
             <category>spdx</category>
         </item>
         <item>
@@ -94,7 +103,7 @@
             <pubDate>Thu, 16 May 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[With all the buzz around SBOMs and Open Source supply chain compliance and security, a new revolution is igniting at ClearlyDefined. This amazing project has been flying under the radar since its inception six years ago, but now this free service and open source project from the Open Source Initiative (OSI) gets cleared for takeoff with the launch of a new website focused on stellar documentation, excellent engineering, and healthy community growth.]]></description>
             <content:encoded><![CDATA[<p>With all the buzz around SBOMs and Open Source supply chain compliance and security, a new revolution is igniting at ClearlyDefined. This amazing project has been flying under the radar since its inception six years ago, but now this free service and open source project from the Open Source Initiative (OSI) gets cleared for takeoff with the launch of a new website focused on stellar documentation, excellent engineering, and healthy community growth.</p>
-<p>Read more: <a href="https://opensource.org/blog/unveiling-clearlydefined-this-free-sbom-service-gets-cleared-for-takeoff" target="_blank" rel="noopener noreferrer">https://opensource.org/blog/unveiling-clearlydefined-this-free-sbom-service-gets-cleared-for-takeoff</a></p>]]></content:encoded>
+<p>Read more: <a href="https://opensource.org/blog/unveiling-clearlydefined-this-free-sbom-service-gets-cleared-for-takeoff" target="_blank" rel="noopener noreferrer" class="">https://opensource.org/blog/unveiling-clearlydefined-this-free-sbom-service-gets-cleared-for-takeoff</a></p>]]></content:encoded>
             <category>events</category>
         </item>
         <item>
@@ -104,7 +113,7 @@
             <pubDate>Wed, 13 Mar 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[As a community manager, I find FOSS Backstage to be one of my favorite conferences content-wise and community-wise. This is a conference that happens every year in Berlin, usually in early March. It’s a great opportunity to meet community leaders from Europe and across the world with the goal of fostering discussions around three complementary perspectives: a) community health and growth, b) project governance and sustainability, and c) supply chain compliance and security.]]></description>
             <content:encoded><![CDATA[<p>As a community manager, I find FOSS Backstage to be one of my favorite conferences content-wise and community-wise. This is a conference that happens every year in Berlin, usually in early March. It’s a great opportunity to meet community leaders from Europe and across the world with the goal of fostering discussions around three complementary perspectives: a) community health and growth, b) project governance and sustainability, and c) supply chain compliance and security.</p>
-<p>Read more: <a href="https://opensource.org/blog/three-perspectives-from-foss-backstage" target="_blank" rel="noopener noreferrer">https://opensource.org/blog/three-perspectives-from-foss-backstage</a></p>]]></content:encoded>
+<p>Read more: <a href="https://opensource.org/blog/three-perspectives-from-foss-backstage" target="_blank" rel="noopener noreferrer" class="">https://opensource.org/blog/three-perspectives-from-foss-backstage</a></p>]]></content:encoded>
             <category>events</category>
         </item>
         <item>
@@ -115,7 +124,7 @@
             <description><![CDATA[Once again Bosch’s campus in Berlin received ORT Community Days, the annual event organized by the OSS Review Toolkit (ORT) community. ORT is an Open Source suite of tools to automate software compliance checks.]]></description>
             <content:encoded><![CDATA[<p>Once again Bosch’s campus in Berlin received ORT Community Days, the annual event organized by the OSS Review Toolkit (ORT) community. ORT is an Open Source suite of tools to automate software compliance checks.</p>
 <p>The ClearlyDefined community had an important presence at the event, represented by E. Lynette Rayle and Lukas Spieß from GitHub and Qing Tomlinson from SAP. I had the pleasure to represent the Open Source Initiative as the community manager for ClearlyDefined. The mission of ClearlyDefined is to crowdsource a global database of licensing metadata for every software component ever published. We see the ORT community as an important partner towards achieving this mission.</p>
-<p>Read more: <a href="https://opensource.org/blog/clearlydefined-at-the-ort-community-days" target="_blank" rel="noopener noreferrer">https://opensource.org/blog/clearlydefined-at-the-ort-community-days</a></p>]]></content:encoded>
+<p>Read more: <a href="https://opensource.org/blog/clearlydefined-at-the-ort-community-days" target="_blank" rel="noopener noreferrer" class="">https://opensource.org/blog/clearlydefined-at-the-ort-community-days</a></p>]]></content:encoded>
             <category>events</category>
         </item>
         <item>
@@ -125,7 +134,7 @@
             <pubDate>Mon, 08 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[At the beginning of 2023, I started as a community manager for ClearlyDefined, with the goals of creating an open governance model for the project and helping the OSI to establish a neutral infrastructure to foster collaboration among multiple stakeholders. Thanks to the amazing work from our community members, a lot of progress has been made in 2023, but there’s still a lot of work ahead of us. In this post, we would like to highlight some milestones achieved this past year and acknowledge some individuals who have contributed to the project. We would also like to share a vision for 2024 and invite all organizations who care about the Open Source supply chain to become involved.]]></description>
             <content:encoded><![CDATA[<p>At the beginning of 2023, I started as a community manager for ClearlyDefined, with the goals of creating an open governance model for the project and helping the OSI to establish a neutral infrastructure to foster collaboration among multiple stakeholders. Thanks to the amazing work from our community members, a lot of progress has been made in 2023, but there’s still a lot of work ahead of us. In this post, we would like to highlight some milestones achieved this past year and acknowledge some individuals who have contributed to the project. We would also like to share a vision for 2024 and invite all organizations who care about the Open Source supply chain to become involved.</p>
-<p>Read more: <a href="https://opensource.org/blog/clearlydefined-recapping-a-year-of-progress-and-sharing-a-vision-for-2024" target="_blank" rel="noopener noreferrer">https://opensource.org/blog/clearlydefined-recapping-a-year-of-progress-and-sharing-a-vision-for-2024</a></p>]]></content:encoded>
+<p>Read more: <a href="https://opensource.org/blog/clearlydefined-recapping-a-year-of-progress-and-sharing-a-vision-for-2024" target="_blank" rel="noopener noreferrer" class="">https://opensource.org/blog/clearlydefined-recapping-a-year-of-progress-and-sharing-a-vision-for-2024</a></p>]]></content:encoded>
             <category>roadmap</category>
         </item>
         <item>
@@ -135,7 +144,7 @@
             <pubDate>Thu, 07 Dec 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[The 2023 report of the licenses in use by the biggest package managers highlights the need to educate developers on the importance of licensing information. While many developers know that Open Source software forms the backbone of modern development, the data shows that much of their software is shared (and most likely also used) without a license.]]></description>
             <content:encoded><![CDATA[<p>The 2023 report of the licenses in use by the biggest package managers highlights the need to educate developers on the importance of licensing information. While many developers know that Open Source software forms the backbone of modern development, the data shows that much of their software is shared (and most likely also used) without a license.</p>
-<p>Read more: <a href="https://opensource.org/blog/the-most-popular-licenses-for-each-language-2023" target="_blank" rel="noopener noreferrer">https://opensource.org/blog/the-most-popular-licenses-for-each-language-2023</a></p>]]></content:encoded>
+<p>Read more: <a href="https://opensource.org/blog/the-most-popular-licenses-for-each-language-2023" target="_blank" rel="noopener noreferrer" class="">https://opensource.org/blog/the-most-popular-licenses-for-each-language-2023</a></p>]]></content:encoded>
             <category>licenses</category>
         </item>
     </channel>
