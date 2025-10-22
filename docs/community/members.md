@@ -17,17 +17,16 @@ ClearlyDefined has a growing community. Some current members include:
 
 ## Steering Committee
 
-Elected for a one-year term starting on September 25, 2024
+Elected for a one-year term starting on October 6, 2025
 
-- E. Lynette Rayle (GitHub) - Chair
+- Philippe Ombredanne (AboutCode)
 - Qing Tomlinson (SAP)
 - Jeff Mendoza (Kusari/GUAC)
 
 ## Outreach Committee
 
-Elected for a one-year term starting on October 7, 2024
+Elected for a one-year term starting on October 6, 2024
 
-- Jeff Luszcz (GitHub)
 - Alyssa Wright (Bloomberg)
 - Brian Duran (SAP)
 - Nick Vidal (Open Source Initiative)
@@ -38,9 +37,11 @@ ClearlyDefined is also part of a healthy ecosystem:
 
 - OSS Review Toolkit (ORT)
 - ScanCode
+- AboutCode
 - OpenChain
 - TODO Group
 - OpenSSF / GUAC
+- Linux Foundation
 - Eclipse Foundation
 - SPDX
 - OWASP
