@@ -25,7 +25,7 @@ Elected for a one-year term starting on October 6, 2025
 
 ## Outreach Committee
 
-Elected for a one-year term starting on October 6, 2024
+Elected for a one-year term starting on October 6, 2025
 
 - Alyssa Wright (Bloomberg)
 - Brian Duran (SAP)
