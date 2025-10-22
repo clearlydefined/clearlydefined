@@ -1,6 +1,6 @@
 ---
 slug: sbom-linux-foundation
-title: Case study: enhancing SBOMs with cdsbom at the Linux Foundation
+title: Case study, enhancing SBOMs with cdsbom at the Linux Foundation
 authors: nickvidal
 ---
 
