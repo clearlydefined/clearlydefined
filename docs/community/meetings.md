@@ -16,6 +16,11 @@ https://bloomberg.zoom.us/j/99537607660?pwd=UHU0eXFXaWlYS3lySTlyd1c1NFhhZz09
 
 Slides:
 
+- [2025-12-01](/slides/ClearlyDefined-2025-12-01.pdf)
+- [2025-11-03](/slides/ClearlyDefined-2025-11-03.pdf)
+- 2025-10-06 (Elections)
+- [2025-09-08](/slides/ClearlyDefined-2025-09-08.pdf)
+- [2025-08-04](/slides/ClearlyDefined-2025-08-04.pdf)
 - [2025-07-07](/slides/ClearlyDefined-2025-07-07.pdf)
 - [2025-06-02](/slides/ClearlyDefined-2025-06-02.pdf)
 - [2025-05-05](/slides/ClearlyDefined-2025-05-05.pdf)
