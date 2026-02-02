@@ -6,14 +6,26 @@ title: Members
 
 # Members
 
+## Steward / Operations Lead
+
+The Open Source Initiative is the project steward, while AboutCode leads day-to-day operations (view [MoU](https://opensource.org/blog/ensuring-the-long-term-sustainability-of-clearlydefined-osi-and-aboutcode-sign-mou)):  
+
+![Open Source Initiative](/img/osi.png)  
+![AboutCode Foundation](/img/aboutcode.png)  
+
+## Companies / Nonprofits
+
 ClearlyDefined has a growing community. Some current members include:
 
-![Microsoft](/img/microsoft.png)
-![GitHub](/img/github.png)
-![SAP](/img/sap.png)
-![Bloomberg](/img/bloomberg.png)
-![Cisco](/img/cisco.png)
-![Kusari](/img/kusari.jpg)
+![Microsoft](/img/microsoft.png)  
+![GitHub](/img/github.png)  
+![SAP](/img/sap.png)  
+![Bloomberg](/img/bloomberg.png)  
+![Cisco](/img/cisco.png)  
+![Kusari](/img/kusari.jpg)  
+![Linux Foundation](/img/linuxfoundation.png)  
+![Eclipse Foundation](/img/eclipse.png)  
+![Open Rail Foundation](/img/openrail.png)  
 
 ## Steering Committee
 
@@ -21,7 +33,7 @@ Elected for a one-year term starting on October 6, 2025
 
 - Philippe Ombredanne (AboutCode)
 - Qing Tomlinson (SAP)
-- Jeff Mendoza (Kusari/GUAC)
+- Jeff Mendoza (Microsoft/GUAC)
 
 ## Outreach Committee
 
