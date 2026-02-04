@@ -2,11 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.clearlydefined.io/blog</id>
     <title>ClearlyDefined Docs Blog</title>
-    <updated>2025-08-05T00:00:00.000Z</updated>
+    <updated>2026-02-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.clearlydefined.io/blog"/>
     <subtitle>ClearlyDefined Docs Blog</subtitle>
     <icon>https://docs.clearlydefined.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Ensuring the Long-Term Sustainability of ClearlyDefined - OSI and AboutCode Sign MoU]]></title>
+        <id>https://docs.clearlydefined.io/blog/mou-aboutcode</id>
+        <link href="https://docs.clearlydefined.io/blog/mou-aboutcode"/>
+        <updated>2026-02-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OSI and AboutCode have formally signed a Memorandum of Understanding (MoU) that establishes a new collaborative approach to stewarding and sustaining the ClearlyDefined project.]]></summary>
+        <content type="html"><![CDATA[<p>OSI and AboutCode have formally signed a Memorandum of Understanding (MoU) that establishes a new collaborative approach to stewarding and sustaining the ClearlyDefined project.</p>
+<p>Read more: <a href="https://opensource.org/blog/ensuring-the-long-term-sustainability-of-clearlydefined-osi-and-aboutcode-sign-mou" target="_blank" rel="noopener noreferrer" class="">https://opensource.org/blog/ensuring-the-long-term-sustainability-of-clearlydefined-osi-and-aboutcode-sign-mou</a></p>]]></content>
+        <author>
+            <name>Nick Vidal</name>
+            <uri>https://github.com/nickvidal</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Case study, enhancing SBOMs with cdsbom at the Linux Foundation]]></title>
         <id>https://docs.clearlydefined.io/blog/sbom-linux-foundation</id>

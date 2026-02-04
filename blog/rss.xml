@@ -4,10 +4,19 @@
         <title>ClearlyDefined Docs Blog</title>
         <link>https://docs.clearlydefined.io/blog</link>
         <description>ClearlyDefined Docs Blog</description>
-        <lastBuildDate>Tue, 05 Aug 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 01 Feb 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Ensuring the Long-Term Sustainability of ClearlyDefined - OSI and AboutCode Sign MoU]]></title>
+            <link>https://docs.clearlydefined.io/blog/mou-aboutcode</link>
+            <guid>https://docs.clearlydefined.io/blog/mou-aboutcode</guid>
+            <pubDate>Sun, 01 Feb 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OSI and AboutCode have formally signed a Memorandum of Understanding (MoU) that establishes a new collaborative approach to stewarding and sustaining the ClearlyDefined project.]]></description>
+            <content:encoded><![CDATA[<p>OSI and AboutCode have formally signed a Memorandum of Understanding (MoU) that establishes a new collaborative approach to stewarding and sustaining the ClearlyDefined project.</p>
+<p>Read more: <a href="https://opensource.org/blog/ensuring-the-long-term-sustainability-of-clearlydefined-osi-and-aboutcode-sign-mou" target="_blank" rel="noopener noreferrer" class="">https://opensource.org/blog/ensuring-the-long-term-sustainability-of-clearlydefined-osi-and-aboutcode-sign-mou</a></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Case study, enhancing SBOMs with cdsbom at the Linux Foundation]]></title>
             <link>https://docs.clearlydefined.io/blog/sbom-linux-foundation</link>
