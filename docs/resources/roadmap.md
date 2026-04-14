@@ -4,110 +4,90 @@ sidebar_position: 6
 title: Roadmap
 ---
 
-# Roadmap 2024
+# Roadmap 2026-2028
 
-There are three major pillars for ClearlyDefined technical work.
+Please find below a proposed three-year roadmap developed by AboutCode in collaboration with the community to strengthen ClearlyDefined’s technical foundations, expand its capabilities, and grow its global adoption.
 
-![Three Pillars of the Technical Roadmap](/img/technical-roadmap-3-pillars.png)
+## **Goals of the Proposal**
 
-## Data Quality
+The roadmap is designed to address key challenges while positioning ClearlyDefined for long-term success. The proposal focuses on several foundational changes to improve efficiency and reach:
 
-### License Data Quality
+* Combine ClearlyDefined and AboutCode operations and backends when possible to enable scan data reuse and avoid duplicated, wasted compute resources across ecosystems, creating mutually beneficial synergies  
+* Refactor ClearlyDefined backend and frontend to reduce the technical debts and improve data quality  
+* Enroll new sponsors to share the cloud compute costs  
+* Unlock data access for increased community adoption  
+* Enable new use cases around security and project health
 
-- reduce missing licenses
-  - pass through ScanCode LicenseRef
-  - reduce the number of licenses identified as NOASSERTION/OTHER
-- accurate license data
-  - improve the human curation process for licenses
-  - report of complex licenses to identify licenses for human review
-- improve license coverage by adding support for more package managers with potential candidates...
-  - Dart’s pub
-  - GitHub Actions
-  - Support for purl (in search)
-  - identify additional package managers
+These efforts are intended to reduce costs while improving performance, usability, and adoption.
 
-### Attributions Data Quality
+## **Themes by Year**
 
-- accurate attribution data
-  - improve the human curation process for attributions
-  - report of attributions not following the expected pattern to identify attributions for human review
+The roadmap is structured around three phases, each with a distinct focus:
 
-### UI Usability Improvements
+**2026: Strengthening the Foundation**
 
-- redesign UI (e.g. functional workflows for curations, searching for definitions)
-- implement proposed UI design
-- bug fixes
+* Reduce technical debt and operating costs  
+* Improve the harvesting and curation queue and user interface  
+* Facilitate community contributions
 
-_NOTE: Curations through the UI lead directly to data quality improvements._
+**2027: Expanding Architecture and Use Cases**
 
-## Performance
+* Migrate to a federated data architecture  
+* Further reduce hosting costs  
+* Unlock broader data access  
+* Initiate work on vulnerabilities, project health, and risk use cases
 
-### Improve Crawler Throughput
+**2028: Delivering Advanced Capabilities**
 
-- determine the cause of current poor performance
-- explore improvements to concurrency in code
-- determine level of horizontal scaling needed to support demand on the queue
-- support other entities setting up crawlers on their hardware
-- update queue processing to support a secondary queue set that a crawler draws from when their primary queue is empty
-- add better monitoring, examples...
-  - alerts when crawler requests fail at a rate > 10 per hour
-  - alerts when crawler queue size > 1 million
-  - alerts when harvest queue processes < 3 requests in an hour
-  - count of requests processed per hour
-  - count of requests failing per hour
-  - count of requests that timeout
+* Deploy security-related use cases  
+* Deliver project health insights and analytics
 
-### Improve API Performance
+In parallel, ongoing work will support infrastructure maintenance, data quality, and community engagement throughout all three years.
 
-- support higher rate limits for API requests
-- explore why requests are denied before current rate limits are met
+## **The Six Core Objectives**
 
-## Sustainability
+The roadmap organizes its deliverables around six key objectives:
 
-### Code Sustainability
+### **1\) Create better license and package scans, faster and more efficiently**
 
-- keep license detection tools on the latest version
-- regular dependency updates
+* Enable reusing scans across ClearlyDefined harvests and AboutCode data collections  
+* Design a priority mechanism to scan packages based on actual usage  
+* Improve the performance of ScanCode for faster and more cost efficient scans  
+* Improve ScanCode license detection based from the analysis of ClearlyDefined curated data  
+* Adopt federated data design with data mirrored across multiple hosts to improve service availability and reduce costs, reusing existing scans
 
-### DevOps & Infrastructure
+### **2\) Reduce technical debt**
 
-- make it easier to deploy at a more frequent cadence
-  - move deploys to GitHub Actions
-  - document release and deploy process
-  - expand integration tests
-  - document manual checks to perform after a deploy
-- evaluate current hardware to determine if upgrades are needed
+* Update dependencies to latest versions  
+* Refactor storage of scans and attachments  
+* Switch to the Open Source DocumentDB from the proprietary MongoDB  
+* Maintain and improve the ClearlyDefined code base, CI/CD, and infrastructure  
+* Update project documentation to reflect new and ongoing development  
+* Facilitate outreach and onboarding for new contributors and sponsors
 
-### Documentation
+### **3\) Shared scans for shared costs**
 
-- modernize current documentation by moving to Docusaurus
+* Expand the pool of organizations hosting scans to share the scanning costs  
+* Design new prioritized scan queue to scan packages in an order that aligns with business needs  
+* Integrate distributed scanning with federated data access with on-premises, private data usage
 
-### Collaborators
+### **4\) Integrate PURL and SBOM for easier interoperability**
 
-- identify potential collaborators
-- establish good issue management
-  - add issues for roadmap items
-  - triage older issues, closing as appropriate
-  - add `Good First Issue` label to appropriate issues
+* Create new API endpoints to access ClearlyDefined data keyed by PURL  
+* Create a new SBOM API endpoint to expose reference package data in SBOM formats  
+* Adopt PURL as a core identifier in the database and file store
 
-## Requested and Considering
+### **5\) Improve curation processes and user experience**
 
-- trust score for license human curations where score increases with the number of institutions that have reviewed the data
+* Develop and deploy a new and improved UI for efficient data curation  
+* Make it easier for organization to contribute their curations back in bulk  
+* Improve the data models for curation storage  
+* Create a new specification for multi-stakeholder data curations exchange
 
-# Community Objectives
+### **6\) Support for more use cases**
 
-These are the main objectives for 2024:
+* Security with vulnerability data  
+* Data for project health and lifecycle events and analytics  
+* Usage to find the most used Open Source components and drive scan priorities
 
-1. Bring back a unified vision for ClearlyDefined where the community is heard and can participate in.
-
-- Key result 1: Double number of players in the community by end of the year
-  - 2023: Microsoft, SAP, Bloomberg
-  - 2024: +GitHub, Stacklok, JetBrains, Codethink, Kusari ?
-- Key result 2: Double community contributions on GitHub by end of the year
-
-2. Work closely together with various other organizations, including the ORT, TODO Group, OSPO++, OSPO Alliance, OpenChain, SPDX, GUAC, Eclipse Foundation, and Software Heritage, to promote ClearlyDefined. Work closely together with OpenSSF.
-
-- Key result 1: Triple the number of organizations we are involved with
-  - 2023: OpenChain, ORT
-  - 2024: +OpenSSF, Eclipse Foundation, GUAC, Software Heritage, TODO Group
-- Key result 2: Increase activities (webinars, events, blog posts) with various organizations by 100%
+These objectives reflect a balance between technical modernization, ecosystem collaboration, and expanded functionality.
