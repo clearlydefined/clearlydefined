@@ -2,11 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.clearlydefined.io/blog</id>
     <title>ClearlyDefined Docs Blog</title>
-    <updated>2026-02-01T00:00:00.000Z</updated>
+    <updated>2026-04-14T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.clearlydefined.io/blog"/>
     <subtitle>ClearlyDefined Docs Blog</subtitle>
     <icon>https://docs.clearlydefined.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[ClearlyDefined - A Three-Year Roadmap for Sustainability and Growth]]></title>
+        <id>https://docs.clearlydefined.io/blog/roadmap-2026</id>
+        <link href="https://docs.clearlydefined.io/blog/roadmap-2026"/>
+        <updated>2026-04-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A three-year roadmap proposal developed by AboutCode in collaboration with the community to strengthen ClearlyDefined’s technical foundations, expand its capabilities, and grow its global adoption.]]></summary>
+        <content type="html"><![CDATA[<p>A three-year roadmap proposal developed by AboutCode in collaboration with the community to strengthen ClearlyDefined’s technical foundations, expand its capabilities, and grow its global adoption.</p>
+<p>Read more: <a href="https://opensource.org/blog/clearlydefined-a-three-year-roadmap-for-sustainability-and-growth" target="_blank" rel="noopener noreferrer" class="">https://opensource.org/blog/clearlydefined-a-three-year-roadmap-for-sustainability-and-growth</a></p>]]></content>
+        <author>
+            <name>Philippe Ombredanne</name>
+            <uri>https://github.com/pombredanne</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ensuring the Long-Term Sustainability of ClearlyDefined - OSI and AboutCode Sign MoU]]></title>
         <id>https://docs.clearlydefined.io/blog/mou-aboutcode</id>

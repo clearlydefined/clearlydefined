@@ -4,10 +4,19 @@
         <title>ClearlyDefined Docs Blog</title>
         <link>https://docs.clearlydefined.io/blog</link>
         <description>ClearlyDefined Docs Blog</description>
-        <lastBuildDate>Sun, 01 Feb 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 14 Apr 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[ClearlyDefined - A Three-Year Roadmap for Sustainability and Growth]]></title>
+            <link>https://docs.clearlydefined.io/blog/roadmap-2026</link>
+            <guid>https://docs.clearlydefined.io/blog/roadmap-2026</guid>
+            <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[A three-year roadmap proposal developed by AboutCode in collaboration with the community to strengthen ClearlyDefined’s technical foundations, expand its capabilities, and grow its global adoption.]]></description>
+            <content:encoded><![CDATA[<p>A three-year roadmap proposal developed by AboutCode in collaboration with the community to strengthen ClearlyDefined’s technical foundations, expand its capabilities, and grow its global adoption.</p>
+<p>Read more: <a href="https://opensource.org/blog/clearlydefined-a-three-year-roadmap-for-sustainability-and-growth" target="_blank" rel="noopener noreferrer" class="">https://opensource.org/blog/clearlydefined-a-three-year-roadmap-for-sustainability-and-growth</a></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Ensuring the Long-Term Sustainability of ClearlyDefined - OSI and AboutCode Sign MoU]]></title>
             <link>https://docs.clearlydefined.io/blog/mou-aboutcode</link>
