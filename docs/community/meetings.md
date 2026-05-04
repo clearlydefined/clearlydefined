@@ -16,6 +16,11 @@ https://bloomberg.zoom.us/j/99537607660?pwd=UHU0eXFXaWlYS3lySTlyd1c1NFhhZz09
 
 Slides:
 
+- [2026-03-02](/slides/ClearlyDefined-2026-03-02.pdf)
+- [2026-04-06](/slides/ClearlyDefined-2026-04-06.pdf)
+- [2026-05-04](/slides/ClearlyDefined-2026-05-04.pdf)
+- 2026-02-02 (FOSDEM)
+- 2026-01-05 (New Year)
 - [2025-12-01](/slides/ClearlyDefined-2025-12-01.pdf)
 - [2025-11-03](/slides/ClearlyDefined-2025-11-03.pdf)
 - 2025-10-06 (Elections)
