@@ -13,7 +13,7 @@ The ClearlyDefined community participates in several events worldwide.
 Some upcoming events:
 
 - [Open Source Summit NA 2026](https://events.linuxfoundation.org/open-source-summit-north-america/) - May 18-20, 2026 - Minneapolis, Minnesota
-  - [Beyond SBOMs: Making License Data Actionable With ClearlyDefined](https://sched.co/2JQvf) - Jamie (Microsoft)
+  - [Beyond SBOMs: Making License Data Actionable With ClearlyDefined](https://sched.co/2JQvf) - Jamie Magee (Microsoft)
 
 ## Past events
 - [FOSDEM 2026](https://fosdem.org/2026/) - January 31 - February 1, 2026 - Brussels, Belgium
