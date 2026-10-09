@@ -11,11 +11,17 @@ The ClearlyDefined community participates in several events worldwide.
 ## Upcoming events
 
 Some upcoming events:
+- [All Things Open](https://2026.allthingsopen.org) - October 19-20, 2026 - Raleigh, NC
+  - [Sharing is caring: Open data for Open Source compliance](https://2026.allthingsopen.org/the-state-of-the-source) - Alyssa Wright (Bloomberg), Brian Duran (SAP), Nick Vidal (OSI)
+- [Open Compliance Summit](https://events.linuxfoundation.org/open-compliance-summit/) - December 10-11, 2026 - Tokyo, Japan
+  - [Sharing is caring: Open data for Open Source compliance](https://events.linuxfoundation.org/open-compliance-summit/program/schedule/?id=1320971) - Philippe Ombredanne (AboutCode)
 
-- [Open Source Summit NA 2026](https://events.linuxfoundation.org/open-source-summit-north-america/) - May 18-20, 2026 - Minneapolis, Minnesota
-  - [Beyond SBOMs: Making License Data Actionable With ClearlyDefined](https://sched.co/2JQvf) - Jamie Magee (Microsoft)
 
 ## Past events
+- [Open Source Summit EU 2026](https://events.linuxfoundation.org/open-source-summit-europe/) - October 7-9, 2026 - Prague, Czech Republic
+  - [One Scan To Rule Them All: Towards Shared Open Data Infrastructure](https://sched.co/2Raim) - Philippe Ombredanne (AboutCode), Stephen Augustus (Bloomberg)
+- [Open Source Summit NA 2026](https://events.linuxfoundation.org/open-source-summit-north-america/) - May 18-20, 2026 - Minneapolis, Minnesota
+  - [Beyond SBOMs: Making License Data Actionable With ClearlyDefined](https://sched.co/2JQvf) - Jamie Magee (Microsoft)
 - [FOSDEM 2026](https://fosdem.org/2026/) - January 31 - February 1, 2026 - Brussels, Belgium
   - [PURL: From FOSDEM 2018 to international standard](https://fosdem.org/2026/schedule/event/P8AAT3-purl/) - Philippe Ombredanne (AboutCode)
   - [Forget SBOMs, use PURLs](https://fosdem.org/2026/schedule/event/DRGX73-purl/) - Philippe Ombredanne (AboutCode), Steve Springett
