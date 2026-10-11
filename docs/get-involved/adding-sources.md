@@ -128,3 +128,7 @@ If you would like to add a new Harvest source to ClearlyDefined, consider this c
 **Relationship** – reach out to the organization that maintains the repository to indicate that ClearlyDefined wishes to harvest data from their repository, with an explanation on how harvesting is done, what the data is used for and how much additional traffic this could result in. Identify/Resolve any concerns and provide a contact from ClearlyDefined in the event they need to support in case of an issue.
 
 To add a new harvest source, open an issue on the [ClearlyDefined Service Repo](https://github.com/clearlydefined/service) for comment. Make sure to include how you believe that source fits the above criteria and the community will discuss it with you.
+
+## Adding a new Harvest Provider
+
+If you wish to add a new provider to an existing source (for example a new Maven artifact repository), please consider the [same criteria as for a new source](#adding-a-new-harvest-source).  You might also review issues [882](https://github.com/clearlydefined/service/issues/882) and [1316](https://github.com/clearlydefined/service/issues/1316) as worked examples of requests of this nature.
