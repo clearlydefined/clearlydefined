@@ -29,19 +29,19 @@ ClearlyDefined has a growing community. Some current members include:
 
 ## Steering Committee
 
-Elected for a one-year term starting on October 6, 2025
+Elected for a one-year term starting on November 2, 2026
 
 - Philippe Ombredanne (AboutCode)
 - Qing Tomlinson (SAP)
-- Jeff Mendoza (Microsoft/GUAC)
 
 ## Outreach Committee
 
-Elected for a one-year term starting on October 6, 2025
+Elected for a one-year term starting on November 2, 2026
 
 - Alyssa Wright (Bloomberg)
 - Brian Duran (SAP)
 - Nick Vidal (Open Source Initiative)
+- Adam Herzog (AboutCode)
 
 ## Ecosystem
 
