@@ -10,12 +10,14 @@ ClearlyDefined holds periodic meetings. There are two types of meetings:
 
 ## Community meetings
 
-Held every first Monday of the month at 10:30am U.S. Eastern time:
+Held every first Monday of the month at 10:00am U.S. Eastern time:
 
 https://bloomberg.zoom.us/j/99537607660?pwd=UHU0eXFXaWlYS3lySTlyd1c1NFhhZz09
 
 Slides:
 
+- [2026-11-02](/slides/ClearlyDefined-2026-11-02.pdf)
+- [2026-10-05](/slides/ClearlyDefined-2026-10-05.pdf)
 - [2026-09-07](/slides/ClearlyDefined-2026-09-07.pdf)
 - 2026-08-03 (Break)
 - [2026-07-06](/slides/ClearlyDefined-2026-07-06.pdf)
@@ -51,11 +53,16 @@ https://docs.google.com/document/d/1m-1FnavQ73LvCHzsWI8tmqGZbnsAxewUuhrGtxWiJqs/
 
 ## Developer meetings
 
-Held every Wednesday at 10:00am U.S. Eastern time:
-(First meeting after summer break 2026 will be held August 12th)
+Held every second Monday of the month at 10:00am U.S. Eastern time:
 
 https://github.zoom.us/j/92059611723?pwd=QWNrS0FaWWtVam5ReU9LbzFuUDZRdz09
 
 Meetings minutes:
 
 https://docs.google.com/document/d/1n5WKbXwmDRKZfQPbxHXJK9AOBxpbigzcQ6C7_IW8-oE/edit
+
+## Data curation meetings
+
+Held every third Monday of the month at 10:00am U.S. Eastern time:
+
+https://github.zoom.us/j/92059611723?pwd=QWNrS0FaWWtVam5ReU9LbzFuUDZRdz09
